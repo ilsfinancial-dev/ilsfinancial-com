@@ -135,7 +135,7 @@
     .hero {
       position: relative;
       min-height: 92vh;
-      background: url('Website_files/ILS Website Banner.png') center 35% / cover no-repeat;
+      background: url('Website_files/ILS%20Website%20Banner.png') center 35% / cover no-repeat;
       display: flex;
       align-items: flex-end;
       padding-bottom: 100px;
@@ -157,13 +157,17 @@
       margin: 0 auto;
       padding: 0 32px;
       width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .hero-text {
+      max-width: 520px;
     }
     .hero h1 {
       font-size: 46px;
       font-weight: 700;
       color: #FFFFFF;
       line-height: 1.15;
-      max-width: 820px;
       margin-bottom: 32px;
     }
     .hero-cta {
@@ -617,6 +621,8 @@
     @media (max-width: 640px) {
       .hero { min-height: 85vh; padding-bottom: 72px; }
       .hero h1 { font-size: 30px; }
+      .hero-inner { justify-content: flex-start; }
+      .hero-text { max-width: 100%; }
       .icp-grid { grid-template-columns: 1fr; }
       .icp-card { height: 320px; }
       .resources-grid { grid-template-columns: 1fr 1fr; }
@@ -708,9 +714,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- ── Hero ──────────────────────────────────────────────── -->
 <section class="hero">
   <div class="hero-inner">
-    <h1>We help retiring military veterans, airline pilots, and veteran business owners make the right financial decisions in the right order during high-stakes transitions.</h1>
-    <a href="https://bookings.cloud.microsoft/bookwithme/user/da262d113e15478f864bbafa2dd484b9%40ilsfinancial.com/meetingtype/lXkSJ1V9HEiEMVma8DNIpg2?anonymous&ismsaljsauthenabled"
-       target="_blank" rel="noopener" class="hero-cta">Schedule a Fit Meeting</a>
+    <div class="hero-text">
+      <h1>We help retiring military veterans, airline pilots, and veteran business owners make the right financial decisions in the right order during high-stakes transitions.</h1>
+      <a href="https://bookings.cloud.microsoft/bookwithme/user/da262d113e15478f864bbafa2dd484b9%40ilsfinancial.com/meetingtype/lXkSJ1V9HEiEMVma8DNIpg2?anonymous&ismsaljsauthenabled"
+         target="_blank" rel="noopener" class="hero-cta">Schedule a Fit Meeting</a>
+    </div>
   </div>
 </section>
 
