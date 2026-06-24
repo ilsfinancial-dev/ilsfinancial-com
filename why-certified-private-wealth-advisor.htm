@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PBX979GN');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why Work With a CPWA® Advisor | ILS Financial</title>
+  <meta name="description" content="What the Certified Private Wealth Advisor® designation covers, how it differs from other financial credentials, and why it's relevant for senior military officers, airline pilots, and veteran business owners.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ── Reset / Base ─────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      color: #1A1A1A;
+      background: #F8F8F6;
+    }
+    a { color: #1B2A4A; text-decoration: underline; }
+    a:hover { color: #C9A84C; }
+
+    /* ── Nav ──────────────────────────────────────────── */
+    .site-nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: #1B2A4A;
+      transition: backdrop-filter 0.3s, background 0.3s;
+    }
+    .site-nav.scrolled {
+      background: rgba(27,42,74,0.95);
+      backdrop-filter: blur(8px);
+    }
+    .nav-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 32px;
+      height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-logo img {
+      height: 52px;
+      filter: invert(1);
+      mix-blend-mode: screen;
+      display: block;
+    }
+    .nav-cta {
+      display: inline-block;
+      padding: 10px 22px;
+      background: #C9A84C;
+      color: #1B2A4A;
+      font-weight: 600;
+      font-size: 14px;
+      text-decoration: none;
+      border-radius: 2px;
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+      transition: background 0.2s;
+    }
+    .nav-cta:hover { background: #b8943f; color: #1B2A4A; }
+    .nav-right { display: flex; align-items: center; gap: 16px; }
+    .nav-links { display: flex; list-style: none; padding: 0; gap: 2px; align-items: center; }
+    .nav-link {
+      font-size: 14px; font-weight: 500; color: rgba(255,255,255,0.8);
+      text-decoration: none; padding: 8px 12px; border-radius: 2px;
+      transition: color 0.2s; white-space: nowrap; background: none; border: none;
+      cursor: pointer; font-family: 'Inter', sans-serif; letter-spacing: 0.01em; line-height: 1;
+    }
+    .nav-link:hover { color: #C9A84C; }
+    .nav-dropdown { position: relative; }
+    .dropdown-arrow { font-size: 9px; margin-left: 3px; opacity: 0.6; }
+    .dropdown-menu {
+      position: absolute; top: calc(100% + 6px); left: 0; background: #1B2A4A;
+      border: 1px solid rgba(255,255,255,0.12); border-top: 2px solid #C9A84C;
+      list-style: none; padding: 8px 0; min-width: 270px;
+      opacity: 0; visibility: hidden; transform: translateY(-6px);
+      transition: opacity 0.18s, transform 0.18s, visibility 0.18s;
+      z-index: 200; box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    }
+    .nav-dropdown:hover .dropdown-menu, .nav-dropdown.open .dropdown-menu {
+      opacity: 1; visibility: visible; transform: translateY(0);
+    }
+    .dropdown-menu li a {
+      display: block; padding: 10px 20px; font-size: 14px; font-weight: 500;
+      color: rgba(255,255,255,0.75); text-decoration: none;
+      transition: color 0.15s, background 0.15s;
+    }
+    .dropdown-menu li a:hover { color: #C9A84C; background: rgba(255,255,255,0.04); }
+    .nav-hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 6px 4px; }
+    .nav-hamburger span { display: block; width: 22px; height: 2px; background: rgba(255,255,255,0.85); transition: transform 0.2s, opacity 0.2s; border-radius: 1px; }
+    .nav-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-hamburger.open span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    @media (max-width: 900px) {
+      .nav-links { display: none; flex-direction: column; position: absolute; top: 72px; left: 0; right: 0; background: #1B2A4A; padding: 8px 0 16px; border-top: 1px solid rgba(255,255,255,0.1); gap: 0; align-items: flex-start; }
+      .nav-links.open { display: flex; }
+      .nav-hamburger { display: flex; }
+      .nav-link { padding: 12px 24px; width: 100%; text-align: left; }
+      .dropdown-menu { position: static; opacity: 1; visibility: visible; transform: none; box-shadow: none; border: none; background: rgba(0,0,0,0.2); padding: 4px 0 8px 16px; min-width: auto; display: none; }
+      .nav-dropdown.open .dropdown-menu { display: block; }
+    }
+    /* ── Social Links ─────────────────────────────────── */
+    .social-links { display: flex; gap: 14px; margin-top: 16px; flex-wrap: wrap; align-items: center; }
+    .social-link { display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.4); transition: color 0.2s; text-decoration: none; line-height: 1; }
+    .social-link:hover { color: #C9A84C; }
+    .social-link svg { display: block; }
+
+    /* ── Page Header ──────────────────────────────────── */
+    .page-header {
+      background: #1B2A4A;
+      padding: 120px 32px 72px;
+    }
+    .page-header-inner {
+      max-width: 750px;
+      margin: 0 auto;
+    }
+    .eyebrow {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #C9A84C;
+      margin-bottom: 16px;
+    }
+    .page-header h1 {
+      font-size: 48px;
+      font-weight: 700;
+      color: #FFFFFF;
+      line-height: 1.1;
+      margin-bottom: 24px;
+    }
+    .author-attribution {
+      font-size: 13px;
+      color: rgba(255,255,255,0.45);
+      letter-spacing: 0.01em;
+    }
+
+    /* ── Content Body ─────────────────────────────────── */
+    .page-body {
+      max-width: 750px;
+      margin: 0 auto;
+      padding: 72px 32px 0;
+    }
+    .page-lede {
+      font-size: 20px;
+      font-weight: 600;
+      color: #1B2A4A;
+      line-height: 1.45;
+      margin-bottom: 28px;
+    }
+    .page-body p { margin-bottom: 20px; color: #1A1A1A; }
+    .page-body h2 {
+      font-size: 26px;
+      font-weight: 700;
+      color: #1B2A4A;
+      margin: 48px 0 16px;
+      line-height: 1.25;
+    }
+    .page-body h3 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #1B2A4A;
+      margin: 32px 0 10px;
+      line-height: 1.3;
+    }
+    .page-body ul, .page-body ol {
+      margin: 0 0 20px;
+      padding-left: 24px;
+    }
+    .page-body li { margin-bottom: 8px; }
+    .page-body a {
+      color: #1B2A4A;
+      text-underline-offset: 2px;
+      transition: color 0.15s;
+    }
+    .page-body a:hover { color: #C9A84C; }
+    .page-body .pull-quote {
+      font-style: italic;
+      color: #4A4A4A;
+      border-left: 3px solid #C9A84C;
+      padding: 4px 0 4px 20px;
+      margin: 0 0 20px;
+    }
+
+    /* ── Credential Cards ─────────────────────────────── */
+    .credential-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      margin: 0 0 24px;
+    }
+    .credential-card {
+      background: #FFFFFF;
+      border-left: 3px solid #E0DDD6;
+      padding: 20px 24px;
+    }
+    .credential-card.highlight {
+      border-left-color: #C9A84C;
+      background: #FFFFFF;
+    }
+    .credential-card .cred-header {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+    .credential-card .cred-name {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1B2A4A;
+    }
+    .credential-card .cred-issuer {
+      font-size: 12px;
+      color: #7A7A7A;
+      font-weight: 500;
+    }
+    .credential-card .cred-scope {
+      font-size: 13px;
+      font-weight: 600;
+      color: #4A4A4A;
+      margin-bottom: 8px;
+    }
+    .credential-card p {
+      font-size: 14px;
+      color: #4A4A4A;
+      line-height: 1.6;
+      margin-bottom: 8px;
+    }
+    .credential-card p:last-child { margin-bottom: 0; }
+    .credential-card .cred-prereqs {
+      font-size: 13px;
+      color: #1B2A4A;
+      font-weight: 600;
+      padding: 8px 12px;
+      background: #F8F8F6;
+      border-radius: 2px;
+      margin-top: 10px;
+    }
+
+    /* ── Client Context Cards ─────────────────────────── */
+    .context-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .context-list li a {
+      display: block;
+      padding: 18px 20px;
+      background: #FFFFFF;
+      border: 1px solid #E0DDD6;
+      border-left: 3px solid #C9A84C;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .context-list li a:hover { background: #F0EDE8; }
+    .context-list li a .ctx-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #1B2A4A;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .context-list li a .ctx-desc {
+      font-size: 13px;
+      color: #4A4A4A;
+      line-height: 1.5;
+    }
+    /* Non-linked context item */
+    .context-list li.no-link {
+      display: block;
+      padding: 18px 20px;
+      background: #FFFFFF;
+      border: 1px solid #E0DDD6;
+      border-left: 3px solid rgba(201,168,76,0.4);
+    }
+    .context-list li.no-link .ctx-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #1B2A4A;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .context-list li.no-link .ctx-desc {
+      font-size: 13px;
+      color: #4A4A4A;
+      line-height: 1.5;
+    }
+    .context-list li.no-link .ctx-soon {
+      font-size: 11px;
+      font-weight: 600;
+      color: #C9A84C;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-top: 6px;
+      display: block;
+    }
+
+    /* ── Author Block ─────────────────────────────────── */
+    .author-block {
+      max-width: 750px;
+      margin: 48px auto 0;
+      padding: 0 32px;
+    }
+    .author-block-inner {
+      border-top: 1px solid #E0DDD6;
+      padding-top: 24px;
+    }
+    .author-block p {
+      font-size: 14px;
+      color: #4A4A4A;
+      line-height: 1.65;
+      margin-bottom: 6px;
+    }
+    .author-block p:last-child { margin-bottom: 0; }
+
+    /* ── Fit Meeting CTA ──────────────────────────────── */
+    .download-cta {
+      background: #1B2A4A;
+      padding: 80px 32px;
+      margin-top: 72px;
+      text-align: center;
+    }
+    .download-cta-inner { max-width: 560px; margin: 0 auto; }
+    .download-cta h2 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 16px;
+      line-height: 1.2;
+    }
+    .download-cta p {
+      color: rgba(255,255,255,0.7);
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 28px;
+    }
+    .cta-secondary { margin-top: 20px; font-size: 14px; color: rgba(255,255,255,0.5); }
+    .cta-secondary a { color: rgba(255,255,255,0.75); }
+    .cta-secondary a:hover { color: #C9A84C; }
+    .cta-btn {
+      display: inline-block;
+      padding: 14px 36px;
+      background: #C9A84C;
+      color: #1B2A4A;
+      font-weight: 700;
+      font-size: 16px;
+      text-decoration: none;
+      border-radius: 2px;
+      letter-spacing: 0.02em;
+      transition: background 0.2s;
+    }
+    .cta-btn:hover { background: #b8943f; color: #1B2A4A; }
+
+    /* ── Disclaimer ───────────────────────────────────── */
+    .disclaimer {
+      max-width: 750px;
+      margin: 0 auto;
+      padding: 40px 32px 64px;
+      font-size: 12px;
+      color: #9A9A9A;
+      line-height: 1.6;
+    }
+
+    /* ── Footer ───────────────────────────────────────── */
+    .site-footer { background: #1B2A4A; padding: 64px 32px 40px; }
+    .footer-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 48px;
+    }
+    .footer-brand img {
+      height: 72px;
+      filter: invert(1);
+      mix-blend-mode: screen;
+      display: block;
+      margin-bottom: 16px;
+    }
+    .footer-brand p { font-size: 13px; color: rgba(255,255,255,0.6); line-height: 1.7; }
+    .footer-col h4 {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #FFFFFF;
+      margin-bottom: 16px;
+    }
+    .footer-col ul { list-style: none; padding: 0; }
+    .footer-col li { margin-bottom: 10px; }
+    .footer-col a { color: rgba(255,255,255,0.55); text-decoration: none; font-size: 13px; transition: color 0.2s; }
+    .footer-col a:hover { color: #C9A84C; }
+    .footer-bottom {
+      max-width: 1280px;
+      margin: 40px auto 0;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      font-size: 12px;
+      color: rgba(255,255,255,0.3);
+    }
+    .footer-bottom a { color: rgba(255,255,255,0.4); text-decoration: none; }
+    .footer-bottom a:hover { color: #C9A84C; }
+
+    /* ── Responsive ───────────────────────────────────── */
+    @media (max-width: 960px) {
+      .footer-inner { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 640px) {
+      .page-header { padding: 100px 20px 56px; }
+      .page-header h1 { font-size: 34px; }
+      .page-body { padding: 48px 20px 0; }
+      .author-block { padding-left: 20px; padding-right: 20px; }
+      .download-cta { padding: 64px 20px; }
+      .disclaimer { padding-left: 20px; padding-right: 20px; }
+      .footer-inner { grid-template-columns: 1fr; }
+      .nav-inner { padding: 0 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBX979GN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- ── Nav ──────────────────────────────────────────────── -->
+<nav class="site-nav" id="site-nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">
+      <img src="Website_files/MSamson_logo.png" alt="ILS Financial">
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li class="nav-dropdown">
+        <button class="nav-link nav-dropdown-trigger" aria-expanded="false">Who We Serve <span class="dropdown-arrow">▾</span></button>
+        <ul class="dropdown-menu">
+          <li><a href="/financial-planning-for-senior-military-officers.htm">Senior Military Officers</a></li>
+          <li><a href="/financial-planning-military-to-airline-transition.htm">Military-to-Airline</a></li>
+          <li><a href="/financial-planning-for-airline-pilots.htm">Airline Pilots</a></li>
+          <li><a href="/financial-planning-for-fractional-aviators.htm">Fractional Aviators</a></li>
+        </ul>
+      </li>
+      <li class="nav-dropdown">
+        <button class="nav-link nav-dropdown-trigger" aria-expanded="false">Insights <span class="dropdown-arrow">▾</span></button>
+        <ul class="dropdown-menu">
+          <li><a href="/Briefing-Room.htm">The Briefing Room</a></li>
+          <li><a href="/military-officer-retirement-case-studies.htm">Case Studies</a></li>
+        </ul>
+      </li>
+      <li><a href="/how-we-work.htm" class="nav-link">How We Work</a></li>
+      <li class="nav-dropdown">
+        <button class="nav-link nav-dropdown-trigger" aria-expanded="false">About <span class="dropdown-arrow">▾</span></button>
+        <ul class="dropdown-menu">
+          <li><a href="/about-me.htm">About Matt</a></li>
+          <li><a href="/why-certified-private-wealth-advisor.htm" style="color: #C9A84C;">Why CPWA&#174;?</a></li>
+        </ul>
+      </li>
+      <li><a href="/Fees.htm" class="nav-link">Fees</a></li>
+      <li><a href="/contact.htm" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <a href="https://bookings.cloud.microsoft/bookwithme/user/da262d113e15478f864bbafa2dd484b9%40ilsfinancial.com/meetingtype/lXkSJ1V9HEiEMVma8DNIpg2?anonymous&ismsaljsauthenabled"
+         target="_blank" rel="noopener" class="nav-cta">Book A Fit Meeting</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ── Page Header ───────────────────────────────────────── -->
+<header class="page-header">
+  <div class="page-header-inner">
+    <p class="eyebrow">What Credential Scope Tells You About an Advisor's Training</p>
+    <h1>Why the CPWA® Designation Matters for Complex Financial Planning</h1>
+    <p class="author-attribution">Matt Samson, MBA, CPWA®&nbsp;&nbsp;|&nbsp;&nbsp;Marine Corps Veteran&nbsp;&nbsp;|&nbsp;&nbsp;ILS Financial</p>
+  </div>
+</header>
+
+<!-- ── Body Content ──────────────────────────────────────── -->
+<main>
+  <article class="page-body">
+
+    <p class="page-lede">When financial decisions involve multiple income streams, layered tax exposure, career-specific risks, and structural complexity accumulated over years, the question of an advisor's training is more than a credential check.</p>
+
+    <p>Every financial professional carries a set of credentials. Each credential was designed with a specific scope, client profile, and curriculum in mind. Understanding what a designation was built to address — and what it requires to earn — is one of the most useful filters available when evaluating whether an advisor's training matches the complexity of your situation.</p>
+
+    <p>This page explains what the Certified Private Wealth Advisor® (CPWA®) designation is, what the curriculum covers, how its requirements compare to other common credentials, and why that distinction matters for the clients ILS Financial serves.</p>
+
+    <h2>What the CPWA® Is</h2>
+
+    <p>The Certified Private Wealth Advisor® designation is issued by the Investments &amp; Wealth Institute and is designed specifically for advisors serving high-net-worth clients — individuals and families whose planning situations involve complexity that standard generalist frameworks do not fully address.</p>
+
+    <p>The CPWA® is structured as a post-experience certification. To qualify, a candidate must hold a bachelor's degree from an accredited institution (or an existing credential such as the CIMA®, RMA®, CFA®, CFP®, or ChFC®, or a CPA license), demonstrate at least five years of experience in financial services, complete a registered CPWA® education provider program, and pass a comprehensive examination.</p>
+
+    <p class="pull-quote">The CPWA® is not a starting credential.<br>It is a credential built on top of demonstrated competence.</p>
+
+    <p>That structure is meaningful. Most financial planning designations function as entry-level qualifications — a baseline that confirms foundational knowledge. The CPWA® functions differently: the prerequisite experience and prior credential requirements mean the program is designed to advance existing practitioners, not credential new ones.</p>
+
+    <h2>What the Curriculum Covers</h2>
+
+    <p>The CPWA® curriculum is structured around the planning disciplines that arise when wealth, income, and complexity grow beyond what standard planning frameworks address. Core areas include:</p>
+
+    <ul>
+      <li>Tax planning across multiple income sources, account types, and marginal rate environments</li>
+      <li>Estate planning, trust structures, and generational wealth transfer</li>
+      <li>Concentrated position management and liquidity event planning</li>
+      <li>Portfolio construction and design for high-net-worth households — including behavioral dimensions</li>
+      <li>Business succession and exit planning</li>
+      <li>Charitable giving strategies</li>
+      <li>Family governance and wealth transfer dynamics</li>
+    </ul>
+
+    <p>These are not introductory topics. They are advanced planning disciplines that intersect directly with the decisions faced by senior military officers, airline pilots, and veteran business owners — and with the complexity that builds across a high-income career.</p>
+
+    <h2>How Common Credentials Compare</h2>
+
+    <p>Several financial designations are widely held, and each was designed with a specific purpose and client profile in mind. The following is a factual overview of each credential's scope, issuing body, and intended use. You can verify current requirements for any credential through FINRA's BrokerCheck designation lookup or directly with the issuing organization.</p>
+
+    <div class="credential-cards">
+
+      <div class="credential-card">
+        <div class="cred-header">
+          <span class="cred-name">CFP® — Certified Financial Planner®</span>
+          <span class="cred-issuer">Issued by: CFP Board</span>
+        </div>
+        <p class="cred-scope">Designed for: Comprehensive financial planning across a broad range of clients and situations.</p>
+        <p>The CFP® is the most widely held financial planning credential in the United States. Candidates complete college-level coursework covering financial planning, tax, insurance, retirement, estate planning, and investment fundamentals. A comprehensive six-hour examination is required, along with a professional experience requirement (currently 6,000 hours standard path or 4,000 hours under an apprenticeship). Ongoing continuing education and an ethics commitment are required to maintain the mark.</p>
+        <p>The CFP® is a respected generalist credential designed to establish a broad planning foundation applicable to a wide range of clients and life situations.</p>
+      </div>
+
+      <div class="credential-card">
+        <div class="cred-header">
+          <span class="cred-name">ChFC® — Chartered Financial Consultant®</span>
+          <span class="cred-issuer">Issued by: The American College of Financial Services</span>
+        </div>
+        <p class="cred-scope">Designed for: Advanced financial planning with depth in insurance, estate planning, and benefits structures.</p>
+        <p>The ChFC® requires completion of a series of graduate-level courses — typically more coursework than the CFP® — covering financial planning fundamentals, estate planning, retirement income planning, advanced financial planning applications, and special planning topics. Rather than a single comprehensive examination, candidates complete assessments for each course individually.</p>
+        <p>The ChFC® is particularly strong in insurance concepts, benefits analysis, and complex estate planning topics — areas that are relevant to clients evaluating survivor benefit structures, life insurance strategies, and retirement income design.</p>
+      </div>
+
+      <div class="credential-card">
+        <div class="cred-header">
+          <span class="cred-name">AIF® — Accredited Investment Fiduciary®</span>
+          <span class="cred-issuer">Issued by: fi360 (a Broadridge company)</span>
+        </div>
+        <p class="cred-scope">Designed for: Advisors managing investment processes in fiduciary or plan sponsor contexts.</p>
+        <p>The AIF® focuses specifically on fiduciary investment processes — investment policy statement development, manager selection and monitoring, and documentation practices. It is most commonly associated with advisors serving institutional clients, 401(k) plan sponsors, and similar plan fiduciary roles.</p>
+        <p>The AIF® is a process-focused credential rather than a comprehensive wealth management designation. It speaks to how an advisor manages investment decisions within a defined fiduciary framework.</p>
+      </div>
+
+      <div class="credential-card highlight">
+        <div class="cred-header">
+          <span class="cred-name">CPWA® — Certified Private Wealth Advisor®</span>
+          <span class="cred-issuer">Issued by: Investments &amp; Wealth Institute</span>
+        </div>
+        <p class="cred-scope">Designed for: Advisors serving high-net-worth clients with complex, multi-dimensional planning needs.</p>
+        <p>The CPWA® curriculum covers tax optimization, estate and trust planning, concentrated positions, alternative investments, portfolio design, behavioral finance in high-stakes decision contexts, business succession, and philanthropic strategies — applied to households where these disciplines intersect simultaneously rather than in isolation.</p>
+        <div class="cred-prereqs">Prerequisites: (1) Bachelor's degree from an accredited institution, OR CIMA®, RMA®, CFA®, CFP®, or ChFC® certification, or a CPA license — AND (2) 5 years of experience in financial services at time of certification — AND (3) completion of a registered CPWA® education provider program — AND (4) pass the CPWA® examination.</div>
+      </div>
+
+    </div>
+
+    <h2>Why I Pursued the CPWA® for This Practice</h2>
+
+    <p>Early in my career I noticed a consistent pattern in how the financial services industry approached military clients — particularly officers in aviation. People who had built careers involving significant complexity, or who came from substantial family wealth, or who were on a trajectory toward high earning after service, were often served by advisors whose training was calibrated to a much simpler planning situation.</p>
+
+    <p>They were treated as "military" — as if that single label resolved the planning picture. In practice, a retiring O-6 with a pension, TSP, VA disability, SBP election, second-career income, and an estate to coordinate is not a simple client. Neither is a senior airline captain with 25 years of seniority, a 401(k) that has grown considerably, profit sharing, and a hard stop at age 65 that makes every accumulation year count.</p>
+
+    <p>The people I was building a practice around had sacrificed considerably to get where they were. I believed they deserved the most rigorous planning framework available — not a watered-down version of what institutional clients receive, but the same standard applied to their actual situation. That meant pursuing training that was built for complexity, not for the median American household.</p>
+
+    <p class="pull-quote">Bringing institutional-grade planning frameworks to clients who've earned them isn't overcomplicating things.<br>It's appropriate.</p>
+
+    <p>The CPWA® curriculum matched what I was looking for: advanced tax strategy, estate and wealth transfer, concentrated position planning, behavioral finance in high-stakes decisions, business succession. Not as isolated topics, but as intersecting disciplines — which is how they actually present in practice.</p>
+
+    <p>The educational delivery mattered too. The CPWA® executive education is conducted through partnerships with Yale School of Management and the University of Chicago Booth School of Business. I completed the program through Yale. The rigor of that environment — the faculty, the peer cohort, the methodological depth — was consistent with the standard I was trying to hold myself to on behalf of clients.</p>
+
+    <h2>Why This Matters for the Clients ILS Financial Serves</h2>
+
+    <p>The clients ILS Financial works with are not in a situation where a single planning framework covers all of the relevant decisions. They typically have multiple income streams, tax complexity across accounts, career-specific risks that don't appear in standard planning curricula, and structural tradeoffs that require a coordinated rather than sequential approach.</p>
+
+    <p>The CPWA® curriculum was built around exactly this type of complexity. Below is how that training intersects with each planning context.</p>
+
+    <ul class="context-list">
+      <li>
+        <a href="/financial-planning-for-senior-military-officers.htm">
+          <span class="ctx-title">Senior Military Officers</span>
+          <span class="ctx-desc">A retiring O-6 may simultaneously face pension elections, Survivor Benefit Plan decisions, TSP rollover choices, VA disability integration, second-career income, and estate coordination. Each decision affects the others. The CPWA® curriculum on tax optimization, estate planning, and behavioral finance in high-stakes decision contexts applies directly — these are not sequential planning decisions. They are simultaneous, often irreversible, and time-constrained.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/financial-planning-for-airline-pilots.htm">
+          <span class="ctx-title">Veteran Airline Pilots</span>
+          <span class="ctx-desc">Airline pilots near the top of their seniority curve may accumulate significant 401(k), profit sharing, military pension, and VA disability income — alongside binary income risk tied to FAA medical certification. The CPWA® curriculum on concentrated position planning, portfolio design, and behavioral dimensions of high-stakes decisions maps directly to the structural fragility and complexity of a peak-earning pilot's financial picture.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/financial-planning-for-fractional-aviators.htm">
+          <span class="ctx-title">Fractional Aviators</span>
+          <span class="ctx-desc">Fractional pilots carry a layered income picture — often including military or Guard/Reserve background, company equity or profit-sharing, and variable scheduling that affects benefit eligibility. The intersection of military benefits, career fragility, and compensation structure creates planning complexity that the CPWA® curriculum addresses through its integrated approach to tax, portfolio, and income planning.</span>
+        </a>
+      </li>
+      <li class="no-link">
+        <span class="ctx-title">Veteran Business Owners</span>
+        <span class="ctx-desc">Business owners face simultaneous complexity across growth capital, tax structure, exit sequencing, liquidity planning, and personal wealth accumulation. Many of the most consequential decisions — when to take distributions, how to structure a sale, how to fund retirement alongside a business — affect multiple planning categories at once. The CPWA® curriculum on business succession, concentrated positions, and liquidity event planning is central to this work. See the <a href="/veteran-business-owner-exit-risk-case-study.htm" style="color: #C9A84C;">Veteran Business Owner Exit Risk Case Study</a> for structural scenarios.</span>
+        <span class="ctx-soon">Full planning page coming soon</span>
+      </li>
+      <li class="no-link">
+        <span class="ctx-title">General Officers</span>
+        <span class="ctx-desc">Flag and general officer retirements involve pension levels, estate considerations, and second-career opportunities that operate at a different scale than a typical O-6 retirement. The CPWA® emphasis on high-net-worth estate planning, family governance, and wealth transfer structures addresses the complexity that comes with this level of accumulated benefit and post-service earning potential.</span>
+        <span class="ctx-soon">Planning page coming soon</span>
+      </li>
+      <li class="no-link">
+        <span class="ctx-title">Reservists and Guard Members Nearing Retirement</span>
+        <span class="ctx-desc">Guard and Reserve retirees often face a 10–15 year gap between separation and pension activation at age 60, during which civilian income, investment decisions, and benefit structures must all be managed without a clear income floor. The CPWA® curriculum on sequencing, tax optimization, and income planning across a complex multi-source retirement picture is directly applicable.</span>
+        <span class="ctx-soon">Planning page coming soon</span>
+      </li>
+    </ul>
+
+    <h2>A Note on Verification</h2>
+
+    <p>Credential requirements are set by the issuing organizations and are subject to change. The information above reflects requirements as understood at the time of writing. To verify current standards for any designation, FINRA's BrokerCheck platform maintains a designation lookup tool at brokercheck.finra.org. Each issuing organization also publishes its current requirements directly:</p>
+
+    <ul>
+      <li>CPWA®: Investments &amp; Wealth Institute — investmentsandwealth.org</li>
+      <li>CFP®: CFP Board — cfp.net</li>
+      <li>ChFC®: The American College of Financial Services — theamericancollege.edu</li>
+      <li>AIF®: fi360 — fi360.com</li>
+    </ul>
+
+    <p>The Investments &amp; Wealth Institute also publishes a client-facing overview of the designation. <a href="https://a-us.storyblok.com/f/1016289/x/1a1f334817/01-241017-06-0890-ctrl_cpwa_client_brochure_web.pdf" target="_blank" rel="noopener">Download the official CPWA® client brochure.</a></p>
+
+    <p>You can also verify Matt's credentials and background directly through FINRA BrokerCheck.</p>
+
+  </article>
+
+  <!-- ── Author Block ───────────────────────────────────── -->
+  <div class="author-block">
+    <div class="author-block-inner">
+      <p><strong>Written by Matt Samson</strong>, Founder &amp; President of ILS Financial.</p>
+      <p>Former Marine aviator. MBA. CPWA®. Specializing in financial planning for senior military officers, airline pilots, and veteran professionals navigating high-complexity transitions.</p>
+    </div>
+  </div>
+
+  <!-- ── CTA ───────────────────────────────────────────────── -->
+  <section class="download-cta">
+    <div class="download-cta-inner">
+      <h2>See If the Fit Is There</h2>
+      <p>A fit meeting is a 20-minute conversation — no pitch, no presentation. The goal is to determine whether the complexity you're navigating is the kind of work ILS Financial is built for.</p>
+      <a href="https://bookings.cloud.microsoft/bookwithme/user/da262d113e15478f864bbafa2dd484b9%40ilsfinancial.com/meetingtype/lXkSJ1V9HEiEMVma8DNIpg2?anonymous&ismsaljsauthenabled"
+         target="_blank" rel="noopener" class="cta-btn">Book A Fit Meeting</a>
+      <p class="cta-secondary">Or <a href="https://a-us.storyblok.com/f/1016289/x/1a1f334817/01-241017-06-0890-ctrl_cpwa_client_brochure_web.pdf" target="_blank" rel="noopener">download the official CPWA® client overview</a> from the Investments &amp; Wealth Institute.</p>
+    </div>
+  </section>
+
+  <!-- ── Disclaimer ─────────────────────────────────────── -->
+  <div class="disclaimer">
+    <p>Advisory services are offered through ILS Financial, LLC, an Investment Advisor in the State of Nebraska. CPWA® is a registered certification mark of the Investments &amp; Wealth Institute. CFP® is a registered certification mark of the CFP Board. ChFC® is a registered mark of The American College of Financial Services. AIF® is a registered mark of fi360, a Broadridge company. Credential requirements referenced on this page are subject to change; verify current standards with the issuing organization.</p>
+  </div>
+
+</main>
+
+<!-- ── Footer ─────────────────────────────────────────────── -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="Website_files/MSamson_logo.png" alt="ILS Financial">
+      <p>ILS Financial LLC<br>Investment Advisor · State of Nebraska<br>matt.samson@ilsfinancial.com<br>(402) 204-0230</p>
+      <div class="social-links">
+        <a href="https://www.youtube.com/@ILSFinancial" target="_blank" rel="noopener" class="social-link" aria-label="YouTube">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/company/54159684/" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="https://x.com/19MattSamson" target="_blank" rel="noopener" class="social-link" aria-label="X">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="https://www.facebook.com/ILSFinancial" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Who We Serve</h4>
+      <ul>
+        <li><a href="/financial-planning-military-to-airline-transition.htm">Military-to-Airline</a></li>
+        <li><a href="/financial-planning-for-fractional-aviators.htm">Fractional Aviators</a></li>
+        <li><a href="/financial-planning-for-senior-military-officers.htm">Senior Military Officers</a></li>
+        <li><a href="/financial-planning-for-airline-pilots.htm">Airline Pilots</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="/Briefing-Room.htm">Briefing Room</a></li>
+        <li><a href="/Fees.htm">Compensation &amp; Fees</a></li>
+        <li><a href="/how-we-work.htm">How We Work</a></li>
+        <li><a href="/about-me.htm">About</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:matt.samson@ilsfinancial.com">matt.samson@ilsfinancial.com</a></li>
+        <li><a href="tel:4022040230">(402) 204-0230</a></li>
+        <li><a href="https://bookings.cloud.microsoft/bookwithme/user/da262d113e15478f864bbafa2dd484b9%40ilsfinancial.com/meetingtype/lXkSJ1V9HEiEMVma8DNIpg2?anonymous&ismsaljsauthenabled"
+               target="_blank" rel="noopener">Book A Fit Meeting</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 ILS Financial LLC &nbsp;·&nbsp; Advisory services offered through ILS Financial, LLC, an Investment Advisor in the State of Nebraska. &nbsp;·&nbsp; <a href="/Fees.htm">Compensation &amp; Fees</a></p>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('site-nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 10);
+  });
+  const hamburger = document.getElementById('nav-hamburger');
+  const navLinks = document.getElementById('nav-links');
+  hamburger.addEventListener('click', (e) => {
+    e.stopPropagation();
+    navLinks.classList.toggle('open');
+    hamburger.classList.toggle('open');
+  });
+  document.querySelectorAll('.nav-dropdown-trigger').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      btn.closest('.nav-dropdown').classList.toggle('open');
+    });
+  });
+  document.addEventListener('click', () => {
+    navLinks.classList.remove('open');
+    hamburger.classList.remove('open');
+    document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('open'));
+  });
+</script>
+
+</body>
+</html>

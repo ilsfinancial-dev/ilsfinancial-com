@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PBX979GN');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>100% P&T Veterans: Income Floors, Survivor Engineering, and Structural Risk | ILS Financial</title>
+  <meta name="description" content="A 100% P&T rating creates a powerful financial floor — but also structural complexity. This white paper covers CRDP/CRSC elections, SBP-DIC offsets, state tax benefits, and survivor income architecture for permanently disabled veterans.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; font-size: 16px; line-height: 1.65; color: #1A1A1A; background: #F8F8F6; }
+    a { color: #1B2A4A; text-decoration: underline; }
+    a:hover { color: #C9A84C; }
+
+    .site-nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: #1B2A4A; transition: backdrop-filter 0.3s, background 0.3s; }
+    .site-nav.scrolled { background: rgba(27,42,74,0.95); backdrop-filter: blur(8px); }
+    .nav-inner { max-width: 1280px; margin: 0 auto; padding: 0 32px; height: 72px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo img { height: 52px; filter: invert(1); mix-blend-mode: screen; display: block; }
+    .nav-cta { display: inline-block; padding: 10px 22px; background: #C9A84C; color: #1B2A4A; font-weight: 600; font-size: 14px; text-decoration: none; border-radius: 2px; letter-spacing: 0.02em; white-space: nowrap; transition: background 0.2s; }
+    .nav-cta:hover { background: #b8943f; color: #1B2A4A; }
+    .nav-right { display: flex; align-items: center; gap: 16px; }
+    .nav-links { display: flex; list-style: none; padding: 0; gap: 2px; align-items: center; }
+    .nav-link { font-size: 14px; font-weight: 500; color: rgba(255,255,255,0.8); text-decoration: none; padding: 8px 12px; border-radius: 2px; transition: color 0.2s; white-space: nowrap; background: none; border: none; cursor: pointer; font-family: 'Inter', sans-serif; letter-spacing: 0.01em; line-height: 1; }
+    .nav-link:hover { color: #C9A84C; }
+    .nav-dropdown { position: relative; }
+    .dropdown-arrow { font-size: 9px; margin-left: 3px; opacity: 0.6; }
+    .dropdown-menu { position: absolute; top: calc(100% + 6px); left: 0; background: #1B2A4A; border: 1px solid rgba(255,255,255,0.12); border-top: 2px solid #C9A84C; list-style: none; padding: 8px 0; min-width: 270px; opacity: 0; visibility: hidden; transform: translateY(-6px); transition: opacity 0.18s, transform 0.18s, visibility 0.18s; z-index: 200; box-shadow: 0 8px 24px rgba(0,0,0,0.25); }
+    .nav-dropdown:hover .dropdown-menu, .nav-dropdown.open .dropdown-menu { opacity: 1; visibility: visible; transform: translateY(0); }
+    .dropdown-menu li a { display: block; padding: 10px 20px; font-size: 14px; font-weight: 500; color: rgba(255,255,255,0.75); text-decoration: none; transition: color 0.15s, background 0.15s; }
+    .dropdown-menu li a:hover { color: #C9A84C; background: rgba(255,255,255,0.04); }
+    .nav-hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 6px 4px; }
+    .nav-hamburger span { display: block; width: 22px; height: 2px; background: rgba(255,255,255,0.85); transition: transform 0.2s, opacity 0.2s; border-radius: 1px; }
+    .nav-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-hamburger.open span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    @media (max-width: 900px) {
+      .nav-links { display: none; flex-direction: column; position: absolute; top: 72px; left: 0; right: 0; background: #1B2A4A; padding: 8px 0 16px; border-top: 1px solid rgba(255,255,255,0.1); gap: 0; align-items: flex-start; }
+      .nav-links.open { display: flex; }
+      .nav-hamburger { display: flex; }
+      .nav-link { padding: 12px 24px; width: 100%; text-align: left; }
+      .dropdown-menu { position: static; opacity: 1; visibility: visible; transform: none; box-shadow: none; border: none; background: rgba(0,0,0,0.2); padding: 4px 0 8px 16px; min-width: auto; display: none; }
+      .nav-dropdown.open .dropdown-menu { display: block; }
+    }
+
+    .social-links { display: flex; gap: 14px; margin-top: 16px; flex-wrap: wrap; align-items: center; }
+    .social-link { display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.4); transition: color 0.2s; text-decoration: none; line-height: 1; }
+    .social-link:hover { color: #C9A84C; }
+    .social-link svg { display: block; }
+
+    /* ── Page Header ─────────────────────────────────── */
+    .page-header { background: #1B2A4A; padding: 120px 32px 72px; }
+    .page-header-inner { max-width: 750px; margin: 0 auto; }
+    .eyebrow { font-size: 11px; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #C9A84C; margin-bottom: 16px; }
+    .page-header h1 { font-size: 48px; font-weight: 700; color: #FFFFFF; line-height: 1.1; margin-bottom: 24px; }
+    .author-attribution { font-size: 13px; color: rgba(255,255,255,0.45); letter-spacing: 0.01em; }
+
+    /* ── Content Body ─────────────────────────────────── */
+    .page-body { max-width: 750px; margin: 0 auto; padding: 72px 32px 0; }
+    .page-lede { font-size: 20px; font-weight: 600; color: #1B2A4A; line-height: 1.45; margin-bottom: 28px; }
+    .page-body p { margin-bottom: 20px; color: #1A1A1A; }
+    .page-body h2 { font-size: 26px; font-weight: 700; color: #1B2A4A; margin: 48px 0 16px; line-height: 1.25; }
+    .page-body ul, .page-body ol { margin: 0 0 20px; padding-left: 24px; }
+    .page-body li { margin-bottom: 8px; }
+    .page-body a { color: #1B2A4A; text-underline-offset: 2px; transition: color 0.15s; }
+    .page-body a:hover { color: #C9A84C; }
+    .page-body .pull-quote { font-style: italic; color: #4A4A4A; border-left: 3px solid #C9A84C; padding: 4px 0 4px 20px; margin: 0 0 20px; }
+
+    /* ── Scenario / Topic Cards ───────────────────────── */
+    .scenario-list { list-style: none; padding: 0; margin: 0 0 20px; }
+    .scenario-list li { padding: 16px 16px 16px 20px; border-left: 3px solid #C9A84C; background: #FFFFFF; border-bottom: 1px solid #E0DDD6; font-size: 15px; color: #1A1A1A; line-height: 1.5; }
+    .scenario-list li:last-child { border-bottom: none; }
+    .scenario-list li strong { display: block; color: #1B2A4A; margin-bottom: 4px; font-size: 14px; font-weight: 600; }
+
+    /* ── Pillar Cross-links ───────────────────────────── */
+    .pillar-links { list-style: none; padding: 0; margin: 0 0 20px; display: flex; flex-direction: column; gap: 10px; }
+    .pillar-links li a { display: block; padding: 16px 20px; background: #FFFFFF; border: 1px solid #E0DDD6; border-left: 3px solid #C9A84C; text-decoration: none; transition: background 0.15s; }
+    .pillar-links li a:hover { background: #F0EDE8; }
+    .pillar-links li a .pl-title { font-size: 15px; font-weight: 700; color: #1B2A4A; display: block; margin-bottom: 4px; }
+    .pillar-links li a .pl-desc { font-size: 13px; color: #4A4A4A; line-height: 1.5; }
+    .pillar-links li .pl-disabled { display: block; padding: 16px 20px; background: #F8F8F6; border: 1px solid #E0DDD6; border-left: 3px solid #D0CCC4; text-decoration: none; }
+    .pillar-links li .pl-disabled .pl-title { font-size: 15px; font-weight: 700; color: #8A8A8A; display: block; margin-bottom: 4px; }
+    .pillar-links li .pl-disabled .pl-desc { font-size: 13px; color: #9A9A9A; line-height: 1.5; }
+    .pl-coming { font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #B0A898; margin-top: 6px; display: block; }
+
+    /* ── FAQ ──────────────────────────────────────────── */
+    .faq-list { list-style: none; padding: 0; margin: 0 0 20px; display: flex; flex-direction: column; gap: 2px; }
+    .faq-item { background: #FFFFFF; border-left: 3px solid #E0DDD6; padding: 20px 20px 16px 20px; }
+    .faq-q { font-size: 16px; font-weight: 700; color: #1B2A4A; margin-bottom: 10px; }
+    .faq-a { font-size: 15px; color: #1A1A1A; line-height: 1.65; }
+    .faq-a p { margin-bottom: 8px; }
+    .faq-a p:last-child { margin-bottom: 0; }
+    .faq-a ul { padding-left: 20px; margin: 6px 0; }
+    .faq-a li { margin-bottom: 4px; font-size: 14px; }
+    .faq-a cite { font-size: 12px; color: #7A7A7A; }
+
+    /* ── Sources ──────────────────────────────────────── */
+    .sources-section { margin: 48px 0 0; }
+    .sources-section h2 { font-size: 18px; font-weight: 700; color: #1B2A4A; margin-bottom: 16px; }
+    .sources-section ul { list-style: none; padding: 0; margin: 0; }
+    .sources-section li { font-size: 13px; color: #4A4A4A; padding: 6px 0 6px 18px; position: relative; border-bottom: 1px solid #EDEDE8; line-height: 1.5; }
+    .sources-section li:last-child { border-bottom: none; }
+    .sources-section li::before { content: "—"; position: absolute; left: 0; color: #C9A84C; font-weight: 700; }
+
+    /* ── Author Block ─────────────────────────────────── */
+    .author-block { max-width: 750px; margin: 48px auto 0; padding: 0 32px; }
+    .author-block-inner { border-top: 1px solid #E0DDD6; padding-top: 24px; }
+    .author-block p { font-size: 14px; color: #4A4A4A; line-height: 1.65; margin-bottom: 6px; }
+    .author-block p:last-child { margin-bottom: 0; }
+
+    /* ── Download CTA ─────────────────────────────────── */
+    .download-cta { background: #1B2A4A; padding: 80px 32px; margin-top: 72px; text-align: center; }
+    .download-cta-inner { max-width: 560px; margin: 0 auto; }
+    .download-cta h2 { font-size: 28px; font-weight: 700; color: #FFFFFF; margin-bottom: 16px; line-height: 1.2; }
+    .download-cta p { color: rgba(255,255,255,0.7); font-size: 16px; line-height: 1.6; margin-bottom: 28px; }
+    .cta-btn { display: inline-block; padding: 14px 36px; background: #C9A84C; color: #1B2A4A; font-weight: 700; font-size: 16px; text-decoration: none; border-radius: 2px; letter-spacing: 0.02em; transition: background 0.2s; }
+    .cta-btn:hover { background: #b8943f; color: #1B2A4A; }
+    .cta-secondary { margin-top: 20px; font-size: 14px; color: rgba(255,255,255,0.5); }
+    .cta-secondary a { color: rgba(255,255,255,0.75); }
+
+    /* ── Disclaimer ───────────────────────────────────── */
+    .disclaimer { max-width: 750px; margin: 0 auto; padding: 40px 32px 64px; font-size: 12px; color: #9A9A9A; line-height: 1.6; }
+
+    /* ── Footer ───────────────────────────────────────── */
+    .site-footer { background: #1B2A4A; padding: 64px 32px 40px; }
+    .footer-inner { max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; }
+    .footer-brand img { height: 72px; filter: invert(1); mix-blend-mode: screen; display: block; margin-bottom: 16px; }
+    .footer-brand p { font-size: 13px; color: rgba(255,255,255,0.6); line-height: 1.7; }
+    .footer-col h4 { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #FFFFFF; margin-bottom: 16px; }
+    .footer-col ul { list-style: none; padding: 0; }
+    .footer-col li { margin-bottom: 10px; }
+    .footer-col a { color: rgba(255,255,255,0.55); text-decoration: none; font-size: 13px; transition: color 0.2s; }
+    .footer-col a:hover { color: #C9A84C; }
+    .footer-bottom { max-width: 1280px; margin: 40px auto 0; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 12px; color: rgba(255,255,255,0.3); }
+    .footer-bottom a { color: rgba(255,255,255,0.4); text-decoration: none; }
+    .footer-bottom a:hover { color: #C9A84C; }
+
+    /* ── Responsive ───────────────────────────────────── */
+    @media (max-width: 960px) { .footer-inner { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 640px) {
+      .page-header { padding: 100px 20px 56px; }
+      .page-header h1 { font-size: 34px; }
+      .page-body { padding: 48px 20px 0; }
+      .author-block { padding-left: 20px; padding-right: 20px; }
+      .download-cta { padding: 64px 20px; }
+      .disclaimer { padding-left: 20px; padding-right: 20px; }
+      .footer-inner { grid-template-columns: 1fr; }
+      .nav-inner { padding: 0 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBX979GN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- ── Nav ──────────────────────────────────────────────── -->
+<nav class="site-nav" id="site-nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">
+      <img src="Website_files/MSamson_logo.png" alt="ILS Financial">
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li class="nav-dropdown">
+        <button class="nav-link nav-dropdown-trigger" aria-expanded="false">Who We Serve <span class="dropdown-arrow">▾</span></button>
+        <ul class="dropdown-menu">
+          <li><a href="/financial-planning-for-senior-military-officers.htm">Senior Military Officers</a></li>
+          <li><a href="/financial-planning-military-to-airline-transition.htm">Military-to-Airline</a></li>
+          <li><a href="/financial-planning-for-airline-pilots.htm">Airline Pilots</a></li>
+          <li><a href="/financial-planning-for-fractional-aviators.htm">Fractional Aviators</a></li>
+        </ul>
+      </li>
+      <li class="nav-dropdown">
+        <button class="nav-link nav-dropdown-trigger" aria-expanded="false">Insights <span class="dropdown-arrow">▾</span></button>
+        <ul class="dropdown-menu">
+          <li><a href="/Briefing-Room.htm">The Briefing Room</a></li>
+          <li><a href="/military-officer-retirement-case-studies.htm">Case Studies</a></li>
+        </ul>
+      </li>
+      <li><a href="/how-we-work.htm" class="nav-link">How We Work</a></li>
+      <li class="nav-dropdown">
+        <button class="nav-link nav-dropdown-trigger" aria-expanded="false">About <span class="dropdown-arrow">▾</span></button>
+        <ul class="dropdown-menu">
+          <li><a href="/about-me.htm">About Matt</a></li>
+          <li><a href="/why-certified-private-wealth-advisor.htm">Why CPWA&#174;?</a></li>
+        </ul>
+      </li>
+      <li><a href="/Fees.htm" class="nav-link">Fees</a></li>
+      <li><a href="/contact.htm" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <a href="https://bookings.cloud.microsoft/bookwithme/user/da262d113e15478f864bbafa2dd484b9%40ilsfinancial.com/meetingtype/lXkSJ1V9HEiEMVma8DNIpg2?anonymous&ismsaljsauthenabled"
+         target="_blank" rel="noopener" class="nav-cta">Book A Fit Meeting</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ── Page Header ───────────────────────────────────────── -->
+<header class="page-header">
+  <div class="page-header-inner">
+    <p class="eyebrow">Income Floors, Survivor Engineering, and Structural Risk</p>
+    <h1>100% P&amp;T Veterans</h1>
+    <p class="author-attribution">Matt Samson, MBA, CPWA®&nbsp;&nbsp;|&nbsp;&nbsp;Marine Corps Veteran&nbsp;&nbsp;|&nbsp;&nbsp;ILS Financial</p>
+  </div>
+</header>
+
+<!-- ── Body Content ──────────────────────────────────────── -->
+<main>
+  <article class="page-body">
+
+    <p class="page-lede">A 100% permanent and total rating creates a powerful financial foundation.</p>
+
+    <p>VA disability compensation is tax-free, not subject to federal income tax under <a href="https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title38-section1110&num=0&edition=prelim" target="_blank" rel="noopener">38 U.S.C. § 1110</a>. It comes with no mandatory end date. And for veterans who also hold military retired pay, concurrent receipt under <a href="https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title10-section1414&num=0&edition=prelim" target="_blank" rel="noopener">10 U.S.C. § 1414</a> eliminates the traditional retirement pay offset entirely.</p>
+
+    <p>But the strength of the income floor is not the whole planning picture.</p>
+
+    <p>A 100% P&T rating also introduces structural complexity that most veterans are not briefed on: elections that interact, survivor income gaps that look different under VA rules than under military rules, and state-level benefit profiles that depend on where you live.</p>
+
+    <h2>The Core Planning Tension</h2>
+
+    <p>The tension for a 100% P&T veteran is not income adequacy — it is income architecture.</p>
+
+    <ul class="scenario-list">
+      <li>
+        <strong>Tension 1 — Survivor Income Design</strong>
+        VA Dependency and Indemnity Compensation (DIC) is not equivalent to SBP. They do not produce the same survivor income, they do not respond to the same triggers, and they interact with each other in ways that affect the net survivor floor.
+      </li>
+      <li>
+        <strong>Tension 2 — Concurrent Receipt Elections</strong>
+        Veterans receiving both military retired pay and VA disability must understand which election governs their concurrent receipt status, whether CRDP or CRSC applies, and how those elections affect both current income and survivor income structures.
+      </li>
+      <li>
+        <strong>Tension 3 — State Benefit Optimization</strong>
+        Most states with property tax exemptions, income tax exclusions, or vehicle registration waivers tie those benefits to rating status. Domicile decisions can add or remove thousands of dollars per year in structural benefit — and that calculus changes when a veteran reaches 100% P&T.
+      </li>
+      <li>
+        <strong>Tension 4 — SBP-DIC Offset Risk</strong>
+        Veterans who elect SBP and then achieve a 100% P&T rating — or who die of a service-connected condition — must understand how the SBP-DIC offset (now substantially repealed) affected historical survivor planning, and how the current offset repeal schedule changes the math for elections made today.
+      </li>
+    </ul>
+
+    <h2>What This Paper Explains</h2>
+
+    <p>This white paper walks through the key structural decisions facing a 100% P&T veteran who holds both military retired pay and VA disability compensation:</p>
+
+    <ul>
+      <li>How CRDP and CRSC work under 10 U.S.C. § 1414 and § 1413a, and who qualifies for each</li>
+      <li>How DIC under 38 U.S.C. § 1310 interacts with SBP as a survivor income source</li>
+      <li>The SBP-DIC offset repeal schedule under the National Defense Authorization Act and what it means for elections made before and after full implementation</li>
+      <li>How state property tax exemptions, income tax exclusions, and other benefit tiers respond to 100% P&T status versus lower ratings</li>
+      <li>Liquidity and estate planning considerations when a significant portion of lifetime income is tax-free and survivor-dependent</li>
+    </ul>
+
+    <p class="pull-quote">The income floor is real.<br>The structural risk sits around it, not inside it.</p>
+
+    <h2>Who This Is For</h2>
+
+    <p>This paper is written for veterans who:</p>
+
+    <ul>
+      <li>Hold a 100% permanent and total rating from the VA</li>
+      <li>Also receive or expect to receive military retired pay</li>
+      <li>Have a spouse or dependent whose financial security depends on survivor income structures</li>
+      <li>Are making or reviewing SBP elections — particularly in light of the DIC offset repeal</li>
+      <li>Are evaluating domicile decisions with benefit profile implications</li>
+    </ul>
+
+    <p>It is also relevant for veterans who are approaching 100% P&T status through an increase, a TDIU grant, or a claims decision currently under appeal.</p>
+
+    <h2>Related Case Studies &amp; Core Frameworks</h2>
+
+    <p>This white paper is part of the broader ILS Financial research library. Related pages that provide structural context:</p>
+
+    <ul class="pillar-links">
+      <li>
+        <a href="/survivor-benefit-plan.htm">
+          <span class="pl-title">Survivor Benefit Plan (SBP) Strategy</span>
+          <span class="pl-desc">How SBP functions as income architecture — and where DIC changes the survivor income equation.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/career-fragility-planning-veteran-airline-pilots.htm">
+          <span class="pl-title">Career Fragility Planning for Veteran Airline Pilots</span>
+          <span class="pl-desc">Medical risk, income fragility, and how disability rating status intersects with airline career structure.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/military-officer-retirement-case-studies.htm">
+          <span class="pl-title">Military Officer Retirement Case Studies</span>
+          <span class="pl-desc">How SBP, TSP, pension elections, and disability status interact across three realistic retirement scenarios.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/veteran-business-owner-exit-risk-case-study.htm">
+          <span class="pl-title">Veteran Business Owner Exit Risk</span>
+          <span class="pl-desc">How VA compensation, business equity, and retirement income interact — and where military benefits don't protect enterprise continuity.</span>
+        </a>
+      </li>
+    </ul>
+
+    <p>Core research pillars from the <a href="/Briefing-Room.htm">ILS Briefing Room</a>:</p>
+
+    <ul class="pillar-links">
+      <li>
+        <a href="/high-income-blind-spots.htm">
+          <span class="pl-title">High-Income Blind Spots</span>
+          <span class="pl-desc">Where financial complexity quietly compounds for high-income veterans and professionals.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/allocation-vs-design.htm">
+          <span class="pl-title">Portfolio Design vs. Allocation</span>
+          <span class="pl-desc">Why structure matters more than selection when income sources are layered and tax-advantaged.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/what-you-are-paying-for.htm">
+          <span class="pl-title">What Are You Paying For in Financial Advice?</span>
+          <span class="pl-desc">Understanding advisory fees, incentives, and value alignment for complex situations.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/how-to-choose-a-financial-advisor.htm">
+          <span class="pl-title">How to Choose a Financial Advisor</span>
+          <span class="pl-desc">Evaluating advice models, credentials, and fiduciary alignment when your situation has moving parts.</span>
+        </a>
+      </li>
+    </ul>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <ul class="faq-list">
+      <li class="faq-item">
+        <p class="faq-q">What does 100% P&amp;T actually mean, and how does it differ from a 100% rating?</p>
+        <div class="faq-a">
+          <p>A 100% schedular rating means the combined disability percentage has reached or been rounded to 100%. Permanent and total (P&T) status requires an additional determination that the disability is both total and permanent — meaning the VA does not expect material improvement. P&T status confers additional benefits: Chapter 35 education benefits for dependents, free dental care, the ability to apply for CHAMPVA for dependents, and the strongest property tax and state benefit profiles. TDIU (Total Disability based on Individual Unemployability) can functionally produce 100% compensation even when the schedular rating is below 100%, but it does not carry the same permanency profile.</p>
+          <p><cite>38 U.S.C. § 1110; 38 C.F.R. § 3.340</cite></p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <p class="faq-q">Can I receive both military retired pay and VA disability compensation?</p>
+        <div class="faq-a">
+          <p>Yes, if you qualify for Concurrent Retirement and Disability Pay (CRDP) under 10 U.S.C. § 1414. CRDP is available to retirees with a combined VA disability rating of 50% or higher who meet qualifying retirement criteria. Veterans with a combat-related disability who do not qualify for CRDP may qualify for Combat-Related Special Compensation (CRSC) under 10 U.S.C. § 1413a — but CRDP and CRSC are mutually exclusive elections, and the optimal choice depends on the specific numbers. A 100% P&T veteran almost always qualifies for CRDP at full concurrent receipt, meaning zero offset from military retired pay.</p>
+          <p><cite>10 U.S.C. § 1414; 10 U.S.C. § 1413a</cite></p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <p class="faq-q">Is VA disability compensation taxable?</p>
+        <div class="faq-a">
+          <p>No. VA disability compensation is excluded from gross income under federal tax law. It is not reported on a W-2, is not subject to federal income tax, and does not count toward IRMAA thresholds. Military retired pay, however, is taxable as ordinary income unless offset by a VA waiver — and under CRDP, the full military retired pay is received and is taxable. The blended income profile (tax-free VA compensation + taxable retired pay) creates tax planning considerations that standard retirement income planning does not address.</p>
+          <p><cite>38 U.S.C. § 5301; IRS Publication 525</cite></p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <p class="faq-q">How does VA DIC interact with SBP as a survivor income source?</p>
+        <div class="faq-a">
+          <p>VA Dependency and Indemnity Compensation (DIC) is a survivor benefit paid to an eligible surviving spouse when a veteran dies from a service-connected condition. It is not means-tested and is not dependent on the veteran having elected SBP. Historically, DIC was offset against SBP dollar-for-dollar — if a surviving spouse received $1,500/month in DIC, that amount was subtracted from their SBP. The National Defense Authorization Act of 2020 phased out this offset over five years, with full elimination effective January 2023. For veterans making SBP elections today, DIC and SBP are additive survivor income sources for service-connected deaths.</p>
+          <p><cite>38 U.S.C. § 1310; 10 U.S.C. § 1450; NDAA FY2020, Pub. L. 116-92</cite></p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <p class="faq-q">What state benefits come with a 100% P&amp;T rating?</p>
+        <div class="faq-a">
+          <p>State benefits for 100% P&T veterans vary significantly by domicile, but many states provide:</p>
+          <ul>
+            <li>Full property tax exemption (vs. partial exemption at lower ratings)</li>
+            <li>State income tax exclusion on military retired pay</li>
+            <li>State income tax exclusion or reduction on VA compensation (though federal VA compensation is already tax-free)</li>
+            <li>Vehicle registration fee waivers</li>
+            <li>Free or reduced-cost state park access and hunting/fishing licenses</li>
+            <li>Chapter 35-equivalent state education benefits for dependents</li>
+          </ul>
+          <p>The annual dollar value of state benefits can reach $10,000–$20,000+ depending on property values and the benefit structure of the domicile state. For veterans with flexibility on domicile — particularly those transitioning to airline careers or working remotely — state benefit optimization is a real planning consideration.</p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <p class="faq-q">Does a 100% P&amp;T rating affect life insurance eligibility or underwriting?</p>
+        <div class="faq-a">
+          <p>Yes. A 100% P&T disability rating signals a chronic, severe, and permanent condition to life insurance underwriters, which typically results in table ratings, exclusions, or outright declines on new private life insurance applications. VGLI (Veterans' Group Life Insurance) does not require medical underwriting and can be maintained at full coverage regardless of health status — but coverage is capped at $500,000 and the cost increases with age. For veterans who need survivor income beyond what VGLI and DIC produce, the timing of life insurance acquisition relative to rating changes matters significantly.</p>
+          <p><cite>38 U.S.C. § 1967 (VGLI); 38 U.S.C. §§ 1965–1980A</cite></p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <p class="faq-q">What happens to VA disability compensation if I remarry after my spouse dies?</p>
+        <div class="faq-a">
+          <p>VA disability compensation paid to the veteran is not affected by remarriage — it is tied to the veteran's service-connected disability, not marital status. However, VA DIC paid to a surviving spouse is affected: remarriage before age 57 can disqualify a surviving spouse from continued DIC receipt. Remarriage at age 57 or older does not disqualify DIC. This asymmetry creates planning considerations for survivor income architecture, particularly for younger spouses of older veterans with significant service-connected disabilities.</p>
+          <p><cite>38 U.S.C. § 1311; 38 C.F.R. § 3.55</cite></p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <p class="faq-q">Should a 100% P&amp;T veteran still elect SBP?</p>
+        <div class="faq-a">
+          <p>It depends on the specific income architecture. Following the SBP-DIC offset repeal, SBP and DIC are now additive for service-connected deaths — which changes the historical cost-benefit calculus. Key considerations include: (1) whether the veteran's death is likely to qualify as service-connected given current conditions; (2) the gap between DIC rates and the income the surviving spouse needs to maintain their standard of living; (3) whether private life insurance is available and at what cost given the 100% P&T underwriting profile; and (4) how military retired pay compares to VA compensation in the current income mix. There is no single right answer — the optimal survivor income architecture requires modeling the specific numbers.</p>
+          <p><cite>10 U.S.C. §§ 1447–1455; 10 U.S.C. § 1450; 38 U.S.C. § 1310</cite></p>
+        </div>
+      </li>
+    </ul>
+
+    <div class="sources-section">
+      <h2>Sources</h2>
+      <ul>
+        <li>38 U.S.C. § 1110 — Service connection; wartime; presumption of soundness</li>
+        <li>38 U.S.C. § 1310, § 1311 — Dependency and Indemnity Compensation (DIC)</li>
+        <li>38 C.F.R. § 3.340 — Total and permanent total ratings defined</li>
+        <li>10 U.S.C. § 1414 — Concurrent Retirement and Disability Pay (CRDP)</li>
+        <li>10 U.S.C. § 1413a — Combat-Related Special Compensation (CRSC)</li>
+        <li>10 U.S.C. §§ 1447–1455 — Survivor Benefit Plan statutory authority</li>
+        <li>10 U.S.C. § 1450 — Payment of SBP; reduction under certain conditions</li>
+        <li>NDAA FY2020, Pub. L. 116-92 — SBP-DIC offset repeal schedule</li>
+        <li>38 U.S.C. §§ 1965–1980A — Veterans' Group Life Insurance (VGLI)</li>
+        <li>IRS Publication 525 — Taxable and Nontaxable Income (VA compensation exclusion)</li>
+      </ul>
+    </div>
+
+  </article>
+
+  <!-- ── Author Block ───────────────────────────────────── -->
+  <div class="author-block">
+    <div class="author-block-inner">
+      <p><strong>Written by Matt Samson</strong>, Founder &amp; President of ILS Financial.</p>
+      <p>Former Marine aviator specializing in high-income and military transition planning.</p>
+    </div>
+  </div>
+
+  <!-- ── Download CTA ───────────────────────────────────── -->
+  <section class="download-cta">
+    <div class="download-cta-inner">
+      <h2>Talk Through Your Situation</h2>
+      <p>A 100% P&T rating changes the income architecture in ways most advisors aren't equipped to model. If you want to work through the CRDP elections, survivor income gaps, and state benefit tradeoffs with someone who understands the specific structure, start with a fit meeting.</p>
+      <a href="https://bookings.cloud.microsoft/bookwithme/user/da262d113e15478f864bbafa2dd484b9%40ilsfinancial.com/meetingtype/lXkSJ1V9HEiEMVma8DNIpg2?anonymous&ismsaljsauthenabled"
+         target="_blank" rel="noopener" class="cta-btn">Schedule a Fit Meeting</a>
+      <p class="cta-secondary">Or <a href="https://www.ilsfinancial.com/mediahandler/media/783338/100%20Disability%20White%20Paper.pdf" target="_blank" rel="noopener">download the white paper</a> on 100% P&T income architecture.</p>
+    </div>
+  </section>
+
+  <!-- ── Disclaimer ─────────────────────────────────────── -->
+  <div class="disclaimer">
+    <p>Advisory services are offered through ILS Financial, LLC, an Investment Advisor in the State of Nebraska. This content is for informational purposes only and does not constitute legal, tax, or benefits counseling. Veterans benefits law is complex and fact-specific; consult a VA-accredited attorney or claims agent for advice on specific claims or elections. Tax treatment of military pay and VA compensation should be confirmed with a qualified tax professional for your specific situation.</p>
+  </div>
+
+</main>
+
+<!-- ── Footer ─────────────────────────────────────────────── -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="Website_files/MSamson_logo.png" alt="ILS Financial">
+      <p>ILS Financial LLC<br>Investment Advisor · State of Nebraska<br>matt.samson@ilsfinancial.com<br>(402) 204-0230</p>
+      <div class="social-links">
+        <a href="https://www.youtube.com/@ILSFinancial" target="_blank" rel="noopener" class="social-link" aria-label="YouTube">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/company/54159684/" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="https://x.com/19MattSamson" target="_blank" rel="noopener" class="social-link" aria-label="X">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="https://www.facebook.com/ILSFinancial" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Who We Serve</h4>
+      <ul>
+        <li><a href="/financial-planning-military-to-airline-transition.htm">Military-to-Airline</a></li>
+        <li><a href="/financial-planning-for-fractional-aviators.htm">Fractional Aviators</a></li>
+        <li><a href="/financial-planning-for-senior-military-officers.htm">Senior Military Officers</a></li>
+        <li><a href="/financial-planning-for-airline-pilots.htm">Airline Pilots</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="/Briefing-Room.htm">Briefing Room</a></li>
+        <li><a href="/Fees.htm">Compensation &amp; Fees</a></li>
+        <li><a href="/how-we-work.htm">How We Work</a></li>
+        <li><a href="/about-me.htm">About</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:matt.samson@ilsfinancial.com">matt.samson@ilsfinancial.com</a></li>
+        <li><a href="tel:4022040230">(402) 204-0230</a></li>
+        <li><a href="https://bookings.cloud.microsoft/bookwithme/user/da262d113e15478f864bbafa2dd484b9%40ilsfinancial.com/meetingtype/lXkSJ1V9HEiEMVma8DNIpg2?anonymous&ismsaljsauthenabled"
+               target="_blank" rel="noopener">Book A Fit Meeting</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 ILS Financial LLC &nbsp;·&nbsp; Advisory services offered through ILS Financial, LLC, an Investment Advisor in the State of Nebraska. &nbsp;·&nbsp; <a href="/Fees.htm">Compensation &amp; Fees</a></p>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('site-nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 10);
+  });
+  const hamburger = document.getElementById('nav-hamburger');
+  const navLinks = document.getElementById('nav-links');
+  hamburger.addEventListener('click', (e) => {
+    e.stopPropagation();
+    navLinks.classList.toggle('open');
+    hamburger.classList.toggle('open');
+  });
+  document.querySelectorAll('.nav-dropdown-trigger').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      btn.closest('.nav-dropdown').classList.toggle('open');
+    });
+  });
+  document.addEventListener('click', () => {
+    navLinks.classList.remove('open');
+    hamburger.classList.remove('open');
+    document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('open'));
+  });
+</script>
+
+</body>
+</html>
