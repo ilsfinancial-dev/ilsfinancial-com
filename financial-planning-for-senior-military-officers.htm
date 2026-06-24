@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PBX979GN');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Financial Planning for Senior Military Officers | ILS Financial</title>
+  <meta name="description" content="Planning for O-5 and above approaching military retirement — SBP elections, TSP optimization, TRICARE coordination, and transition decision sequencing.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ── Reset / Base ─────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      color: #1A1A1A;
+      background: #F8F8F6;
+    }
+    a { color: #1B2A4A; text-decoration: underline; }
+    a:hover { color: #C9A84C; }
+
+    /* ── Nav ──────────────────────────────────────────── */
+    .site-nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: #1B2A4A;
+      transition: backdrop-filter 0.3s, background 0.3s;
+    }
+    .site-nav.scrolled {
+      background: rgba(27,42,74,0.95);
+      backdrop-filter: blur(8px);
+    }
+    .nav-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 32px;
+      height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-logo img {
+      height: 52px;
+      filter: invert(1);
+      mix-blend-mode: screen;
+      display: block;
+    }
+    .nav-cta {
+      display: inline-block;
+      padding: 10px 22px;
+      background: #C9A84C;
+      color: #1B2A4A;
+      font-weight: 600;
+      font-size: 14px;
+      text-decoration: none;
+      border-radius: 2px;
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+      transition: background 0.2s;
+    }
+    .nav-cta:hover { background: #b8943f; color: #1B2A4A; }
+    /* ── Nav Menu ─────────────────────────────────────── */
+    .nav-right { display: flex; align-items: center; gap: 16px; }
+    .nav-links { display: flex; list-style: none; padding: 0; gap: 2px; align-items: center; }
+    .nav-link {
+      font-size: 14px; font-weight: 500; color: rgba(255,255,255,0.8);
+      text-decoration: none; padding: 8px 12px; border-radius: 2px;
+      transition: color 0.2s; white-space: nowrap; background: none; border: none;
+      cursor: pointer; font-family: 'Inter', sans-serif; letter-spacing: 0.01em; line-height: 1;
+    }
+    .nav-link:hover { color: #C9A84C; }
+    .nav-dropdown { position: relative; }
+    .dropdown-arrow { font-size: 9px; margin-left: 3px; opacity: 0.6; }
+    .dropdown-menu {
+      position: absolute; top: calc(100% + 6px); left: 0; background: #1B2A4A;
+      border: 1px solid rgba(255,255,255,0.12); border-top: 2px solid #C9A84C;
+      list-style: none; padding: 8px 0; min-width: 270px;
+      opacity: 0; visibility: hidden; transform: translateY(-6px);
+      transition: opacity 0.18s, transform 0.18s, visibility 0.18s;
+      z-index: 200; box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    }
+    .nav-dropdown:hover .dropdown-menu, .nav-dropdown.open .dropdown-menu {
+      opacity: 1; visibility: visible; transform: translateY(0);
+    }
+    .dropdown-menu li a {
+      display: block; padding: 10px 20px; font-size: 14px; font-weight: 500;
+      color: rgba(255,255,255,0.75); text-decoration: none;
+      transition: color 0.15s, background 0.15s;
+    }
+    .dropdown-menu li a:hover { color: #C9A84C; background: rgba(255,255,255,0.04); }
+    .nav-hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 6px 4px; }
+    .nav-hamburger span { display: block; width: 22px; height: 2px; background: rgba(255,255,255,0.85); transition: transform 0.2s, opacity 0.2s; border-radius: 1px; }
+    .nav-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-hamburger.open span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    @media (max-width: 900px) {
+      .nav-links { display: none; flex-direction: column; position: absolute; top: 72px; left: 0; right: 0; background: #1B2A4A; padding: 8px 0 16px; border-top: 1px solid rgba(255,255,255,0.1); gap: 0; align-items: flex-start; }
+      .nav-links.open { display: flex; }
+      .nav-hamburger { display: flex; }
+      .nav-link { padding: 12px 24px; width: 100%; text-align: left; }
+      .dropdown-menu { position: static; opacity: 1; visibility: visible; transform: none; box-shadow: none; border: none; background: rgba(0,0,0,0.2); padding: 4px 0 8px 16px; min-width: auto; display: none; }
+      .nav-dropdown.open .dropdown-menu { display: block; }
+    }
+    /* ── Social Links ─────────────────────────────────── */
+    .social-links { display: flex; gap: 14px; margin-top: 16px; flex-wrap: wrap; align-items: center; }
+    .social-link { display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.4); transition: color 0.2s; text-decoration: none; line-height: 1; }
+    .social-link:hover { color: #C9A84C; }
+    .social-link svg { display: block; }
+
+    /* ── Page Header ──────────────────────────────────── */
+    .page-header {
+      background: #1B2A4A;
+      padding: 120px 32px 72px;
+    }
+    .page-header-inner {
+      max-width: 750px;
+      margin: 0 auto;
+    }
+    .eyebrow {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #C9A84C;
+      margin-bottom: 16px;
+    }
+    .page-header h1 {
+      font-size: 42px;
+      font-weight: 700;
+      color: #FFFFFF;
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+    .author-attribution {
+      font-size: 13px;
+      color: rgba(255,255,255,0.55);
+      letter-spacing: 0.01em;
+    }
+
+    /* ── Body ─────────────────────────────────────────── */
+    .page-body {
+      max-width: 750px;
+      margin: 0 auto;
+      padding: 72px 32px 0;
+    }
+    .page-lede {
+      font-size: 22px;
+      font-weight: 600;
+      color: #1B2A4A;
+      line-height: 1.4;
+      margin-bottom: 36px;
+    }
+    .page-body p { margin-bottom: 24px; }
+    .page-body h2 {
+      font-size: 26px;
+      font-weight: 700;
+      color: #1B2A4A;
+      margin: 56px 0 20px;
+      line-height: 1.25;
+    }
+    .page-body h3 {
+      font-size: 18px;
+      font-weight: 600;
+      color: #1B2A4A;
+      margin: 0 0 10px;
+    }
+    .page-body ul, .page-body ol {
+      margin: 0 0 24px;
+      padding-left: 24px;
+    }
+    .page-body li { margin-bottom: 8px; }
+
+    .impact-lines {
+      margin: 32px 0;
+      border-left: 3px solid #C9A84C;
+      padding-left: 20px;
+    }
+    .impact-lines p {
+      font-size: 18px;
+      font-weight: 600;
+      color: #1B2A4A;
+      margin-bottom: 4px;
+    }
+    .impact-lines p:last-child { margin-bottom: 0; }
+
+    /* ── Sequencing Steps ─────────────────────────────── */
+    .step-list {
+      list-style: none;
+      padding: 0;
+      margin: 32px 0 0;
+    }
+    .page-body .step-list { padding-left: 0; }
+    .step-item {
+      display: flex;
+      gap: 24px;
+      align-items: flex-start;
+      margin-bottom: 36px;
+    }
+    .step-num {
+      flex-shrink: 0;
+      width: 40px;
+      height: 40px;
+      background: #C9A84C;
+      color: #1B2A4A;
+      font-size: 17px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 2px;
+    }
+    .step-body { flex: 1; }
+    .step-body h3 { margin-bottom: 10px; }
+    .step-body p { margin-bottom: 10px; }
+    .step-body p:last-child { margin-bottom: 0; }
+    .step-body ul {
+      margin: 8px 0 12px;
+      padding-left: 20px;
+    }
+    .step-body li { margin-bottom: 6px; }
+
+    /* ── Mid-page CTA ─────────────────────────────────── */
+    .cta-section {
+      background: #1B2A4A;
+      padding: 72px 32px;
+      margin-top: 80px;
+      text-align: center;
+    }
+    .cta-section h2 {
+      font-size: 26px;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 28px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .cta-btn {
+      display: inline-block;
+      padding: 14px 32px;
+      background: #C9A84C;
+      color: #1B2A4A;
+      font-weight: 700;
+      font-size: 16px;
+      text-decoration: none;
+      border-radius: 2px;
+      letter-spacing: 0.02em;
+      transition: background 0.2s;
+    }
+    .cta-btn:hover { background: #b8943f; color: #1B2A4A; }
+    .cta-secondary {
+      margin-top: 18px;
+      font-size: 14px;
+      color: rgba(255,255,255,0.55);
+    }
+    .cta-secondary a { color: rgba(255,255,255,0.75); }
+
+    /* ── DS Callout ───────────────────────────────────── */
+    .ds-callout {
+      max-width: 750px;
+      margin: 64px auto 0;
+      padding: 0 32px;
+    }
+    .ds-callout-inner {
+      background: #FFFFFF;
+      border: 1px solid #E0DDD6;
+      border-left: 4px solid #C9A84C;
+      padding: 32px 36px;
+    }
+    .ds-callout-inner h3 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #1B2A4A;
+      margin-bottom: 12px;
+    }
+    .ds-callout-inner p {
+      font-size: 15px;
+      color: #4A4A4A;
+      line-height: 1.65;
+      margin-bottom: 20px;
+    }
+    .ds-callout-link {
+      display: inline-block;
+      padding: 10px 22px;
+      background: #1B2A4A;
+      color: #FFFFFF;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 2px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      transition: background 0.2s;
+    }
+    .ds-callout-link:hover { background: #C9A84C; color: #1B2A4A; }
+
+    /* ── Article Cards ────────────────────────────────── */
+    .cards-section {
+      max-width: 1100px;
+      margin: 64px auto 0;
+      padding: 0 32px;
+    }
+    .cards-section > h2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #1B2A4A;
+      margin-bottom: 32px;
+    }
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+    .card {
+      background: #FFFFFF;
+      border: 1px solid #E0DDD6;
+      border-radius: 2px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-image {
+      width: 100%;
+      height: 210px;
+      object-fit: cover;
+      display: block;
+    }
+    .card-body {
+      padding: 24px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-body h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1B2A4A;
+      line-height: 1.35;
+      margin-bottom: 10px;
+    }
+    .card-body p {
+      font-size: 14px;
+      color: #4A4A4A;
+      line-height: 1.6;
+      flex: 1;
+      margin-bottom: 18px;
+    }
+    .card-link {
+      font-size: 13px;
+      font-weight: 600;
+      color: #1B2A4A;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      border-bottom: 2px solid #C9A84C;
+      padding-bottom: 2px;
+      align-self: flex-start;
+      transition: color 0.2s;
+    }
+    .card-link:hover { color: #C9A84C; }
+
+    /* ── ICP Cross-links ──────────────────────────────── */
+    .icp-crosslinks {
+      max-width: 1100px;
+      margin: 80px auto 0;
+      padding: 0 32px;
+    }
+    .icp-crosslinks > h2 {
+      font-size: 13px;
+      font-weight: 700;
+      color: #9A9A9A;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 20px;
+    }
+    .icp-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+    }
+    .icp-item {
+      background: #FFFFFF;
+      border: 1px solid #E0DDD6;
+      padding: 20px;
+    }
+    .icp-label {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #C9A84C;
+      margin-bottom: 8px;
+    }
+    .icp-item a {
+      font-size: 14px;
+      font-weight: 600;
+      color: #1B2A4A;
+      text-decoration: none;
+      line-height: 1.4;
+      display: block;
+    }
+    .icp-item a:hover { color: #C9A84C; }
+
+    /* ── FAQ ──────────────────────────────────────────── */
+    .faq-section {
+      max-width: 750px;
+      margin: 80px auto 0;
+      padding: 0 32px;
+    }
+    .faq-section > h2 {
+      font-size: 26px;
+      font-weight: 700;
+      color: #1B2A4A;
+      margin-bottom: 40px;
+    }
+    .faq-item {
+      border-top: 1px solid #E0DDD6;
+      padding: 28px 0;
+    }
+    .faq-item:last-of-type { border-bottom: 1px solid #E0DDD6; }
+    .faq-q {
+      font-size: 17px;
+      font-weight: 700;
+      color: #1B2A4A;
+      margin-bottom: 14px;
+    }
+    .faq-a { font-size: 15px; line-height: 1.7; color: #1A1A1A; }
+    .faq-a p { margin-bottom: 12px; }
+    .faq-a p:last-child { margin-bottom: 0; }
+    .faq-a ul {
+      list-style: disc;
+      padding-left: 20px;
+      margin: 8px 0 12px;
+    }
+    .faq-a li { margin-bottom: 6px; }
+
+    /* ── Disclaimer ───────────────────────────────────── */
+    .disclaimer {
+      max-width: 750px;
+      margin: 64px auto 0;
+      padding: 0 32px 80px;
+      font-size: 12px;
+      color: #9A9A9A;
+      line-height: 1.6;
+    }
+
+    /* ── Footer ───────────────────────────────────────── */
+    .site-footer {
+      background: #1B2A4A;
+      padding: 64px 32px 40px;
+    }
+    .footer-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 48px;
+    }
+    .footer-brand img {
+      height: 72px;
+      filter: invert(1);
+      mix-blend-mode: screen;
+      display: block;
+      margin-bottom: 16px;
+    }
+    .footer-brand p {
+      font-size: 13px;
+      color: rgba(255,255,255,0.6);
+      line-height: 1.7;
+    }
+    .footer-col h4 {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #FFFFFF;
+      margin-bottom: 16px;
+    }
+    .footer-col ul { list-style: none; padding: 0; }
+    .footer-col li { margin-bottom: 10px; }
+    .footer-col a {
+      color: rgba(255,255,255,0.55);
+      text-decoration: none;
+      font-size: 13px;
+      transition: color 0.2s;
+    }
+    .footer-col a:hover { color: #C9A84C; }
+    .footer-bottom {
+      max-width: 1280px;
+      margin: 40px auto 0;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      font-size: 12px;
+      color: rgba(255,255,255,0.3);
+    }
+    .footer-bottom a {
+      color: rgba(255,255,255,0.4);
+      text-decoration: none;
+    }
+    .footer-bottom a:hover { color: #C9A84C; }
+
+    /* ── Responsive ───────────────────────────────────── */
+    @media (max-width: 960px) {
+      .icp-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-inner { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 640px) {
+      .page-header { padding: 100px 20px 56px; }
+      .page-header h1 { font-size: 30px; }
+      .page-body { padding: 48px 20px 0; }
+      .ds-callout, .cards-section, .icp-crosslinks,
+      .faq-section, .disclaimer { padding-left: 20px; padding-right: 20px; }
+      .cards-grid { grid-template-columns: 1fr; }
+      .icp-grid { grid-template-columns: 1fr; }
+      .footer-inner { grid-template-columns: 1fr; }
+      .cta-section { padding: 56px 20px; }
+      .nav-inner { padding: 0 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBX979GN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- ── Nav ──────────────────────────────────────────────── -->
+<nav class="site-nav" id="site-nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">
+      <img src="Website_files/MSamson_logo.png" alt="ILS Financial">
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li class="nav-dropdown">
+        <button class="nav-link nav-dropdown-trigger" aria-expanded="false">Who We Serve <span class="dropdown-arrow">▾</span></button>
+        <ul class="dropdown-menu">
+          <li><a href="/financial-planning-for-senior-military-officers.htm">Senior Military Officers</a></li>
+          <li><a href="/financial-planning-military-to-airline-transition.htm">Military-to-Airline</a></li>
+          <li><a href="/financial-planning-for-airline-pilots.htm">Airline Pilots</a></li>
+          <li><a href="/financial-planning-for-fractional-aviators.htm">Fractional Aviators</a></li>
+        </ul>
+      </li>
+      <li class="nav-dropdown">
+        <button class="nav-link nav-dropdown-trigger" aria-expanded="false">Insights <span class="dropdown-arrow">▾</span></button>
+        <ul class="dropdown-menu">
+          <li><a href="/Briefing-Room.htm">The Briefing Room</a></li>
+          <li><a href="/military-officer-retirement-case-studies.htm">Case Studies</a></li>
+        </ul>
+      </li>
+      <li><a href="/how-we-work.htm" class="nav-link">How We Work</a></li>
+      <li class="nav-dropdown">
+        <button class="nav-link nav-dropdown-trigger" aria-expanded="false">About <span class="dropdown-arrow">▾</span></button>
+        <ul class="dropdown-menu">
+          <li><a href="/about-me.htm">About Matt</a></li>
+          <li><a href="/why-certified-private-wealth-advisor.htm">Why CPWA&#174;?</a></li>
+        </ul>
+      </li>
+      <li><a href="/Fees.htm" class="nav-link">Fees</a></li>
+      <li><a href="/contact.htm" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <a href="https://bookings.cloud.microsoft/bookwithme/user/da262d113e15478f864bbafa2dd484b9%40ilsfinancial.com/meetingtype/lXkSJ1V9HEiEMVma8DNIpg2?anonymous&ismsaljsauthenabled"
+         target="_blank" rel="noopener" class="nav-cta">Book A Fit Meeting</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ── Page Header ───────────────────────────────────────── -->
+<header class="page-header">
+  <div class="page-header-inner">
+    <p class="eyebrow">For Senior Military Officers Approaching Retirement</p>
+    <h1>Financial Planning for Senior Military Officers</h1>
+    <p class="author-attribution">Matt Samson, MBA, CPWA®&nbsp;&nbsp;|&nbsp;&nbsp;Marine Corps Veteran&nbsp;&nbsp;|&nbsp;&nbsp;ILS Financial</p>
+  </div>
+</header>
+
+<!-- ── Main Content ──────────────────────────────────────── -->
+<main>
+  <article class="page-body">
+
+    <p class="page-lede">You don't transition the same way you served.</p>
+
+    <p>For senior military officers, financial planning is rarely about a single retirement date. It's about navigating the final years of service and the structural shift that follows.</p>
+
+    <p>You are stepping away from rank, authority, operational tempo, and a built-in ecosystem that has shaped your identity for decades. At the same time, you may be evaluating follow-on career paths, consulting or board opportunities, geographic relocation, and how your family's next chapter unfolds.</p>
+
+    <p>These decisions begin well before your retirement ceremony.</p>
+
+    <ul>
+      <li>Pension elections.</li>
+      <li><a href="/survivor-benefit-plan.htm">Survivor Benefit Plan</a> structure.</li>
+      <li>VA coordination.</li>
+      <li><a href="/TSP-Rollover-Decisions-For-Military-Pilots.htm">TSP positioning</a>.</li>
+      <li>GI Bill transfer value and beneficiary strategy.</li>
+      <li>Second-career income timing.</li>
+      <li>State tax exposure.</li>
+      <li>Estate structure.</li>
+    </ul>
+
+    <div class="impact-lines">
+      <p>Many of these choices are irreversible.</p>
+      <p>Several compound quietly if sequenced incorrectly.</p>
+    </div>
+
+    <p>At senior rank, complexity increases — not decreases.</p>
+
+    <p>You may have:</p>
+    <ul>
+      <li>A substantial military pension</li>
+      <li>Significant <a href="/TSP-Rollover-Decisions-For-Military-Pilots.htm">Thrift Savings Plan</a> balances</li>
+      <li>Deferred compensation or consulting income potential</li>
+      <li>Higher fixed lifestyle obligations</li>
+      <li>College funding considerations</li>
+      <li>Increased exposure to <a href="/military-retirement-tax-strategy.htm">tax compression</a> in the first five years after service</li>
+    </ul>
+
+    <p>Some officers pursue advanced degrees during this transition. Credentials can create leverage — but only when evaluated within a disciplined compensation and tax framework rather than anchored to the degree itself.</p>
+
+    <div class="impact-lines">
+      <p>The primary risk is not market volatility.</p>
+      <p>It is structural sequencing error during a period of identity shift and professional reinvention.</p>
+    </div>
+
+    <h2>The ILS Decision Sequencing System™ for Senior Officers</h2>
+    <p>Every engagement follows the same disciplined structure:</p>
+
+    <ol class="step-list">
+      <li class="step-item">
+        <span class="step-num">1</span>
+        <div class="step-body">
+          <h3>Establish the Income Floor</h3>
+          <p>We define the non-negotiable baseline your family requires — independent of market returns.</p>
+        </div>
+      </li>
+      <li class="step-item">
+        <span class="step-num">2</span>
+        <div class="step-body">
+          <h3>Map Lifetime Benefit Streams</h3>
+          <ul>
+            <li>Military pension.</li>
+            <li><a href="/100-Disability.htm">VA Disability compensation</a>.</li>
+            <li>GI Bill transfer value.</li>
+            <li>Healthcare eligibility.</li>
+            <li>Potential second-career income.</li>
+          </ul>
+          <p>We model how they interact — not in isolation.</p>
+        </div>
+      </li>
+      <li class="step-item">
+        <span class="step-num">3</span>
+        <div class="step-body">
+          <h3>Pressure-Test Irreversible Decisions</h3>
+          <ul>
+            <li><a href="/survivor-benefit-plan.htm">Survivor Benefit Plan elections</a>.</li>
+            <li>Pension start timing.</li>
+            <li>Terminal leave sequencing.</li>
+            <li>Relocation timing.</li>
+            <li>Insurance structure.</li>
+            <li>Beneficiary designations.</li>
+          </ul>
+          <p>These decisions are permanent. They must be stress-tested before executed.</p>
+        </div>
+      </li>
+      <li class="step-item">
+        <span class="step-num">4</span>
+        <div class="step-body">
+          <h3>Sequence Tax Buckets</h3>
+          <p>The first five years after service often create a compression window.</p>
+          <p>We model:</p>
+          <ul>
+            <li>Pension layering with civilian income</li>
+            <li>Roth conversion windows</li>
+            <li>Capital gains exposure</li>
+            <li><a href="/military-retirement-tax-strategy.htm">State tax relocation strategy</a></li>
+            <li><a href="/TSP-Rollover-Decisions-For-Military-Pilots.htm">TSP withdrawal sequencing</a></li>
+          </ul>
+          <p>Tax structure is built before portfolio optimization.</p>
+        </div>
+      </li>
+      <li class="step-item">
+        <span class="step-num">5</span>
+        <div class="step-body">
+          <h3>Contain Fragility</h3>
+          <ul>
+            <li>Career fragility.</li>
+            <li>Health uncertainty.</li>
+            <li>Second-career instability.</li>
+            <li>Board or consulting income variability.</li>
+            <li>Family dependency risk.</li>
+          </ul>
+          <p>Structure must account for instability before optimizing growth.</p>
+        </div>
+      </li>
+      <li class="step-item">
+        <span class="step-num">6</span>
+        <div class="step-body">
+          <h3>Optimize Return</h3>
+          <p>Only after income floor, benefit mapping, irreversible decisions, tax sequencing, and fragility containment are defined do we optimize investment allocation.</p>
+        </div>
+      </li>
+    </ol>
+
+    <div class="impact-lines">
+      <p>Structure first.</p>
+      <p>Optimization second.</p>
+    </div>
+
+    <h2>Planning Before and After Retirement</h2>
+
+    <p>Whether you are:</p>
+    <ul>
+      <li>3–5 years from retirement</li>
+      <li>Within 24 months of terminal leave</li>
+      <li>Recently transitioned into a second career</li>
+      <li>Structuring consulting or board compensation</li>
+    </ul>
+
+    <p>The planning discipline remains the same.</p>
+
+    <p>Senior officer transitions are not solved by product selection.</p>
+
+    <p>They are solved by structure.</p>
+
+    <h2>For Officers Transitioning to the Airlines</h2>
+
+    <p>Some senior officers — particularly those with military aviation backgrounds — transition into commercial aviation.</p>
+
+    <p>Airline compensation curves, non-elective 401(k) contributions, early-career seniority risk, and pension stacking dynamics require a different modeling approach.</p>
+
+    <p>If that is your path, review the dedicated page for:</p>
+    <ul>
+      <li><a href="/financial-planning-military-to-airline-transition.htm">Financial Planning for Military to Airline Transitions</a></li>
+      <li><a href="/financial-planning-for-airline-pilots.htm">Financial Planning for Airline Pilots</a></li>
+      <li><a href="/financial-planning-for-fractional-aviators.htm">Financial Planning for Fractional Aviators</a></li>
+    </ul>
+
+    <p>These pages addresses airline-specific sequencing considerations in detail.</p>
+
+  </article>
+
+  <!-- ── Mid-page CTA ─────────────────────────────────────── -->
+  <section class="cta-section">
+    <h2>Ready to structure your transition before the permanent decisions are made?</h2>
+    <a href="https://bookings.cloud.microsoft/bookwithme/user/da262d113e15478f864bbafa2dd484b9%40ilsfinancial.com/meetingtype/lXkSJ1V9HEiEMVma8DNIpg2?anonymous&ismsaljsauthenabled"
+       target="_blank" rel="noopener" class="cta-btn">Schedule a Fit Meeting</a>
+    <p class="cta-secondary">Want to understand the process first? <a href="/how-we-work.htm">See how we work.</a></p>
+  </section>
+
+  <!-- ── Decision Sequencing Callout ──────────────────────── -->
+  <div class="ds-callout">
+    <div class="ds-callout-inner">
+      <h3>The ILS Decision Sequencing System™</h3>
+      <p>A disciplined framework that helps retiring senior officers sequence pension, VA benefits, irreversible elections, taxes, and investments in the right order to preserve lifetime optionality.</p>
+      <a href="https://www.ilsfinancial.com/mediahandler/media/784193/ILS%20Decision%20Sequencing%20-%20Senior%20Military%20Officers.pdf" target="_blank" rel="noopener" class="ds-callout-link">Download Checklist</a>
+    </div>
+  </div>
+
+  <!-- ── Article Cards ─────────────────────────────────────── -->
+  <section class="cards-section">
+    <h2>From the ILS Briefing Room</h2>
+    <div class="cards-grid">
+
+      <div class="card">
+        <img src="Website_files/joel-rivera-camacho-z4flTWuGDHs-unsplash.jpg"
+             alt="Survivor Benefit Plan strategy for senior military officers" class="card-image">
+        <div class="card-body">
+          <h3>Survivor Benefit Plan Strategy for Senior Officers</h3>
+          <p>A structured evaluation of SBP elections, costs, tax treatment, and insurance alternatives — before the most permanent pension decision you will make.</p>
+          <a href="/survivor-benefit-plan.htm" class="card-link">Read More</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="Website_files/luemen-rutkowski-YgNZxmEWQvk-unsplash.jpg"
+             alt="TSP rollover decisions for retiring military officers" class="card-image">
+        <div class="card-body">
+          <h3>TSP Rollover Decisions for Military Pilots</h3>
+          <p>How to evaluate withdrawal sequencing, Roth conversion timing, and RMD coordination as TSP balances transition out of the accumulation phase.</p>
+          <a href="/TSP-Rollover-Decisions-For-Military-Pilots.htm" class="card-link">Read More</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="Website_files/mark-tegethoff-l35_iueVQXE-unsplash.jpg"
+             alt="Military retirement tax strategy" class="card-image">
+        <div class="card-body">
+          <h3>Military Retirement Tax Strategy</h3>
+          <p>How pension income, second-career earnings, Roth conversion windows, and state tax exposure interact in the first years after service — and how to sequence them correctly.</p>
+          <a href="/military-retirement-tax-strategy.htm" class="card-link">Read More</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="Website_files/hannah-wernecke-8HH_Al1EydY-unsplash.jpg"
+             alt="Military officer retirement case studies" class="card-image">
+        <div class="card-body">
+          <h3>Military Officer Retirement Case Studies</h3>
+          <p>Planning scenarios drawn from actual senior officer transitions — pension elections, SBP decisions, second-career sequencing, and the structural choices that shaped long-term outcomes.</p>
+          <a href="/military-officer-retirement-case-studies.htm" class="card-link">Read More</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── ICP Cross-links ────────────────────────────────────── -->
+  <section class="icp-crosslinks">
+    <h2>Also from ILS Financial</h2>
+    <div class="icp-grid">
+      <div class="icp-item">
+        <p class="icp-label">Briefing Room</p>
+        <a href="/Briefing-Room.htm">The ILS Briefing Room — Insights for Military Officers and Pilots</a>
+      </div>
+      <div class="icp-item">
+        <p class="icp-label">Military-to-Airline</p>
+        <a href="/financial-planning-military-to-airline-transition.htm">Financial Planning for Military Pilots Transitioning to the Airlines</a>
+      </div>
+      <div class="icp-item">
+        <p class="icp-label">Airline Pilots</p>
+        <a href="/financial-planning-for-airline-pilots.htm">Financial Planning for Veteran Airline Pilots</a>
+      </div>
+      <div class="icp-item">
+        <p class="icp-label">Fractional Aviators</p>
+        <a href="/financial-planning-for-fractional-aviators.htm">Financial Planning for NetJets, Flexjet, and Fractional Pilots</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FAQ ───────────────────────────────────────────────── -->
+  <section class="faq-section">
+    <h2>Senior Military Officers FAQ</h2>
+
+    <div class="faq-item">
+      <p class="faq-q">When should a senior officer start retirement planning?</p>
+      <div class="faq-a">
+        <p>Ideally, 3–5 years before retirement eligibility.</p>
+        <p>The most important decisions — Survivor Benefit Plan elections, pension start timing, relocation strategy, tax positioning, and second-career structuring — often require modeling well before your retirement date.</p>
+        <p>Waiting until terminal leave compresses optionality. Early planning expands it.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">Is military retirement planning different at different ranks?</p>
+      <div class="faq-a">
+        <p>Slightly — primarily due to scale and complexity.</p>
+        <p>Senior officers often have:</p>
+        <ul>
+          <li>Larger pension income</li>
+          <li>Higher TSP balances</li>
+          <li>Greater lifestyle obligations</li>
+          <li>Increased tax compression risk</li>
+          <li>Board or consulting income opportunities</li>
+          <li>More complex estate considerations</li>
+        </ul>
+        <p>The framework is the same. The modeling depth increases.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">How should I think about the Survivor Benefit Plan (SBP)?</p>
+      <div class="faq-a">
+        <p>SBP is one of the most permanent financial elections you will make.</p>
+        <p>It should not be evaluated in isolation.</p>
+        <p>Proper analysis requires:</p>
+        <ul>
+          <li>Income floor modeling</li>
+          <li>Life expectancy assumptions</li>
+          <li>Private insurance comparisons</li>
+          <li>Second-career income stability</li>
+          <li>Estate objectives</li>
+          <li>Tax treatment</li>
+        </ul>
+        <p>The decision must be pressure-tested before execution.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">How does a second career affect my military pension planning?</p>
+      <div class="faq-a">
+        <p>Second-career income significantly changes tax layering and sequencing.</p>
+        <p>For example:</p>
+        <ul>
+          <li>Pension + civilian income can push you into higher marginal brackets</li>
+          <li>Early Roth conversion windows may disappear</li>
+          <li>State tax exposure may change</li>
+          <li>Healthcare eligibility costs may increase in retirement.</li>
+        </ul>
+        <p>The interaction matters more than the income alone.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">Should I pursue an advanced degree before or after retirement?</p>
+      <div class="faq-a">
+        <p>An advanced degree can create leverage — but only if aligned with realistic compensation pathways.</p>
+        <p>The common mistake is anchoring to the credential rather than modeling:</p>
+        <ul>
+          <li>Cost (direct and opportunity cost)</li>
+          <li>Tax implications</li>
+          <li>Compensation curve</li>
+          <li>Return on invested time</li>
+          <li>GI Bill transfer value for dependents</li>
+        </ul>
+        <p>The degree decision should be integrated into your overall transition model.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">How should I think about transferring GI Bill benefits?</p>
+      <div class="faq-a">
+        <p>GI Bill benefits are often more valuable as a family asset than as a personal education tool and cannot be transferred after you leave service.</p>
+        <p>Planning considerations include:</p>
+        <ul>
+          <li>Dependent eligibility timelines</li>
+          <li>Tax-equivalent value of tuition</li>
+          <li>Interaction with 529 plans</li>
+          <li>Estate and beneficiary structure</li>
+          <li>Opportunity cost if used personally</li>
+        </ul>
+        <p>This is a lifetime benefit stream that should be mapped, not assumed.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">What is "tax compression" after military retirement?</p>
+      <div class="faq-a">
+        <p>Tax compression often occurs in the first 3–7 years after service when:</p>
+        <ul>
+          <li>Pension income begins</li>
+          <li>Second-career income starts</li>
+          <li>TSP distributions may be required or considered</li>
+          <li>Relocation affects state taxation</li>
+        </ul>
+        <p>Without sequencing, this period can eliminate Roth conversion opportunities and permanently increase lifetime tax drag.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">Should I relocate to a tax-friendly state in retirement?</p>
+      <div class="faq-a">
+        <p>Possibly — but relocation decisions must consider:</p>
+        <ul>
+          <li>Pension state taxation</li>
+          <li>Civilian income taxation</li>
+          <li>Property tax exposure</li>
+          <li>Estate tax laws</li>
+          <li>Lifestyle and cost of living</li>
+        </ul>
+        <p>Tax savings should be modeled against total financial and lifestyle impact.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">How should I manage my Thrift Savings Plan (TSP) at retirement?</p>
+      <div class="faq-a">
+        <p>TSP decisions involve:</p>
+        <ul>
+          <li>Withdrawal sequencing</li>
+          <li>Roth vs. traditional analysis</li>
+          <li>RMD timing</li>
+          <li>Integration with civilian 401(k) plans</li>
+          <li>Income floor requirements</li>
+        </ul>
+        <p>The goal is coordinated tax sequencing — not simply rolling funds or reallocating investments.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">Is financial planning for senior officers mainly about investments?</p>
+      <div class="faq-a">
+        <p>No.</p>
+        <p>Investment allocation is important but optimized only after:</p>
+        <ul>
+          <li>Income floor is established</li>
+          <li>Lifetime benefit streams are mapped</li>
+          <li>Irreversible decisions are pressure-tested</li>
+          <li>Tax buckets are sequenced</li>
+          <li>Fragility risks are contained</li>
+        </ul>
+        <p>Return optimization comes last — not first.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ── Disclaimer ─────────────────────────────────────────── -->
+  <div class="disclaimer">
+    <p>Advisory services are offered through ILS Financial, LLC, an Investment Advisor in the State of Nebraska.</p>
+  </div>
+
+</main>
+
+<!-- ── Footer ────────────────────────────────────────────── -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="Website_files/MSamson_logo.png" alt="ILS Financial">
+      <p>ILS Financial LLC<br>Investment Advisor · State of Nebraska<br>matt.samson@ilsfinancial.com<br>(402) 204-0230</p>
+      <div class="social-links">
+        <a href="https://www.youtube.com/@ILSFinancial" target="_blank" rel="noopener" class="social-link" aria-label="YouTube">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/company/54159684/" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="https://x.com/19MattSamson" target="_blank" rel="noopener" class="social-link" aria-label="X">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="https://www.facebook.com/ILSFinancial" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Who We Serve</h4>
+      <ul>
+        <li><a href="/financial-planning-military-to-airline-transition.htm">Military-to-Airline</a></li>
+        <li><a href="/financial-planning-for-fractional-aviators.htm">Fractional Aviators</a></li>
+        <li><a href="/financial-planning-for-senior-military-officers.htm">Senior Military Officers</a></li>
+        <li><a href="/financial-planning-for-airline-pilots.htm">Airline Pilots</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="/Briefing-Room.htm">Briefing Room</a></li>
+        <li><a href="/Fees.htm">Compensation &amp; Fees</a></li>
+        <li><a href="/how-we-work.htm">How We Work</a></li>
+        <li><a href="/about-me.htm">About</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:matt.samson@ilsfinancial.com">matt.samson@ilsfinancial.com</a></li>
+        <li><a href="tel:4022040230">(402) 204-0230</a></li>
+        <li><a href="https://bookings.cloud.microsoft/bookwithme/user/da262d113e15478f864bbafa2dd484b9%40ilsfinancial.com/meetingtype/lXkSJ1V9HEiEMVma8DNIpg2?anonymous&ismsaljsauthenabled"
+               target="_blank" rel="noopener">Book A Fit Meeting</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 ILS Financial LLC &nbsp;·&nbsp; Advisory services offered through ILS Financial, LLC, an Investment Advisor in the State of Nebraska. &nbsp;·&nbsp; <a href="/Fees.htm">Compensation &amp; Fees</a></p>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('site-nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 10);
+  });
+  const hamburger = document.getElementById('nav-hamburger');
+  const navLinks = document.getElementById('nav-links');
+  hamburger.addEventListener('click', (e) => {
+    e.stopPropagation();
+    navLinks.classList.toggle('open');
+    hamburger.classList.toggle('open');
+  });
+  document.querySelectorAll('.nav-dropdown-trigger').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      btn.closest('.nav-dropdown').classList.toggle('open');
+    });
+  });
+  document.addEventListener('click', () => {
+    navLinks.classList.remove('open');
+    hamburger.classList.remove('open');
+    document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('open'));
+  });
+</script>
+
+</body>
+</html>
