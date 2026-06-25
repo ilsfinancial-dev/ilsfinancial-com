@@ -1,0 +1,54 @@
+# ILS Financial
+
+> ILS Financial is an independent registered investment advisory firm specializing in financial planning for retiring military officers, airline pilots, and fractional aviators. Founded by Matt Samson, MBA, CPWA® — a Marine Corps veteran and F/A-18 pilot with over 23 years of combined active and reserve service. The firm focuses on high-stakes financial transitions: military retirement, military-to-airline career change, and fractional aviation career management. Not a generalist advisory firm. Clients are high-income professionals facing irreversible financial decisions under time pressure.
+
+## Firm
+
+- [About Matt Samson](https://www.ilsfinancial.com/about-me.htm): Founder biography — Marine Corps veteran, F/A-18 pilot, CPWA® designation, Yale Certificate in Wealth Management, 20+ years active and reserve service. Coaches youth athletics. Based in Omaha, NE.
+- [How We Work](https://www.ilsfinancial.com/how-we-work.htm): Six-phase client onboarding process — fit meeting through ongoing service. Each phase has a defined deliverable.
+- [Compensation and Fees](https://www.ilsfinancial.com/Fees.htm): Fee structure and compensation disclosure for ILS Financial advisory services.
+- [Why CPWA®?](https://www.ilsfinancial.com/why-certified-private-wealth-advisor.htm): What the Certified Private Wealth Advisor® designation covers and why it matters for complex financial planning.
+- [Contact](https://www.ilsfinancial.com/contact.htm): Schedule a fit meeting or send a message.
+
+## Who We Serve
+
+- [Military-to-Airline Transition](https://www.ilsfinancial.com/financial-planning-military-to-airline-transition.htm): Financial planning for military pilots separating or retiring to join commercial aviation. Covers TSP rollover decisions, SBP elections, military pension coordination with airline pay, VA disability, and the pay compression window during the first officer probationary year.
+- [Senior Military Officers](https://www.ilsfinancial.com/financial-planning-for-senior-military-officers.htm): Planning for O-5 and above approaching military retirement. Covers SBP elections, TSP optimization, TRICARE coordination, VA disability ratings, and transition sequencing.
+- [Airline Pilots](https://www.ilsfinancial.com/financial-planning-for-airline-pilots.htm): Financial planning for veteran airline pilots in peak earning years. Covers career fragility risk, 401(k) stack optimization, mandatory retirement at 65, and income planning.
+- [Fractional Aviators](https://www.ilsfinancial.com/financial-planning-for-fractional-aviators.htm): Purpose-built planning for NetJets, Flexjet, and other fractional pilots. Covers variable income volatility, gateway domicile and state tax residency, 401(k) contract specifics, and career transition planning.
+
+## Military Planning Resources
+
+- [Survivor Benefit Plan Strategy](https://www.ilsfinancial.com/survivor-benefit-plan.htm): When SBP is structurally strong, when deeper modeling is required, and how it fits the military retirement income architecture.
+- [TSP Rollover Decisions for Military Pilots](https://www.ilsfinancial.com/TSP-Rollover-Decisions-For-Military-Pilots.htm): Leave TSP, roll to IRA, roll to airline 401(k), or convert to Roth — how airline income timing changes the analysis.
+- [Military Retirement Tax Strategy](https://www.ilsfinancial.com/military-retirement-tax-strategy.htm): The first five years after service are the most critical tax planning window. Pension, civilian income, and TSP create bracket compression.
+- [100% P&T Veterans](https://www.ilsfinancial.com/100-Disability.htm): CRDP/CRSC elections, SBP-DIC offset rules, and survivor income gaps for permanently and totally disabled veterans.
+- [Military-to-Airline Pay Compression Window](https://www.ilsfinancial.com/military-to-airline-pay-compression-window.htm): The structural income gap during the first-officer probationary year and how to plan around it.
+- [Military Officer Retirement Case Studies](https://www.ilsfinancial.com/military-officer-retirement-case-studies.htm): Three officer retirement scenarios — SBP elections, TSP rollovers, and structural choices that determine long-term outcomes.
+
+## Airline Pilot Resources
+
+- [Airline Pilot Career Fragility & Risk Planning](https://www.ilsfinancial.com/airline-pilot-career-fragility-risk-planning.htm): Seniority loss, medical disqualification, and mandatory retirement at 65 create structural risks unique to airline pilots.
+- [Pilot Retirement Plan Stack Integration](https://www.ilsfinancial.com/pilot-retirement-plan-stack-integration.htm): Sequencing 401(k) contributions, profit sharing, and military pension integration against IRS limits.
+- [Career Fragility Case Study — Veteran Airline Pilots](https://www.ilsfinancial.com/career-fragility-planning-veteran-airline-pilots.htm): Three case studies showing how to contain structural career fragility for veteran airline pilots.
+
+## Fractional Aviator Resources
+
+- [Domicile and State Tax Residency for Fractional Pilots](https://www.ilsfinancial.com/Domicile-for-Fractional-Pilots.htm): How fractional pilots choose where to live, execute a residency change properly, and avoid audit risk.
+- [NetJets 401(k) and Benefits Guide](https://www.ilsfinancial.com/netjets-401k-benefits-guide-fractional-pilots.htm): How to read the NetJets contract — 401(k) structure, IRS limits, profit sharing, and integrating the benefits stack.
+- [Fractional Pilot Variable Income Planning](https://www.ilsfinancial.com/fractional-pilot-variable-income-schedule-volatility.htm): Base pay is predictable, production pay is not — how to budget against a floor and direct variable income.
+
+## Financial Planning Concepts
+
+- [High-Income Blind Spots](https://www.ilsfinancial.com/high-income-blind-spots.htm): Tax drag, fragmented accounts, and poor asset location — structural blind spots for military officers and airline pilots.
+- [Allocation vs. Design](https://www.ilsfinancial.com/allocation-vs-design.htm): Why asset allocation fails without financial structure first.
+- [What You Are Paying For](https://www.ilsfinancial.com/what-you-are-paying-for.htm): How advisory fees are structured and whether the cost of financial advice matches planning needs.
+- [How to Choose a Financial Advisor](https://www.ilsfinancial.com/how-to-choose-a-financial-advisor.htm): Evaluate advisors by role, incentives, and decision context — not titles.
+
+## Case Studies
+
+- [Veteran Business Owner Exit Risk](https://www.ilsfinancial.com/veteran-business-owner-exit-risk-case-study.htm): Four veteran business owner profiles showing how military benefits stabilize households but don't protect against partnership gaps, minority illiquidity, or leveraged exit risk.
+
+## Content Hub
+
+- [The Briefing Room](https://www.ilsfinancial.com/Briefing-Room.htm): ILS Financial's resource library — articles, guides, and analysis for military officers, airline pilots, and fractional aviators.
