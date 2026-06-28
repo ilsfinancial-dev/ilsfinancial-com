@@ -260,7 +260,11 @@
     .icp-card-body {
       position: relative;
       z-index: 1;
-      padding: 24px 24px 52px;
+      padding: 24px 24px 26px;
+      transition: transform 0.35s ease;
+    }
+    .icp-card:hover .icp-card-body {
+      transform: translateY(-6px);
     }
     .icp-card-body h3 {
       font-size: 17px;
@@ -277,13 +281,11 @@
       max-height: 0;
       overflow: hidden;
       opacity: 0;
-      transform: translateY(6px);
-      transition: max-height 0.4s ease, opacity 0.32s ease, transform 0.32s ease, margin-bottom 0.32s ease;
+      transition: max-height 0.4s ease, opacity 0.3s ease, margin-bottom 0.3s ease;
     }
     .icp-card:hover .icp-card-body p {
-      max-height: 90px;
+      max-height: 120px;
       opacity: 1;
-      transform: translateY(0);
       margin-bottom: 12px;
     }
     .icp-card-cta {
@@ -292,18 +294,13 @@
       color: #C9A84C;
       text-transform: uppercase;
       letter-spacing: 0.1em;
-      position: absolute;
-      bottom: 26px;
-      left: 24px;
-      right: 24px;
+      display: block;
       opacity: 0;
-      transform: translateY(4px);
-      transition: color 0.2s, opacity 0.28s ease 0.08s, transform 0.28s ease 0.08s;
+      transition: color 0.2s, opacity 0.25s ease 0.1s;
     }
     .icp-card:hover .icp-card-cta {
       color: #FFFFFF;
       opacity: 1;
-      transform: translateY(0);
     }
 
     /* ── How We Help ──────────────────────────────────── */
