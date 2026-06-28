@@ -12,17 +12,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>How We Work | ILS Financial</title>
-  <meta name="description" content="ILS Financial's six-phase onboarding process for military officers, airline pilots, and fractional aviators. Each phase has a clear deliverable. No guesswork.">
+  <meta name="description" content="ILS Financial's integrated planning framework: a six-phase onboarding process, Personal Financial Organizer, Statement of Financial Purpose, and coordination across your CPA, estate attorney, and other professionals.">
   <link rel="canonical" href="https://www.ilsfinancial.com/how-we-work.htm">
   <meta property="og:type" content="article">
   <meta property="og:title" content="How We Work | ILS Financial">
-  <meta property="og:description" content="ILS Financial's six-phase onboarding process for military officers, airline pilots, and fractional aviators. Each phase has a clear deliverable. No guesswork.">
+  <meta property="og:description" content="ILS Financial's integrated planning framework: a six-phase onboarding process, Personal Financial Organizer, Statement of Financial Purpose, and coordination across your CPA, estate attorney, and other professionals.">
   <meta property="og:url" content="https://www.ilsfinancial.com/how-we-work.htm">
   <meta property="og:image" content="https://www.ilsfinancial.com/Website_files/ILS%20Website%20Banner.png">
   <meta property="og:site_name" content="ILS Financial">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="How We Work | ILS Financial">
-  <meta name="twitter:description" content="ILS Financial's six-phase onboarding process for military officers, airline pilots, and fractional aviators. Each phase has a clear deliverable. No guesswork.">
+  <meta name="twitter:description" content="ILS Financial's integrated planning framework: a six-phase onboarding process, Personal Financial Organizer, Statement of Financial Purpose, and coordination across your CPA, estate attorney, and other professionals.">
   <meta name="twitter:image" content="https://www.ilsfinancial.com/Website_files/ILS%20Website%20Banner.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -168,18 +168,42 @@
       letter-spacing: 0.01em;
     }
 
+    /* ── Approach Section ─────────────────────────────── */
+    .approach {
+      max-width: 750px;
+      margin: 0 auto;
+      padding: 72px 32px 64px;
+      border-bottom: 1px solid #E0DDD6;
+    }
+    .section-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #C9A84C;
+      display: block;
+      margin-bottom: 24px;
+    }
+    .approach p {
+      font-size: 17px;
+      color: #1A1A1A;
+      line-height: 1.75;
+      margin-bottom: 20px;
+    }
+    .approach p:last-child { margin-bottom: 0; }
+
     /* ── Phase List ───────────────────────────────────── */
     .phases {
       max-width: 750px;
       margin: 0 auto;
-      padding: 80px 32px 0;
+      padding: 72px 32px 0;
     }
 
     .phase {
       display: grid;
       grid-template-columns: 80px 1fr;
       gap: 0 32px;
-      padding-bottom: 64px;
+      padding-bottom: 56px;
       position: relative;
     }
 
@@ -218,6 +242,37 @@
       color: #4A4A4A;
       line-height: 1.7;
     }
+    .phase-deliverable + .phase-deliverable {
+      margin-top: 12px;
+    }
+
+    /* ── Deliverables Section ─────────────────────────── */
+    .deliverables {
+      max-width: 750px;
+      margin: 0 auto;
+      padding: 64px 32px 80px;
+    }
+    .deliverable-block {
+      padding: 32px 0;
+      border-bottom: 1px solid #E0DDD6;
+    }
+    .deliverable-block:first-of-type {
+      border-top: 1px solid #E0DDD6;
+    }
+    .deliverable-block h3 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #1B2A4A;
+      margin-bottom: 14px;
+      line-height: 1.2;
+    }
+    .deliverable-block p {
+      font-size: 16px;
+      color: #4A4A4A;
+      line-height: 1.7;
+      margin-bottom: 12px;
+    }
+    .deliverable-block p:last-child { margin-bottom: 0; }
 
     /* ── Final CTA ────────────────────────────────────── */
     .final-cta {
@@ -309,10 +364,13 @@
       .page-header { padding: 100px 20px 56px; }
       .page-header h1 { font-size: 34px; }
       .page-subhead { font-size: 16px; }
-      .phases { padding: 56px 20px 0; }
+      .approach { padding: 48px 20px 48px; }
+      .approach p { font-size: 16px; }
+      .phases { padding: 48px 20px 0; }
       .phase { grid-template-columns: 56px 1fr; gap: 0 20px; }
       .phase-number { font-size: 28px; }
       .phase:not(:last-child)::after { left: 27px; }
+      .deliverables { padding: 48px 20px 64px; }
       .footer-inner { grid-template-columns: 1fr; }
       .final-cta { padding: 64px 20px; }
       .nav-inner { padding: 0 20px; }
@@ -325,9 +383,19 @@
       {
         "@type": "WebPage",
         "name": "How We Work | ILS Financial",
-        "description": "ILS Financial's six-phase onboarding process for military officers, airline pilots, and fractional aviators. Each phase has a clear deliverable. No guesswork.",
+        "description": "ILS Financial's integrated planning framework: a six-phase onboarding process, Personal Financial Organizer, Statement of Financial Purpose, and coordination across your CPA, estate attorney, and other professionals.",
         "url": "https://www.ilsfinancial.com/how-we-work.htm",
+        "dateModified": "2026-06-28",
+        "author": {"@type": "Person", "name": "Matt Samson"},
+        "publisher": {"@type": "Organization", "name": "ILS Financial", "url": "https://www.ilsfinancial.com"},
         "isPartOf": { "@type": "WebSite", "name": "ILS Financial", "url": "https://www.ilsfinancial.com" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.ilsfinancial.com/"},
+          {"@type": "ListItem", "position": 2, "name": "How We Work", "item": "https://www.ilsfinancial.com/how-we-work.htm"}
+        ]
       }
     ]
   }
@@ -395,23 +463,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- ── Page Header ───────────────────────────────────────── -->
 <header class="page-header">
   <div class="page-header-inner">
-    <p class="eyebrow">The ILS Onboarding Process</p>
-    <h1>A Defined Process.<br>No Guesswork.</h1>
-    <p class="page-subhead">This is an engineered sequence, not an improvised one. Each phase has a defined deliverable. You always know where you are and what comes next.</p>
+    <p class="eyebrow">The ILS Financial Planning Framework</p>
+    <h1>Integrated Planning.<br>A Defined Process.</h1>
+    <p class="page-subhead">Planning decisions don't exist in isolation. Tax, estate, benefits, and insurance all interact. This framework is built to keep decisions coherent across disciplines — and to document everything so nothing falls through the gaps.</p>
     <p class="author-attribution">Matt Samson, MBA, CPWA®&nbsp;&nbsp;|&nbsp;&nbsp;Marine Corps Veteran&nbsp;&nbsp;|&nbsp;&nbsp;ILS Financial</p>
     <p class="author-attribution" style="margin-top: 6px;"><a href="/why-certified-private-wealth-advisor.htm" style="color: rgba(255,255,255,0.55); font-size: 13px;">What the CPWA® designation covers →</a></p>
   </div>
 </header>
 
-<!-- ── Phase Sequence ────────────────────────────────────── -->
+<!-- ── Approach ───────────────────────────────────────────── -->
 <main>
+  <section class="approach">
+    <span class="section-label">The Planning Framework</span>
+    <p>ILS Financial is an integrated planning practice. Planning decisions are evaluated against each other — not optimized in isolation. A Roth conversion that looks clean on paper can trigger IRMAA surcharges, conflict with an estate plan, or undermine a pension election made two years earlier. The value of a plan is not in any single recommendation. It is in whether the recommendations hold together.</p>
+    <p>Most clients arrive with a CPA, an estate attorney, a P&amp;C agent, and in some cases a benefits specialist already in their corner. Those relationships are not replaced — they are coordinated. ILS Financial identifies where decisions overlap disciplines and ensures each professional has what they need to do their work without creating conflicts the client never sees coming.</p>
+    <p>Two documents anchor everything built here: the Personal Financial Organizer and the Statement of Financial Purpose. The PFO is the living record of your complete financial picture. The Statement of Financial Purpose is the governing document that keeps future decisions grounded in what you said mattered when there was no pressure on the table. Both are built during onboarding and maintained throughout the relationship.</p>
+  </section>
+
+  <!-- ── Phase Sequence ────────────────────────────────────── -->
   <div class="phases">
+    <span class="section-label">The Onboarding Sequence</span>
 
     <div class="phase">
       <div class="phase-number">01</div>
       <div class="phase-content">
         <h2 class="phase-name">Fit Meeting</h2>
-        <p class="phase-deliverable">Mutual confirmation this is the right relationship. No commitment required.</p>
+        <p class="phase-deliverable">A direct conversation to establish mutual fit. We cover your situation, your timeline, and what you're trying to accomplish. This is not a sales call — both parties should leave with a clear answer about whether to proceed. No commitment required.</p>
       </div>
     </div>
 
@@ -419,7 +496,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="phase-number">02</div>
       <div class="phase-content">
         <h2 class="phase-name">Document Preparation</h2>
-        <p class="phase-deliverable">Secure document vault opened. Checklist sent. Data gathered before the first planning meeting.</p>
+        <p class="phase-deliverable">A secure document vault is opened and a tailored checklist is sent. Benefit statements, tax returns, estate documents, insurance policies, and account statements are collected before any planning work begins. Arriving at Phase 3 with complete information is what makes that meeting productive — a plan built on incomplete data is incomplete.</p>
       </div>
     </div>
 
@@ -427,7 +504,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="phase-number">03</div>
       <div class="phase-content">
         <h2 class="phase-name">Strategy Development Meeting</h2>
-        <p class="phase-deliverable">Personal Financial Overview priorities set. Statement of Financial Purpose drafted. Service tier confirmed.</p>
+        <p class="phase-deliverable">Three things are established here. First, the Personal Financial Overview scope is defined — what's in the picture, which exposures exist, and which decisions carry the most consequence. Second, the Statement of Financial Purpose is drafted: a written document capturing what money is actually for in your life, the tradeoffs you are willing to make, and the constraints you are working within. It is not a goal list — it is the governing document that keeps future decisions anchored to stated priorities rather than market noise or short-term pressure. Third, the service tier is confirmed before any agreements are signed or accounts are opened.</p>
       </div>
     </div>
 
@@ -435,7 +512,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="phase-number">04</div>
       <div class="phase-content">
         <h2 class="phase-name">Account Setup and Transfers</h2>
-        <p class="phase-deliverable">Accounts opened. Agreements signed. Transfers initiated. Client updated at every step.</p>
+        <p class="phase-deliverable">Accounts are opened at Schwab or Altruist. Advisory agreements are executed. Transfers and rollovers are initiated and tracked to completion. You receive confirmation at each step — no black box, no ambiguity about where assets are in transit.</p>
       </div>
     </div>
 
@@ -443,7 +520,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="phase-number">05</div>
       <div class="phase-content">
         <h2 class="phase-name">Implementation Meeting</h2>
-        <p class="phase-deliverable">Complete financial plan presented. Initial Personal Financial Organizer (PFO) finalized and delivered. All strategies reviewed and confirmed.</p>
+        <p class="phase-deliverable">The complete financial plan is presented and the initial Personal Financial Organizer (PFO) is finalized and delivered. The PFO is your single-source financial reference — a structured document covering all account positions, benefit elections, insurance coverage, estate documents, and a contact sheet for every professional involved in your financial life. It is built to be readable by a spouse, an estate attorney, or any advisor who needs to understand your financial picture quickly. It is updated on a defined schedule throughout the ongoing relationship.</p>
+        <p class="phase-deliverable">Coordination with your other professionals is also formalized here. Your CPA, estate attorney, P&amp;C agent, and benefits specialists are identified and communication protocols are set. When these advisors operate without coordination, decisions made in one discipline quietly conflict with decisions made in another. This meeting establishes who owns which decisions and how cross-disciplinary issues get surfaced and resolved.</p>
       </div>
     </div>
 
@@ -451,11 +529,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="phase-number">06</div>
       <div class="phase-content">
         <h2 class="phase-name">Ongoing Service</h2>
-        <p class="phase-deliverable">Review cadence begins based on service tier. You know your next meeting date before you leave the implementation meeting.</p>
+        <p class="phase-deliverable">Review cadence begins based on service tier. You know your next meeting date before you leave the implementation meeting. The PFO is updated each review cycle. The Statement of Financial Purpose is revisited when major life events or decisions warrant it. Coordination with your CPA, attorney, and other professionals continues as decisions arise — not only at scheduled reviews. A plan built at one point in time has to be maintained against what is actually happening in your career and your life.</p>
       </div>
     </div>
 
   </div>
+
+  <!-- ── Deliverables ───────────────────────────────────────── -->
+  <section class="deliverables">
+    <span class="section-label">What Gets Built</span>
+
+    <div class="deliverable-block">
+      <h3>Personal Financial Organizer (PFO)</h3>
+      <p>The PFO consolidates your complete financial picture into one structured document: all accounts with current balances and titling, benefit elections and their specific terms, life and disability insurance policies with coverage amounts and named beneficiaries, P&amp;C coverage summary, estate documents (will, trust, power of attorney, healthcare directive) with attorney contact information, and a contact sheet for every professional involved in your financial life.</p>
+      <p>It is not a financial plan. It is the reference document that makes a plan executable. In a crisis — a medical event, a sudden death, a career disruption — the PFO is what a family member or attorney picks up first. It is built during onboarding and maintained throughout the relationship so it reflects the current state, not the state from two years ago.</p>
+    </div>
+
+    <div class="deliverable-block">
+      <h3>Statement of Financial Purpose</h3>
+      <p>The Statement of Financial Purpose is drafted in Phase 3 and serves as the governing document for all planning decisions. It captures what money is actually for in your life: what security looks like to you, what tradeoffs are acceptable, what obligations come first, and what the plan is trying to protect against — not just what it is trying to accumulate.</p>
+      <p>It is not a vision board or a list of retirement numbers. It is a written statement of priorities that can be referenced when a decision is under pressure. When a market drops, when a career opportunity arises, when a benefit election has a hard deadline — the Statement of Financial Purpose keeps the decision anchored to what you said mattered when you had time to think clearly. Without it, every decision gets relitigated from scratch.</p>
+    </div>
+
+    <div class="deliverable-block">
+      <h3>Expert Network Coordination</h3>
+      <p>ILS Financial does not function as a standalone practice. Tax decisions are reviewed against estate plan structure. Insurance coverage is evaluated in the context of the full financial picture. Benefit elections — SBP, RCSBP, pension timing, TSP allocation, CRDP versus CRSC — are made with awareness of what the attorney and CPA are doing in parallel. When a decision crosses disciplines, the relevant professionals are in the loop before it is finalized, not after.</p>
+      <p>The advisor role here is less about individual recommendations and more about ensuring that decisions made across disciplines don't conflict in ways that take years to surface. If you do not have a CPA, estate attorney, or P&amp;C agent, referrals are available. The goal is a complete professional team, not a gap in the coverage.</p>
+    </div>
+
+  </section>
 
   <!-- ── Final CTA ──────────────────────────────────────── -->
   <section class="final-cta">
