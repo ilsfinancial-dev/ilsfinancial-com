@@ -34,6 +34,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://www.ilsfinancial.com/financial-planning-for-military-reservists.htm</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
 
   <!-- Core Site Pages -->
   <url>
@@ -177,10 +183,48 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Reserve Component Articles -->
+  <url>
+    <loc>https://www.ilsfinancial.com/reserve-component-retirement-planning.htm</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.ilsfinancial.com/rcsbp-election-guide.htm</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.ilsfinancial.com/reserve-officer-airline-pilot-financial-planning.htm</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.ilsfinancial.com/reserve-dual-income-tax-planning.htm</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.ilsfinancial.com/tricare-reserve-coverage-guide.htm</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Case Studies -->
   <url>
     <loc>https://www.ilsfinancial.com/veteran-business-owner-exit-risk-case-study.htm</loc>
     <lastmod>2026-06-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.ilsfinancial.com/reserve-officer-retirement-case-studies.htm</loc>
+    <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

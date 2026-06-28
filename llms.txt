@@ -16,6 +16,7 @@
 - [Senior Military Officers](https://www.ilsfinancial.com/financial-planning-for-senior-military-officers.htm): Planning for O-5 and above approaching military retirement. Covers SBP elections, TSP optimization, TRICARE coordination, VA disability ratings, and transition sequencing.
 - [Airline Pilots](https://www.ilsfinancial.com/financial-planning-for-airline-pilots.htm): Financial planning for veteran airline pilots in peak earning years. Covers career fragility risk, 401(k) stack optimization, mandatory retirement at 65, and income planning.
 - [Fractional Aviators](https://www.ilsfinancial.com/financial-planning-for-fractional-aviators.htm): Purpose-built planning for NetJets, Flexjet, and other fractional pilots. Covers variable income volatility, gateway domicile and state tax residency, 401(k) contract specifics, and career transition planning.
+- [Military Reservists](https://www.ilsfinancial.com/financial-planning-for-military-reservists.htm): Financial planning for Reserve Component and National Guard officers. Covers the points-based pension system, gray area (post-20-year letter to pension draw at age 60), RCSBP election window, dual W-2 income management, TSP and civilian 401(k) coordination, and TRICARE phase transitions.
 
 ## Military Planning Resources
 
@@ -45,9 +46,18 @@
 - [What You Are Paying For](https://www.ilsfinancial.com/what-you-are-paying-for.htm): How advisory fees are structured and whether the cost of financial advice matches planning needs.
 - [How to Choose a Financial Advisor](https://www.ilsfinancial.com/how-to-choose-a-financial-advisor.htm): Evaluate advisors by role, incentives, and decision context — not titles.
 
+## Reserve Component Resources
+
+- [Reserve Component Retirement Planning](https://www.ilsfinancial.com/reserve-component-retirement-planning.htm): Points system mechanics, qualifying year threshold (50 points minimum), pension formula (points ÷ 360 × 2.5% × High-36), gray area Roth conversion window, NDAA 2008 early draw provisions, and Legacy vs BRS comparison for reservists.
+- [RCSBP Election Guide](https://www.ilsfinancial.com/rcsbp-election-guide.htm): The 90-day election window triggered by the 20-year letter. Covers Option A (defer to retirement — no gray area coverage), Option B (coverage deferred to age 60), Option C (full immediate coverage). Gray area death risk and RCSBP vs life insurance comparison.
+- [Reserve Officer and Airline Pilot Financial Planning](https://www.ilsfinancial.com/reserve-officer-airline-pilot-financial-planning.htm): TSP and airline 401(k) coordination under IRC § 402(g) and § 415. USERRA make-up contributions (38 U.S.C. § 4318, 3× period window). Mobilization Roth TSP from combat zone excluded pay. Dual seniority risk management.
+- [Reserve Dual Income Tax Planning](https://www.ilsfinancial.com/reserve-dual-income-tax-planning.htm): Two W-2 income mechanics (civilian employer + DFAS military W-2). Combat zone exclusion (IRC § 112, officer cap ~$10,500–$12,000/month). State domicile controls state tax treatment. DFAS under-withholding problem. Roth IRA from combat zone pay (IRC § 219(f)(7)). Gray area Roth conversion window.
+- [TRICARE Reserve Coverage Guide](https://www.ilsfinancial.com/tricare-reserve-coverage-guide.htm): Four TRICARE phases — TRS (drilling, subsidized), active duty coverage (free on 30+ day orders), TRR (gray area, unsubsidized, $10,000–$18,000/year family), TRICARE Retired (age 60, subsidized), TRICARE for Life (age 65, supplements Medicare). Gray area healthcare cost modeling.
+
 ## Case Studies
 
 - [Veteran Business Owner Exit Risk](https://www.ilsfinancial.com/veteran-business-owner-exit-risk-case-study.htm): Four veteran business owner profiles showing how military benefits stabilize households but don't protect against partnership gaps, minority illiquidity, or leveraged exit risk.
+- [Reserve Officer Retirement Case Studies](https://www.ilsfinancial.com/reserve-officer-retirement-case-studies.htm): Three Reserve officer retirement scenarios — RCSBP election under 90-day deadline (Marine Corps Lt Col O-5), gray area pension optimization with NDAA 2008 early draw (ANG Colonel O-6), and dual-career TSP/401(k) coordination with a missed USERRA claim (Navy Reserve Commander / airline FO).
 
 ## Content Hub
 
