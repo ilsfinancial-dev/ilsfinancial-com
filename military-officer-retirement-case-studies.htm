@@ -373,21 +373,56 @@
       .footer-inner { grid-template-columns: 1fr; }
       .nav-inner { padding: 0 20px; }
     }
+  
+    .related-section { max-width: 750px; margin: 56px auto 0; padding: 0 32px; }
+    .related-section h2 { font-size: 20px; font-weight: 700; color: #1B2A4A; margin-bottom: 20px; }
+    .related-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+    .related-list li a { display: block; padding: 16px 20px; background: #FFFFFF; border: 1px solid #E0D9CF; text-decoration: none; }
+    .related-list li a:hover { background: #F0EDE8; }
+    .related-list li a .rel-title { font-size: 15px; font-weight: 700; color: #1B2A4A; display: block; margin-bottom: 4px; }
+    .related-list li a .rel-desc { font-size: 13px; color: #4A4A4A; line-height: 1.5; }
   </style>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebPage",
-        "name": "Military Officer Retirement Case Studies | ILS Financial",
-        "description": "Three officer retirement scenarios — SBP elections, TSP rollovers, and structural choices that determine long-term outcomes. For senior military officers.",
-        "url": "https://www.ilsfinancial.com/military-officer-retirement-case-studies.htm",
-        "isPartOf": { "@type": "WebSite", "name": "ILS Financial", "url": "https://www.ilsfinancial.com" }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "Military Officer Retirement Case Studies | ILS Financial",
+      "description": "Three officer retirement scenarios — SBP elections, TSP rollovers, and structural choices that determine long-term outcomes. For senior military officers.",
+      "url": "https://www.ilsfinancial.com/military-officer-retirement-case-studies.htm",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "ILS Financial",
+        "url": "https://www.ilsfinancial.com"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ilsfinancial.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Military Officers",
+          "item": "https://www.ilsfinancial.com/financial-planning-for-senior-military-officers.htm"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Retirement Case Studies",
+          "item": "https://www.ilsfinancial.com/military-officer-retirement-case-studies.htm"
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -614,6 +649,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </section>
 
   <!-- ── Disclaimer ─────────────────────────────────────── -->
+  
+  <section class="related-section">
+    <h2>Related Articles</h2>
+    <ul class="related-list">
+      <li>
+        <a href="/financial-planning-for-senior-military-officers.htm">
+          <span class="rel-title">Senior Military Officer Financial Planning</span>
+          <span class="rel-desc">The complete ILS framework for O-5 and O-6 retirement — from SBP election to TSP strategy.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/military-retirement-tax-strategy.htm">
+          <span class="rel-title">Military Retirement Tax Strategy</span>
+          <span class="rel-desc">Pension tax treatment, VA disability offsets, Roth conversion windows, and bracket management after separation.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/survivor-benefit-plan.htm">
+          <span class="rel-title">Survivor Benefit Plan Elections</span>
+          <span class="rel-desc">SBP analysis at the senior officer level — coverage mechanics, cost structure, and the private insurance comparison.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/TSP-Rollover-Decisions-For-Military-Pilots.htm">
+          <span class="rel-title">TSP Rollover Decisions</span>
+          <span class="rel-desc">Whether to roll the TSP at separation, and the Roth TSP RMD exemption that changes the calculus.</span>
+        </a>
+      </li>
+    </ul>
+  </section>
   <div class="disclaimer">
     <p>Advisory services are offered through ILS Financial, LLC, an Investment Advisor in the State of Nebraska.</p>
   </div>

@@ -151,21 +151,56 @@
       .footer-inner { grid-template-columns: 1fr; }
       .nav-inner { padding: 0 20px; }
     }
+  
+    .related-section { max-width: 750px; margin: 56px auto 0; padding: 0 32px; }
+    .related-section h2 { font-size: 20px; font-weight: 700; color: #1B2A4A; margin-bottom: 20px; }
+    .related-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+    .related-list li a { display: block; padding: 16px 20px; background: #FFFFFF; border: 1px solid #E0D9CF; text-decoration: none; }
+    .related-list li a:hover { background: #F0EDE8; }
+    .related-list li a .rel-title { font-size: 15px; font-weight: 700; color: #1B2A4A; display: block; margin-bottom: 4px; }
+    .related-list li a .rel-desc { font-size: 13px; color: #4A4A4A; line-height: 1.5; }
   </style>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebPage",
-        "name": "Veteran Business Owner Exit Risk Case Study | ILS Financial",
-        "description": "Four veteran business owner profiles showing how military benefits stabilize households but don't protect against partnership gaps, minority illiquidity, or leveraged exit risk.",
-        "url": "https://www.ilsfinancial.com/veteran-business-owner-exit-risk-case-study.htm",
-        "isPartOf": { "@type": "WebSite", "name": "ILS Financial", "url": "https://www.ilsfinancial.com" }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "Veteran Business Owner Exit Risk Case Study | ILS Financial",
+      "description": "Four veteran business owner profiles showing how military benefits stabilize households but don't protect against partnership gaps, minority illiquidity, or leveraged exit risk.",
+      "url": "https://www.ilsfinancial.com/veteran-business-owner-exit-risk-case-study.htm",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "ILS Financial",
+        "url": "https://www.ilsfinancial.com"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ilsfinancial.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Case Studies",
+          "item": "https://www.ilsfinancial.com/case-studies.htm"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Veteran Business Owner",
+          "item": "https://www.ilsfinancial.com/veteran-business-owner-exit-risk-case-study.htm"
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -395,6 +430,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </section>
 
   <!-- ── Disclaimer ─────────────────────────────────────── -->
+  
+  <section class="related-section">
+    <h2>Related Articles</h2>
+    <ul class="related-list">
+      <li>
+        <a href="/high-income-blind-spots.htm">
+          <span class="rel-title">High-Income Blind Spots</span>
+          <span class="rel-desc">The planning gaps that emerge when income rises — deferred compensation, COLI, and risks in common benefit structures.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/allocation-vs-design.htm">
+          <span class="rel-title">Allocation vs. Design</span>
+          <span class="rel-desc">Why the architecture of the financial plan determines outcomes more than the investment mix inside it.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/what-you-are-paying-for.htm">
+          <span class="rel-title">What Am I Paying For in Financial Advice</span>
+          <span class="rel-desc">Fee transparency and the fiduciary standard — what the advisor relationship costs and what it delivers.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/how-to-choose-a-financial-advisor.htm">
+          <span class="rel-title">How to Choose a Financial Advisor</span>
+          <span class="rel-desc">The questions that distinguish fiduciary advice from product sales, and how to verify credentials.</span>
+        </a>
+      </li>
+    </ul>
+  </section>
   <div class="disclaimer">
     <p>Advisory services are offered through ILS Financial, LLC, an Investment Advisor in the State of Nebraska. This content is for informational purposes only and does not constitute legal, tax, or business planning advice. Buy-sell agreements and business succession planning involve legal and tax considerations specific to each ownership structure; consult qualified legal and tax counsel before implementing any strategy.</p>
   </div>

@@ -29,56 +29,77 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebPage",
-        "name": "The Briefing Room | ILS Financial",
-        "description": "Structured financial thinking for high-income veterans, senior military officers, airline pilots, and veteran business owners. Start here.",
-        "url": "https://www.ilsfinancial.com/Briefing-Room.htm",
-        "isPartOf": { "@type": "WebSite", "name": "ILS Financial", "url": "https://www.ilsfinancial.com" }
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Is this investment advice?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. The materials here are educational. Personalized advice occurs only within a formal advisory relationship."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do you only work with veterans?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Primarily. The structure here is built around military pensions, VA benefits, airline compensation models, and veteran-owned business risk."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Do you manage investments?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. But investment management follows structural planning — not the other way around."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is there a minimum?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Fit matters more than a number. Most clients are high-income professionals who value structured planning and long-term partnership."
-            }
-          }
-        ]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "The Briefing Room | ILS Financial",
+      "description": "Structured financial thinking for high-income veterans, senior military officers, airline pilots, and veteran business owners. Start here.",
+      "url": "https://www.ilsfinancial.com/Briefing-Room.htm",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "ILS Financial",
+        "url": "https://www.ilsfinancial.com"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is this investment advice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The materials here are educational. Personalized advice occurs only within a formal advisory relationship."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you only work with veterans?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Primarily. The structure here is built around military pensions, VA benefits, airline compensation models, and veteran-owned business risk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you manage investments?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. But investment management follows structural planning — not the other way around."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a minimum?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fit matters more than a number. Most clients are high-income professionals who value structured planning and long-term partnership."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ilsfinancial.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Briefing Room",
+          "item": "https://www.ilsfinancial.com/Briefing-Room.htm"
+        }
+      ]
+    }
+  ]
+}
+</script>
   <style>
     /* ── Reset / Base ─────────────────────────────────── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -596,6 +617,14 @@
       .footer-inner { grid-template-columns: 1fr; }
       .nav-inner { padding: 0 20px; }
     }
+  
+    .related-section { max-width: 750px; margin: 56px auto 0; padding: 0 32px; }
+    .related-section h2 { font-size: 20px; font-weight: 700; color: #1B2A4A; margin-bottom: 20px; }
+    .related-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+    .related-list li a { display: block; padding: 16px 20px; background: #FFFFFF; border: 1px solid #E0D9CF; text-decoration: none; }
+    .related-list li a:hover { background: #F0EDE8; }
+    .related-list li a .rel-title { font-size: 15px; font-weight: 700; color: #1B2A4A; display: block; margin-bottom: 4px; }
+    .related-list li a .rel-desc { font-size: 13px; color: #4A4A4A; line-height: 1.5; }
   </style>
 </head>
 <body>
@@ -910,6 +939,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
 
 <!-- ── Footer ─────────────────────────────────────────────── -->
+
+  <section class="related-section">
+    <h2>Related Articles</h2>
+    <ul class="related-list">
+      <li>
+        <a href="/what-you-are-paying-for.htm">
+          <span class="rel-title">What Am I Paying For in Financial Advice</span>
+          <span class="rel-desc">Fee transparency in practice — how RIA fees compare to commission-based and AUM advisory structures.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/how-to-choose-a-financial-advisor.htm">
+          <span class="rel-title">How to Choose a Financial Advisor</span>
+          <span class="rel-desc">The questions that reveal whether an advisor is a fiduciary — and how to verify what you're told.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/allocation-vs-design.htm">
+          <span class="rel-title">Allocation vs. Design</span>
+          <span class="rel-desc">Why investment selection is the last decision in a properly sequenced financial plan, not the first.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/high-income-blind-spots.htm">
+          <span class="rel-title">High-Income Blind Spots</span>
+          <span class="rel-desc">The planning gaps that emerge as income rises — and why standard financial advice often misses them.</span>
+        </a>
+      </li>
+    </ul>
+  </section>
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-brand">

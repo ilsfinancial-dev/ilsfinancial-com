@@ -169,90 +169,125 @@
       .footer-inner { grid-template-columns: 1fr; }
       .nav-inner { padding: 0 20px; }
     }
+  
+    .related-section { max-width: 750px; margin: 56px auto 0; padding: 0 32px; }
+    .related-section h2 { font-size: 20px; font-weight: 700; color: #1B2A4A; margin-bottom: 20px; }
+    .related-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+    .related-list li a { display: block; padding: 16px 20px; background: #FFFFFF; border: 1px solid #E0D9CF; text-decoration: none; }
+    .related-list li a:hover { background: #F0EDE8; }
+    .related-list li a .rel-title { font-size: 15px; font-weight: 700; color: #1B2A4A; display: block; margin-bottom: 4px; }
+    .related-list li a .rel-desc { font-size: 13px; color: #4A4A4A; line-height: 1.5; }
   </style>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebPage",
-        "name": "100% P&T Veterans: Income Floors & Survivor Risk | ILS Financial",
-        "description": "100% P&T veterans face CRDP/CRSC elections, SBP-DIC offset rules, and survivor income gaps most advisors miss. White paper for permanently disabled veterans.",
-        "url": "https://www.ilsfinancial.com/100-Disability.htm",
-        "isPartOf": { "@type": "WebSite", "name": "ILS Financial", "url": "https://www.ilsfinancial.com" }
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What does 100% P&T actually mean, and how does it differ from a 100% rating?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "A 100% schedular rating means the combined disability percentage has reached or been rounded to 100%. Permanent and total (P&T) status requires an additional determination that the disability is both total and permanent — meaning the VA does not expect material improvement. P&T status confers additional benefits: Chapter 35 education benefits for dependents, free dental care, the ability to apply for CHAMPVA for dependents, and the strongest property tax and state benefit profiles. TDIU (Total Disability based on Individual Unemployability) can functionally produce 100% compensation even when the schedular rating is below 100%, but it does not carry the same permanency profile."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I receive both military retired pay and VA disability compensation?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, if you qualify for Concurrent Retirement and Disability Pay (CRDP) under 10 U.S.C. § 1414. CRDP is available to retirees with a combined VA disability rating of 50% or higher who meet qualifying retirement criteria. Veterans with a combat-related disability who do not qualify for CRDP may qualify for Combat-Related Special Compensation (CRSC) under 10 U.S.C. § 1413a — but CRDP and CRSC are mutually exclusive elections, and the optimal choice depends on the specific numbers. A 100% P&T veteran almost always qualifies for CRDP at full concurrent receipt, meaning zero offset from military retired pay."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is VA disability compensation taxable?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. VA disability compensation is excluded from gross income under federal tax law. It is not reported on a W-2, is not subject to federal income tax, and does not count toward IRMAA thresholds. Military retired pay, however, is taxable as ordinary income unless offset by a VA waiver — and under CRDP, the full military retired pay is received and is taxable. The blended income profile (tax-free VA compensation + taxable retired pay) creates tax planning considerations that standard retirement income planning does not address."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How does VA DIC interact with SBP as a survivor income source?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "VA Dependency and Indemnity Compensation (DIC) is a survivor benefit paid to an eligible surviving spouse when a veteran dies from a service-connected condition. It is not means-tested and is not dependent on the veteran having elected SBP. Historically, DIC was offset against SBP dollar-for-dollar — if a surviving spouse received $1,500/month in DIC, that amount was subtracted from their SBP. The National Defense Authorization Act of 2020 phased out this offset over five years, with full elimination effective January 2023. For veterans making SBP elections today, DIC and SBP are additive survivor income sources for service-connected deaths."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What state benefits come with a 100% P&T rating?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "State benefits for 100% P&T veterans vary significantly by domicile, but many states provide: full property tax exemption (vs. partial exemption at lower ratings), state income tax exclusion on military retired pay, vehicle registration fee waivers, free or reduced-cost state park access and hunting/fishing licenses, and Chapter 35-equivalent state education benefits for dependents. The annual dollar value of state benefits can reach $10,000–$20,000+ depending on property values and the benefit structure of the domicile state."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does a 100% P&T rating affect life insurance eligibility or underwriting?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. A 100% P&T disability rating signals a chronic, severe, and permanent condition to life insurance underwriters, which typically results in table ratings, exclusions, or outright declines on new private life insurance applications. VGLI (Veterans' Group Life Insurance) does not require medical underwriting and can be maintained at full coverage regardless of health status — but coverage is capped at $500,000 and the cost increases with age. For veterans who need survivor income beyond what VGLI and DIC produce, the timing of life insurance acquisition relative to rating changes matters significantly."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What happens to VA disability compensation if I remarry after my spouse dies?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "VA disability compensation paid to the veteran is not affected by remarriage — it is tied to the veteran's service-connected disability, not marital status. However, VA DIC paid to a surviving spouse is affected: remarriage before age 57 can disqualify a surviving spouse from continued DIC receipt. Remarriage at age 57 or older does not disqualify DIC. This asymmetry creates planning considerations for survivor income architecture, particularly for younger spouses of older veterans with significant service-connected disabilities."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Should a 100% P&T veteran still elect SBP?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "It depends on the specific income architecture. Following the SBP-DIC offset repeal, SBP and DIC are now additive for service-connected deaths — which changes the historical cost-benefit calculus. Key considerations include: (1) whether the veteran's death is likely to qualify as service-connected given current conditions; (2) the gap between DIC rates and the income the surviving spouse needs to maintain their standard of living; (3) whether private life insurance is available and at what cost given the 100% P&T underwriting profile; and (4) how military retired pay compares to VA compensation in the current income mix."
-            }
-          }
-        ]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "100% P&T Veterans: Income Floors & Survivor Risk | ILS Financial",
+      "description": "100% P&T veterans face CRDP/CRSC elections, SBP-DIC offset rules, and survivor income gaps most advisors miss. White paper for permanently disabled veterans.",
+      "url": "https://www.ilsfinancial.com/100-Disability.htm",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "ILS Financial",
+        "url": "https://www.ilsfinancial.com"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does 100% P&T actually mean, and how does it differ from a 100% rating?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A 100% schedular rating means the combined disability percentage has reached or been rounded to 100%. Permanent and total (P&T) status requires an additional determination that the disability is both total and permanent — meaning the VA does not expect material improvement. P&T status confers additional benefits: Chapter 35 education benefits for dependents, free dental care, the ability to apply for CHAMPVA for dependents, and the strongest property tax and state benefit profiles. TDIU (Total Disability based on Individual Unemployability) can functionally produce 100% compensation even when the schedular rating is below 100%, but it does not carry the same permanency profile."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I receive both military retired pay and VA disability compensation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if you qualify for Concurrent Retirement and Disability Pay (CRDP) under 10 U.S.C. § 1414. CRDP is available to retirees with a combined VA disability rating of 50% or higher who meet qualifying retirement criteria. Veterans with a combat-related disability who do not qualify for CRDP may qualify for Combat-Related Special Compensation (CRSC) under 10 U.S.C. § 1413a — but CRDP and CRSC are mutually exclusive elections, and the optimal choice depends on the specific numbers. A 100% P&T veteran almost always qualifies for CRDP at full concurrent receipt, meaning zero offset from military retired pay."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is VA disability compensation taxable?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. VA disability compensation is excluded from gross income under federal tax law. It is not reported on a W-2, is not subject to federal income tax, and does not count toward IRMAA thresholds. Military retired pay, however, is taxable as ordinary income unless offset by a VA waiver — and under CRDP, the full military retired pay is received and is taxable. The blended income profile (tax-free VA compensation + taxable retired pay) creates tax planning considerations that standard retirement income planning does not address."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does VA DIC interact with SBP as a survivor income source?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "VA Dependency and Indemnity Compensation (DIC) is a survivor benefit paid to an eligible surviving spouse when a veteran dies from a service-connected condition. It is not means-tested and is not dependent on the veteran having elected SBP. Historically, DIC was offset against SBP dollar-for-dollar — if a surviving spouse received $1,500/month in DIC, that amount was subtracted from their SBP. The National Defense Authorization Act of 2020 phased out this offset over five years, with full elimination effective January 2023. For veterans making SBP elections today, DIC and SBP are additive survivor income sources for service-connected deaths."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What state benefits come with a 100% P&T rating?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "State benefits for 100% P&T veterans vary significantly by domicile, but many states provide: full property tax exemption (vs. partial exemption at lower ratings), state income tax exclusion on military retired pay, vehicle registration fee waivers, free or reduced-cost state park access and hunting/fishing licenses, and Chapter 35-equivalent state education benefits for dependents. The annual dollar value of state benefits can reach $10,000–$20,000+ depending on property values and the benefit structure of the domicile state."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a 100% P&T rating affect life insurance eligibility or underwriting?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A 100% P&T disability rating signals a chronic, severe, and permanent condition to life insurance underwriters, which typically results in table ratings, exclusions, or outright declines on new private life insurance applications. VGLI (Veterans' Group Life Insurance) does not require medical underwriting and can be maintained at full coverage regardless of health status — but coverage is capped at $500,000 and the cost increases with age. For veterans who need survivor income beyond what VGLI and DIC produce, the timing of life insurance acquisition relative to rating changes matters significantly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens to VA disability compensation if I remarry after my spouse dies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "VA disability compensation paid to the veteran is not affected by remarriage — it is tied to the veteran's service-connected disability, not marital status. However, VA DIC paid to a surviving spouse is affected: remarriage before age 57 can disqualify a surviving spouse from continued DIC receipt. Remarriage at age 57 or older does not disqualify DIC. This asymmetry creates planning considerations for survivor income architecture, particularly for younger spouses of older veterans with significant service-connected disabilities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should a 100% P&T veteran still elect SBP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the specific income architecture. Following the SBP-DIC offset repeal, SBP and DIC are now additive for service-connected deaths — which changes the historical cost-benefit calculus. Key considerations include: (1) whether the veteran's death is likely to qualify as service-connected given current conditions; (2) the gap between DIC rates and the income the surviving spouse needs to maintain their standard of living; (3) whether private life insurance is available and at what cost given the 100% P&T underwriting profile; and (4) how military retired pay compares to VA compensation in the current income mix."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ilsfinancial.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Military Officers",
+          "item": "https://www.ilsfinancial.com/financial-planning-for-senior-military-officers.htm"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "100% P&T Disability",
+          "item": "https://www.ilsfinancial.com/100-Disability.htm"
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -552,6 +587,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </section>
 
   <!-- ── Disclaimer ─────────────────────────────────────── -->
+  
+  <section class="related-section">
+    <h2>Related Articles</h2>
+    <ul class="related-list">
+      <li>
+        <a href="/military-retirement-tax-strategy.htm">
+          <span class="rel-title">Military Retirement Tax Strategy</span>
+          <span class="rel-desc">VA disability offsets, CRDP vs. CRSC, and how your rating affects the taxable portion of your military pension.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/financial-planning-for-senior-military-officers.htm">
+          <span class="rel-title">Senior Military Officer Financial Planning</span>
+          <span class="rel-desc">The full retirement framework for O-5 and O-6 households — pension, SBP, TSP, and sequencing.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/TSP-Rollover-Decisions-For-Military-Pilots.htm">
+          <span class="rel-title">TSP Rollover Decisions</span>
+          <span class="rel-desc">Whether to roll the TSP at separation — Rule of 55, Roth RMD exemption, and the timing decision.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/survivor-benefit-plan.htm">
+          <span class="rel-title">Survivor Benefit Plan Elections</span>
+          <span class="rel-desc">SBP alongside VA DIC eligibility — the offset rules and coverage mechanics that determine what your survivor actually receives.</span>
+        </a>
+      </li>
+    </ul>
+  </section>
   <div class="disclaimer">
     <p>Advisory services are offered through ILS Financial, LLC, an Investment Advisor in the State of Nebraska. This content is for informational purposes only and does not constitute legal, tax, or benefits counseling. Veterans benefits law is complex and fact-specific; consult a VA-accredited attorney or claims agent for advice on specific claims or elections. Tax treatment of military pay and VA compensation should be confirmed with a qualified tax professional for your specific situation.</p>
   </div>

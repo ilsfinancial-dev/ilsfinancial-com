@@ -389,21 +389,56 @@
       .footer-inner { grid-template-columns: 1fr; }
       .nav-inner { padding: 0 20px; }
     }
+  
+    .related-section { max-width: 750px; margin: 56px auto 0; padding: 0 32px; }
+    .related-section h2 { font-size: 20px; font-weight: 700; color: #1B2A4A; margin-bottom: 20px; }
+    .related-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+    .related-list li a { display: block; padding: 16px 20px; background: #FFFFFF; border: 1px solid #E0D9CF; text-decoration: none; }
+    .related-list li a:hover { background: #F0EDE8; }
+    .related-list li a .rel-title { font-size: 15px; font-weight: 700; color: #1B2A4A; display: block; margin-bottom: 4px; }
+    .related-list li a .rel-desc { font-size: 13px; color: #4A4A4A; line-height: 1.5; }
   </style>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebPage",
-        "name": "Career Fragility Planning: Veteran Airline Pilots | ILS Financial",
-        "description": "Veteran airline pilots face binary income risk from FAA medical requirements, seniority volatility, and mandatory retirement at 65. Three case studies show how to contain structural fragility.",
-        "url": "https://www.ilsfinancial.com/career-fragility-planning-veteran-airline-pilots.htm",
-        "isPartOf": { "@type": "WebSite", "name": "ILS Financial", "url": "https://www.ilsfinancial.com" }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "Career Fragility Planning: Veteran Airline Pilots | ILS Financial",
+      "description": "Veteran airline pilots face binary income risk from FAA medical requirements, seniority volatility, and mandatory retirement at 65. Three case studies show how to contain structural fragility.",
+      "url": "https://www.ilsfinancial.com/career-fragility-planning-veteran-airline-pilots.htm",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "ILS Financial",
+        "url": "https://www.ilsfinancial.com"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ilsfinancial.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Airline Pilots",
+          "item": "https://www.ilsfinancial.com/financial-planning-for-airline-pilots.htm"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Veteran Pilot Case Study",
+          "item": "https://www.ilsfinancial.com/career-fragility-planning-veteran-airline-pilots.htm"
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -594,6 +629,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </section>
 
   <!-- ── Disclaimer ─────────────────────────────────────── -->
+  
+  <section class="related-section">
+    <h2>Related Articles</h2>
+    <ul class="related-list">
+      <li>
+        <a href="/airline-pilot-career-fragility-risk-planning.htm">
+          <span class="rel-title">Airline Pilot Career Fragility Risk Planning</span>
+          <span class="rel-desc">The full framework for loss-of-license risk, disability coverage, and income protection for airline pilots.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/financial-planning-for-airline-pilots.htm">
+          <span class="rel-title">Airline Pilot Financial Planning</span>
+          <span class="rel-desc">The ILS system for airline pilot households — from first officer to captain, and from accumulation to distribution.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/financial-planning-military-to-airline-transition.htm">
+          <span class="rel-title">Military-to-Airline Transition Planning</span>
+          <span class="rel-desc">How to navigate the transition from military service to the airline cockpit without leaving money behind.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/pilot-retirement-plan-stack-integration.htm">
+          <span class="rel-title">Retirement Plan Stack Integration</span>
+          <span class="rel-desc">How to sequence the 401(k), IRA, and taxable accounts when an employer contributes 16–18% before you add a dollar.</span>
+        </a>
+      </li>
+    </ul>
+  </section>
   <div class="disclaimer">
     <p>Advisory services are offered through ILS Financial, LLC, an Investment Advisor in the State of Nebraska.</p>
   </div>

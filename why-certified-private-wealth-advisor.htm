@@ -29,19 +29,40 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebPage",
-        "name": "Why Work With a CPWA® Advisor | ILS Financial",
-        "description": "What the CPWA® designation covers and why it matters for military officers, airline pilots, and veteran business owners with complex financial planning needs.",
-        "url": "https://www.ilsfinancial.com/why-certified-private-wealth-advisor.htm",
-        "isPartOf": { "@type": "WebSite", "name": "ILS Financial", "url": "https://www.ilsfinancial.com" }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "Why Work With a CPWA® Advisor | ILS Financial",
+      "description": "What the CPWA® designation covers and why it matters for military officers, airline pilots, and veteran business owners with complex financial planning needs.",
+      "url": "https://www.ilsfinancial.com/why-certified-private-wealth-advisor.htm",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "ILS Financial",
+        "url": "https://www.ilsfinancial.com"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ilsfinancial.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Why the CPWA® Designation",
+          "item": "https://www.ilsfinancial.com/why-certified-private-wealth-advisor.htm"
+        }
+      ]
+    }
+  ]
+}
+</script>
   <style>
     /* ── Reset / Base ─────────────────────────────────── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -458,6 +479,14 @@
       .footer-inner { grid-template-columns: 1fr; }
       .nav-inner { padding: 0 20px; }
     }
+  
+    .related-section { max-width: 750px; margin: 56px auto 0; padding: 0 32px; }
+    .related-section h2 { font-size: 20px; font-weight: 700; color: #1B2A4A; margin-bottom: 20px; }
+    .related-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+    .related-list li a { display: block; padding: 16px 20px; background: #FFFFFF; border: 1px solid #E0D9CF; text-decoration: none; }
+    .related-list li a:hover { background: #F0EDE8; }
+    .related-list li a .rel-title { font-size: 15px; font-weight: 700; color: #1B2A4A; display: block; margin-bottom: 4px; }
+    .related-list li a .rel-desc { font-size: 13px; color: #4A4A4A; line-height: 1.5; }
   </style>
 </head>
 <body>
@@ -706,6 +735,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </section>
 
   <!-- ── Disclaimer ─────────────────────────────────────── -->
+  
+  <section class="related-section">
+    <h2>Related Articles</h2>
+    <ul class="related-list">
+      <li>
+        <a href="/what-you-are-paying-for.htm">
+          <span class="rel-title">What Am I Paying For in Financial Advice</span>
+          <span class="rel-desc">How the advisory fee structure reflects the advisor's incentives — and why fee-only RIA matters.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/how-to-choose-a-financial-advisor.htm">
+          <span class="rel-title">How to Choose a Financial Advisor</span>
+          <span class="rel-desc">The specific questions to ask before engaging any advisor, including credential verification.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/about-me.htm">
+          <span class="rel-title">About Matt Samson</span>
+          <span class="rel-desc">Professional background, CPWA® credentialing path, and the experience behind the ILS planning approach.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/high-income-blind-spots.htm">
+          <span class="rel-title">High-Income Blind Spots</span>
+          <span class="rel-desc">The planning gaps that sophisticated advisors find — and that product-focused advisors often create.</span>
+        </a>
+      </li>
+    </ul>
+  </section>
   <div class="disclaimer">
     <p>Advisory services are offered through ILS Financial, LLC, an Investment Advisor in the State of Nebraska. CPWA® is a registered certification mark of the Investments &amp; Wealth Institute. CFP® is a registered certification mark of the CFP Board. ChFC® is a registered mark of The American College of Financial Services. AIF® is a registered mark of fi360, a Broadridge company. Credential requirements referenced on this page are subject to change; verify current standards with the issuing organization.</p>
   </div>

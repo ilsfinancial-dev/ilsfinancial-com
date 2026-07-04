@@ -343,34 +343,55 @@
     @media (max-width: 960px) { .footer-inner { grid-template-columns: 1fr 1fr; } }
   </style>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "name": "ILS Financial",
-        "url": "https://www.ilsfinancial.com",
-        "telephone": "+14022040230",
-        "email": "matt.samson@ilsfinancial.com",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "17838 Burke St STE 102",
-          "addressLocality": "Omaha",
-          "addressRegion": "NE",
-          "postalCode": "68118",
-          "addressCountry": "US"
-        }
-      },
-      {
-        "@type": "WebPage",
-        "name": "Contact ILS Financial | Matt Samson, MBA, CPWA®",
-        "description": "Contact Matt Samson at ILS Financial. Schedule a fit meeting, send a message, or find contact details. Serving military officers, pilots, and aviators.",
-        "url": "https://www.ilsfinancial.com/contact.htm",
-        "isPartOf": { "@type": "WebSite", "name": "ILS Financial", "url": "https://www.ilsfinancial.com" }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "ILS Financial",
+      "url": "https://www.ilsfinancial.com",
+      "telephone": "+14022040230",
+      "email": "matt.samson@ilsfinancial.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "17838 Burke St STE 102",
+        "addressLocality": "Omaha",
+        "addressRegion": "NE",
+        "postalCode": "68118",
+        "addressCountry": "US"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "WebPage",
+      "name": "Contact ILS Financial | Matt Samson, MBA, CPWA®",
+      "description": "Contact Matt Samson at ILS Financial. Schedule a fit meeting, send a message, or find contact details. Serving military officers, pilots, and aviators.",
+      "url": "https://www.ilsfinancial.com/contact.htm",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "ILS Financial",
+        "url": "https://www.ilsfinancial.com"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ilsfinancial.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contact",
+          "item": "https://www.ilsfinancial.com/contact.htm"
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 

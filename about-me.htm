@@ -160,41 +160,70 @@
       .nav-inner { padding: 0 20px; }
       .about-sidebar { flex-direction: column; }
     }
+  
+    .related-section { max-width: 750px; margin: 56px auto 0; padding: 0 32px; }
+    .related-section h2 { font-size: 20px; font-weight: 700; color: #1B2A4A; margin-bottom: 20px; }
+    .related-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+    .related-list li a { display: block; padding: 16px 20px; background: #FFFFFF; border: 1px solid #E0D9CF; text-decoration: none; }
+    .related-list li a:hover { background: #F0EDE8; }
+    .related-list li a .rel-title { font-size: 15px; font-weight: 700; color: #1B2A4A; display: block; margin-bottom: 4px; }
+    .related-list li a .rel-desc { font-size: 13px; color: #4A4A4A; line-height: 1.5; }
   </style>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Person",
-        "name": "Matt Samson",
-        "jobTitle": "Certified Private Wealth Advisor",
-        "worksFor": {
-          "@type": "Organization",
-          "name": "ILS Financial",
-          "url": "https://www.ilsfinancial.com",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "17838 Burke St STE 102",
-            "addressLocality": "Omaha",
-            "addressRegion": "NE",
-            "postalCode": "68118",
-            "addressCountry": "US"
-          }
-        },
-        "url": "https://www.ilsfinancial.com/about-me.htm",
-        "image": "https://www.ilsfinancial.com/Website_files/Matt%20Samson.png"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "name": "Matt Samson",
+      "jobTitle": "Certified Private Wealth Advisor",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "ILS Financial",
+        "url": "https://www.ilsfinancial.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "17838 Burke St STE 102",
+          "addressLocality": "Omaha",
+          "addressRegion": "NE",
+          "postalCode": "68118",
+          "addressCountry": "US"
+        }
       },
-      {
-        "@type": "WebPage",
-        "name": "About Matt Samson, MBA, CPWA® | ILS Financial",
-        "description": "Matt Samson, CPWA® — Marine aviator turned financial planner. Founder of ILS Financial, serving military officers, airline pilots, and fractional aviators.",
-        "url": "https://www.ilsfinancial.com/about-me.htm",
-        "isPartOf": { "@type": "WebSite", "name": "ILS Financial", "url": "https://www.ilsfinancial.com" }
+      "url": "https://www.ilsfinancial.com/about-me.htm",
+      "image": "https://www.ilsfinancial.com/Website_files/Matt%20Samson.png"
+    },
+    {
+      "@type": "WebPage",
+      "name": "About Matt Samson, MBA, CPWA® | ILS Financial",
+      "description": "Matt Samson, CPWA® — Marine aviator turned financial planner. Founder of ILS Financial, serving military officers, airline pilots, and fractional aviators.",
+      "url": "https://www.ilsfinancial.com/about-me.htm",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "ILS Financial",
+        "url": "https://www.ilsfinancial.com"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ilsfinancial.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About",
+          "item": "https://www.ilsfinancial.com/about-me.htm"
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -337,6 +366,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </section>
 
+  
+  <section class="related-section">
+    <h2>Related Articles</h2>
+    <ul class="related-list">
+      <li>
+        <a href="/why-certified-private-wealth-advisor.htm">
+          <span class="rel-title">Why the CPWA® Designation</span>
+          <span class="rel-desc">What the Certified Private Wealth Advisor credential requires and why it matters for complex military households.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/how-we-work.htm">
+          <span class="rel-title">How We Work</span>
+          <span class="rel-desc">The ILS financial planning process — from the initial fit meeting through ongoing advisory.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/what-you-are-paying-for.htm">
+          <span class="rel-title">What Am I Paying For in Financial Advice</span>
+          <span class="rel-desc">Fee transparency — how ILS structures fees and what clients receive in return.</span>
+        </a>
+      </li>
+    </ul>
+  </section>
   <div class="disclaimer">
     <p>Advisory services are offered through ILS Financial, LLC, an Investment Advisor in the State of Nebraska. Past performance is not indicative of future results. The CPWA® designation is issued by the Investments &amp; Wealth Institute™. ILS Financial, LLC is not affiliated with the U.S. Marine Corps or any government agency.</p>
   </div>

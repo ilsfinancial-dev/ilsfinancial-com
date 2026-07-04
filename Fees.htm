@@ -29,19 +29,40 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebPage",
-        "name": "Compensation & Fees | ILS Financial",
-        "description": "ILS Financial charges a flat planning engagement fee followed by an AUM-based ongoing advisory fee. Clear, transparent, and fully disclosed in Form ADV.",
-        "url": "https://www.ilsfinancial.com/Fees.htm",
-        "isPartOf": { "@type": "WebSite", "name": "ILS Financial", "url": "https://www.ilsfinancial.com" }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "Compensation & Fees | ILS Financial",
+      "description": "ILS Financial charges a flat planning engagement fee followed by an AUM-based ongoing advisory fee. Clear, transparent, and fully disclosed in Form ADV.",
+      "url": "https://www.ilsfinancial.com/Fees.htm",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "ILS Financial",
+        "url": "https://www.ilsfinancial.com"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ilsfinancial.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Compensation & Fees",
+          "item": "https://www.ilsfinancial.com/Fees.htm"
+        }
+      ]
+    }
+  ]
+}
+</script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
@@ -174,6 +195,14 @@
       .fees-final { padding: 28px 24px; }
       .example-row { flex-direction: column; gap: 2px; }
     }
+  
+    .related-section { max-width: 750px; margin: 56px auto 0; padding: 0 32px; }
+    .related-section h2 { font-size: 20px; font-weight: 700; color: #1B2A4A; margin-bottom: 20px; }
+    .related-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+    .related-list li a { display: block; padding: 16px 20px; background: #FFFFFF; border: 1px solid #E0D9CF; text-decoration: none; }
+    .related-list li a:hover { background: #F0EDE8; }
+    .related-list li a .rel-title { font-size: 15px; font-weight: 700; color: #1B2A4A; display: block; margin-bottom: 4px; }
+    .related-list li a .rel-desc { font-size: 13px; color: #4A4A4A; line-height: 1.5; }
   </style>
 </head>
 <body>
@@ -360,6 +389,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   </div>
 
+  
+  <section class="related-section">
+    <h2>Related Articles</h2>
+    <ul class="related-list">
+      <li>
+        <a href="/what-you-are-paying-for.htm">
+          <span class="rel-title">What Am I Paying For in Financial Advice</span>
+          <span class="rel-desc">How RIA fees compare across advisory structures — and what those fees actually cover.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/how-to-choose-a-financial-advisor.htm">
+          <span class="rel-title">How to Choose a Financial Advisor</span>
+          <span class="rel-desc">The questions every client should ask before engaging an advisor — including how the advisor gets paid.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/how-we-work.htm">
+          <span class="rel-title">How We Work</span>
+          <span class="rel-desc">The ILS planning process from initial fit meeting through ongoing advisory.</span>
+        </a>
+      </li>
+    </ul>
+  </section>
   <div class="disclaimer">
     <p>Advisory services are offered through ILS Financial, LLC, an Investment Advisor in the State of Nebraska. The fee structure described above represents standard terms for new clients going forward. Individual agreements may vary. Past performance is not indicative of future results.</p>
   </div>

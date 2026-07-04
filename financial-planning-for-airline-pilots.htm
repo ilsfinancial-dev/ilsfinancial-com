@@ -504,98 +504,127 @@
       .cta-section { padding: 56px 20px; }
       .nav-inner { padding: 0 20px; }
     }
+  
+    .related-section { max-width: 750px; margin: 56px auto 0; padding: 0 32px; }
+    .related-section h2 { font-size: 20px; font-weight: 700; color: #1B2A4A; margin-bottom: 20px; }
+    .related-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+    .related-list li a { display: block; padding: 16px 20px; background: #FFFFFF; border: 1px solid #E0D9CF; text-decoration: none; }
+    .related-list li a:hover { background: #F0EDE8; }
+    .related-list li a .rel-title { font-size: 15px; font-weight: 700; color: #1B2A4A; display: block; margin-bottom: 4px; }
+    .related-list li a .rel-desc { font-size: 13px; color: #4A4A4A; line-height: 1.5; }
   </style>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "WebPage",
-        "name": "Financial Planning for Airline Pilots | ILS Financial",
-        "description": "Financial planning for veteran airline pilots navigating career fragility, retirement plan complexity, and income sequencing through peak earning years.",
-        "url": "https://www.ilsfinancial.com/financial-planning-for-airline-pilots.htm",
-        "isPartOf": { "@type": "WebSite", "name": "ILS Financial", "url": "https://www.ilsfinancial.com" }
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "How should pilots think about the probationary first year?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The first year after airline hire is typically served under probationary status and often represents the lowest earning year of the career. Financial planning during this period emphasizes liquidity, conservative cash-flow modeling, and disciplined expense management. Long-term earnings potential may be strong, but the early years require structural awareness."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What does \"income floor\" mean in planning?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "An income floor refers to the portion of household income that is designed to be stable and reliable across different scenarios. This may include emergency reserves, appropriate insurance planning, and, where applicable, pension or other stable income sources. The goal is to protect core expenses before optimizing for growth."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How do 401(k) contributions and profit sharing fit into a pilot's long-term plan?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Employer contributions and profit sharing can represent a significant portion of long-term retirement wealth. Planning often focuses on contribution strategy (traditional versus Roth where available), tax diversification, and coordinating workplace benefits with broader retirement income goals."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Should airline pilots prioritize Roth or traditional 401(k) contributions?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The appropriate strategy depends on current marginal tax rates, expected future income, retirement income structure, and long-term withdrawal planning. Many high-income households benefit from intentional tax diversification rather than an all-or-nothing approach. Modeling multiple scenarios is typically required."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How does state domicile affect an airline pilot's financial plan?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "State domicile can affect income taxes during earning years and potentially influence taxation of certain retirement income. Because pilots may live in one state, work in multiple states, and retire in another, domicile decisions are often modeled over multiple years to understand long-term impact."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What makes military-to-airline transitions unique?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Officers transitioning from military service to the airlines often integrate two complex systems: military retirement benefits (including pension mechanics, SBP elections, TSP, and potentially VA disability) and airline compensation structures (including probationary first-year pay, seniority-driven earnings, and employer retirement plans). Many of the highest-impact decisions occur before separation and during the first years at the airline."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How does Reserve participation affect officers who transition short of 20 years?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Officers separating short of 20 years may coordinate airline income with continued Reserve service, delayed retirement eligibility, and different benefit timing. This creates a different long-term structure than full military retirement or a traditional civilian career change. Proper modeling typically considers multiple career and income paths."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "When should a pilot or transitioning officer begin planning?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Planning is often most effective before irreversible elections and major transitions occur. Transitioning officers frequently benefit from beginning 24–36 months before separation to model pension decisions, tax exposure, domicile considerations, and early airline cash-flow realities."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is the information on this page personalized financial advice?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. The information provided is for educational purposes only and does not constitute individualized investment, tax, or legal advice. Financial decisions should be made based on your specific circumstances and in consultation with appropriately qualified professionals."
-            }
-          }
-        ]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "Financial Planning for Airline Pilots | ILS Financial",
+      "description": "Financial planning for veteran airline pilots navigating career fragility, retirement plan complexity, and income sequencing through peak earning years.",
+      "url": "https://www.ilsfinancial.com/financial-planning-for-airline-pilots.htm",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "ILS Financial",
+        "url": "https://www.ilsfinancial.com"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How should pilots think about the probationary first year?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The first year after airline hire is typically served under probationary status and often represents the lowest earning year of the career. Financial planning during this period emphasizes liquidity, conservative cash-flow modeling, and disciplined expense management. Long-term earnings potential may be strong, but the early years require structural awareness."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does \"income floor\" mean in planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An income floor refers to the portion of household income that is designed to be stable and reliable across different scenarios. This may include emergency reserves, appropriate insurance planning, and, where applicable, pension or other stable income sources. The goal is to protect core expenses before optimizing for growth."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do 401(k) contributions and profit sharing fit into a pilot's long-term plan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Employer contributions and profit sharing can represent a significant portion of long-term retirement wealth. Planning often focuses on contribution strategy (traditional versus Roth where available), tax diversification, and coordinating workplace benefits with broader retirement income goals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should airline pilots prioritize Roth or traditional 401(k) contributions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The appropriate strategy depends on current marginal tax rates, expected future income, retirement income structure, and long-term withdrawal planning. Many high-income households benefit from intentional tax diversification rather than an all-or-nothing approach. Modeling multiple scenarios is typically required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does state domicile affect an airline pilot's financial plan?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "State domicile can affect income taxes during earning years and potentially influence taxation of certain retirement income. Because pilots may live in one state, work in multiple states, and retire in another, domicile decisions are often modeled over multiple years to understand long-term impact."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes military-to-airline transitions unique?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Officers transitioning from military service to the airlines often integrate two complex systems: military retirement benefits (including pension mechanics, SBP elections, TSP, and potentially VA disability) and airline compensation structures (including probationary first-year pay, seniority-driven earnings, and employer retirement plans). Many of the highest-impact decisions occur before separation and during the first years at the airline."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Reserve participation affect officers who transition short of 20 years?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Officers separating short of 20 years may coordinate airline income with continued Reserve service, delayed retirement eligibility, and different benefit timing. This creates a different long-term structure than full military retirement or a traditional civilian career change. Proper modeling typically considers multiple career and income paths."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should a pilot or transitioning officer begin planning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Planning is often most effective before irreversible elections and major transitions occur. Transitioning officers frequently benefit from beginning 24–36 months before separation to model pension decisions, tax exposure, domicile considerations, and early airline cash-flow realities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the information on this page personalized financial advice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The information provided is for educational purposes only and does not constitute individualized investment, tax, or legal advice. Financial decisions should be made based on your specific circumstances and in consultation with appropriately qualified professionals."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ilsfinancial.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Airline Pilots",
+          "item": "https://www.ilsfinancial.com/financial-planning-for-airline-pilots.htm"
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -902,6 +931,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </section>
 
   <!-- ── Disclaimer ─────────────────────────────────────────── -->
+  
+  <section class="related-section">
+    <h2>Related Articles</h2>
+    <ul class="related-list">
+      <li>
+        <a href="/pilot-retirement-plan-stack-integration.htm">
+          <span class="rel-title">Retirement Plan Stack Integration</span>
+          <span class="rel-desc">How the 401(k), IRA, and taxable accounts interact when employer contributions approach the §415(c) ceiling.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/airline-pilot-career-fragility-risk-planning.htm">
+          <span class="rel-title">Career Fragility Risk Planning</span>
+          <span class="rel-desc">Loss-of-license risk and income protection decisions that must precede investment optimization.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/TSP-Rollover-Decisions-For-Military-Pilots.htm">
+          <span class="rel-title">TSP Rollover Decisions</span>
+          <span class="rel-desc">Whether to roll the TSP at military separation — Rule of 55, Roth RMD exemption, and rollover timing.</span>
+        </a>
+      </li>
+      <li>
+        <a href="/financial-planning-military-to-airline-transition.htm">
+          <span class="rel-title">Military-to-Airline Transition Planning</span>
+          <span class="rel-desc">The pay compression window, TRICARE gap, and TSP decisions at the point of military separation.</span>
+        </a>
+      </li>
+    </ul>
+  </section>
   <div class="disclaimer">
     <p>Advisory services are offered through ILS Financial, LLC, an Investment Advisor in the State of Nebraska.</p>
   </div>
