@@ -475,14 +475,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <h2>Send a Message</h2>
       <p>Prefer to reach out before scheduling? Use the form below and I'll respond within one business day.</p>
 
-      <!--
-        FORM SETUP NOTE:
-        - In Webflow: Webflow handles form submissions natively. No additional configuration needed.
-        - For static HTML: Replace action="#" with your Formspree endpoint:
-          action="https://formspree.io/f/YOUR_FORM_ID"
-          Sign up at formspree.io and create a form to get your ID.
-      -->
-      <form class="contact-form" action="#" method="POST">
+      <form class="contact-form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="d01c403c-bc2f-4d73-bd5c-eb141fbf19b4">
+        <input type="hidden" name="subject" value="New Contact Form Submission — ILS Financial">
+        <input type="hidden" name="redirect" value="false">
         <div class="form-row">
           <div class="form-group">
             <label for="first-name">First Name</label>
@@ -513,9 +509,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <label for="message">Message</label>
           <textarea id="message" name="message" placeholder="What's on your mind? No need to over-explain — a sentence or two is fine." required></textarea>
         </div>
-        <button type="submit" class="form-submit">Send Message</button>
+        <button type="submit" class="form-submit" id="form-submit-btn">Send Message</button>
         <p class="form-note">Your information is never sold or shared. This form is for scheduling and general inquiry only.</p>
+        <p class="form-success" id="form-success" style="display:none;color:#2a7a4b;font-weight:600;margin-top:12px;">Message sent. I'll be in touch within one business day.</p>
+        <p class="form-error" id="form-error" style="display:none;color:#c0392b;margin-top:12px;">Something went wrong. Please email me directly at <a href="mailto:matt.samson@ilsfinancial.com">matt.samson@ilsfinancial.com</a>.</p>
       </form>
+      <script>
+        document.getElementById('contact-form').addEventListener('submit', async function(e) {
+          e.preventDefault();
+          const btn = document.getElementById('form-submit-btn');
+          btn.disabled = true;
+          btn.textContent = 'Sending…';
+          try {
+            const res = await fetch('https://api.web3forms.com/submit', {method:'POST', body: new FormData(this)});
+            const json = await res.json();
+            if (json.success) {
+              this.reset();
+              document.getElementById('form-success').style.display = 'block';
+              document.getElementById('form-error').style.display = 'none';
+              btn.style.display = 'none';
+            } else {
+              throw new Error();
+            }
+          } catch {
+            document.getElementById('form-error').style.display = 'block';
+            btn.disabled = false;
+            btn.textContent = 'Send Message';
+          }
+        });
+      </script>
     </div>
 
     <!-- Info + Booking -->
