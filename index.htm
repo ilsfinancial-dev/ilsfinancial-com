@@ -645,40 +645,49 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
-      "name": "ILS Financial",
-      "url": "https://www.ilsfinancial.com",
-      "logo": "https://www.ilsfinancial.com/Website_files/MSamson_logo.png",
-      "description": "Financial planning for military officers, airline pilots, and fractional aviators.",
-      "founder": {
-        "@type": "Person",
-        "name": "Matt Samson"
-      },
-      "sameAs": [
-        "https://www.linkedin.com/company/ils-financial"
-      ]
-    },
-    {
-      "@type": "WebSite",
-      "name": "ILS Financial",
-      "url": "https://www.ilsfinancial.com"
-    },
-    {
       "@type": "FinancialService",
-      "@id": "https://www.ilsfinancial.com/#financial-service",
+      "@id": "https://www.ilsfinancial.com/#organization",
       "name": "ILS Financial",
       "alternateName": "Integrated Life Solutions Financial",
+      "legalName": "ILS Financial LLC",
+      "foundingDate": "2020",
       "url": "https://www.ilsfinancial.com",
       "logo": "https://www.ilsfinancial.com/Website_files/MSamson_logo.png",
       "image": "https://www.ilsfinancial.com/Website_files/MSamson_logo.png",
-      "description": "Fee-only financial planning and wealth management for active duty and Reserve military officers, military-to-airline transition pilots, airline captains, and fractional aviators. Specializing in military retirement systems, Survivor Benefit Plan, TSP, RCSBP, and dual-income pilot households.",
+      "description": "Fee-based financial planning and wealth management for active duty and Reserve military officers, military-to-airline transition pilots, airline captains, and fractional aviators. Registered Investment Adviser. Specializing in military retirement systems, Survivor Benefit Plan, TSP, RCSBP, and dual-income pilot households.",
+      "telephone": "402-204-0230",
+      "email": "matthew@ilsfinancial.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Omaha",
+        "addressRegion": "NE",
+        "addressCountry": "US"
+      },
       "priceRange": "$$",
+      "currenciesAccepted": "USD",
+      "paymentAccepted": "Check, Wire Transfer, ACH",
       "areaServed": {
         "@type": "Country",
         "name": "United States"
       },
+      "serviceArea": [
+        {
+          "@type": "Country",
+          "name": "United States"
+        },
+        {
+          "@type": "State",
+          "name": "Nebraska",
+          "description": "Primary registration state. RIA registered with Nebraska Department of Banking and Finance."
+        },
+        {
+          "@type": "State",
+          "name": "Texas",
+          "description": "Notice filed. Active client relationships."
+        }
+      ],
       "serviceType": [
-        "Fee-only financial planning",
+        "Fee-based financial planning",
         "Wealth management",
         "Military retirement planning",
         "TSP rollover advisory",
@@ -687,6 +696,44 @@
         "Airline pilot financial planning",
         "Fractional aviator financial planning"
       ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "ILS Financial Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Military Transition Financial Planning",
+              "description": "Comprehensive financial planning for military officers within 36 months of retirement, served nationally. Covers TSP rollover decisions, SBP election, survivor benefit planning, VA disability coordination, and civilian income gap planning."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Military-to-Airline Pilot Financial Planning",
+              "description": "Specialized financial planning for military pilots transitioning to commercial aviation careers, served nationally. Covers pilot contract analysis, 401(k) and pension comparison, pay gap year planning, state domicile decisions, and benefit elections."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Fractional Aviation Financial Planning",
+              "description": "Financial planning for fractional aircraft pilots nationally. Addresses irregular income management, multi-employer benefits coordination, reserve military status integration, and retirement planning without a traditional pension."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Investment Management",
+              "description": "Fiduciary investment management integrated with comprehensive financial planning. AUM-based fee structure with tiered pricing. Served nationally via virtual client relationship model."
+            }
+          }
+        ]
+      },
       "knowsAbout": [
         "Military retirement systems",
         "Thrift Savings Plan",
@@ -706,7 +753,9 @@
         "NetJets 401(k)",
         "RCSBP election",
         "100% VA disability concurrent receipt",
-        "Military tax strategy"
+        "Military tax strategy",
+        "VA disability benefit coordination with retirement income",
+        "State domicile decisions for transitioning military pilots"
       ],
       "hasCredential": [
         {
@@ -717,23 +766,10 @@
         }
       ],
       "founder": {
-        "@type": "Person",
-        "name": "Matt Samson",
-        "jobTitle": "Founder, Financial Advisor",
-        "description": "Marine Corps F/A-18 pilot and veteran. Fee-only RIA. CPWA®, MBA.",
-        "hasCredential": [
-          {
-            "@type": "EducationalOccupationalCredential",
-            "name": "CPWA®"
-          },
-          {
-            "@type": "EducationalOccupationalCredential",
-            "name": "MBA"
-          }
-        ],
-        "sameAs": [
-          "https://www.linkedin.com/in/matt-samson/"
-        ]
+        "@id": "https://www.ilsfinancial.com/#matthew-samson"
+      },
+      "employee": {
+        "@id": "https://www.ilsfinancial.com/#matthew-samson"
       },
       "contactPoint": {
         "@type": "ContactPoint",
@@ -747,48 +783,26 @@
         "https://www.facebook.com/ILSFinancial",
         "https://www.youtube.com/@ILSFinancial",
         "https://wealthtender.com/financial-advisors/matt-samson-cpwa-mba/",
-        "https://www.google.com/maps/place/ILS+Financial/@41.2614294,-96.0731991,17z/data=!3m2!4b1!5s0x8793f2ca7f9698c9:0x270eac97aafb612b!4m6!3m5!1s0x8793f3997f24c6ef:0xef6dc61268c4b1bf!8m2!3d41.2614294!4d-96.0706242!16s%2Fg%2F11v69_f_yz"
+        "https://www.google.com/maps/place/ILS+Financial/@41.2614294,-96.0731991,17z/data=!3m2!4b1!5s0x8793f2ca7f9698c9:0x270eac97aafb612b!4m6!3m5!1s0x8793f3997f24c6ef:0xef6dc61268c4b1bf!8m2!3d41.2614294!4d-96.0706242!16s%2Fg%2F11v69_f_yz",
+        "https://adviserinfo.sec.gov/firm/summary/331725",
+        "https://brokercheck.finra.org/firm/summary/331725"
       ]
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.ilsfinancial.com/"
-        }
-      ]
-    },
-    {
-      "@type": "WebPage",
-      "name": "ILS Financial | Fee-Only Planning for Military Officers & Pilots",
-      "description": "ILS Financial helps retiring military officers, airline pilots, and fractional aviators navigate high-stakes financial transitions with precision.",
-      "url": "https://www.ilsfinancial.com/",
-      "datePublished": "2025-01-01",
-      "dateModified": "2026-07-03",
-      "author": {
-        "@type": "Person",
-        "name": "Matt Samson"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "ILS Financial",
-        "url": "https://www.ilsfinancial.com"
-      },
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "ILS Financial",
-        "url": "https://www.ilsfinancial.com"
-      }
     },
     {
       "@type": "Person",
-      "@id": "https://www.ilsfinancial.com/#matt-samson",
+      "@id": "https://www.ilsfinancial.com/#matthew-samson",
       "name": "Matt Samson",
+      "givenName": "Matthew",
+      "additionalName": "Matt",
+      "alternateName": "Matt Samson",
+      "familyName": "Samson",
       "jobTitle": "Founder & President, ILS Financial",
-      "description": "Marine Corps F/A-18 pilot and veteran. Fee-only RIA. CPWA®, MBA.",
+      "honorificSuffix": "CPWA®, MBA",
+      "description": "Marine Corps F/A-18 pilot and veteran. Fee-based RIA. CPWA®, MBA.",
+      "url": "https://www.ilsfinancial.com/about-me.htm",
+      "worksFor": {
+        "@id": "https://www.ilsfinancial.com/#organization"
+      },
       "hasCredential": [
         {
           "@type": "EducationalOccupationalCredential",
@@ -803,13 +817,94 @@
           "description": "Master of Business Administration"
         }
       ],
-      "sameAs": [
-        "https://www.linkedin.com/in/matt-samson/"
+      "alumniOf": [
+        {
+          "@type": "EducationalOrganization",
+          "name": "University of Nebraska",
+          "description": "Bachelor of Science, Business Administration"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "University of Nebraska Omaha",
+          "description": "Executive MBA"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "Yale University",
+          "description": "Certificate in Wealth Management Theory and Practice"
+        }
       ],
-      "worksFor": {
-        "@type": "Organization",
-        "name": "ILS Financial",
-        "url": "https://www.ilsfinancial.com"
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "United States Marine Corps",
+          "description": "Officer, 20+ years service. Military aviator."
+        },
+        {
+          "@type": "Organization",
+          "name": "Investments & Wealth Institute"
+        }
+      ],
+      "knowsAbout": [
+        "Military officer financial planning",
+        "Military transition financial planning",
+        "Military-to-airline pilot financial planning",
+        "Fractional aviation pilot financial planning",
+        "TSP rollover for military retirees",
+        "Survivor Benefit Plan election",
+        "VA disability benefit coordination",
+        "Military pension income planning",
+        "Airline pilot retirement and benefits planning",
+        "State domicile tax planning for transitioning pilots",
+        "High-net-worth military family financial planning",
+        "Irreversible financial decision analysis",
+        "Tax-efficient retirement income sequencing",
+        "Estate planning coordination for military families"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/matt-samson/",
+        "https://adviserinfo.sec.gov/individual/summary/6540931",
+        "https://brokercheck.finra.org/individual/summary/6540931",
+        "https://wealthtender.com/financial-advisors/matt-samson-cpwa-mba/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.ilsfinancial.com/#website",
+      "url": "https://www.ilsfinancial.com",
+      "name": "ILS Financial",
+      "description": "National financial planning and investment management for military officers, military-to-airline pilots, veteran airline pilots, and fractional aviators.",
+      "publisher": {
+        "@id": "https://www.ilsfinancial.com/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ilsfinancial.com/"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.ilsfinancial.com/#webpage",
+      "name": "ILS Financial | Fee-Based Planning for Military Officers & Pilots",
+      "description": "ILS Financial helps retiring military officers, airline pilots, and fractional aviators navigate high-stakes financial transitions with precision.",
+      "url": "https://www.ilsfinancial.com/",
+      "datePublished": "2025-01-01",
+      "dateModified": "2026-07-03",
+      "author": {
+        "@id": "https://www.ilsfinancial.com/#matthew-samson"
+      },
+      "publisher": {
+        "@id": "https://www.ilsfinancial.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://www.ilsfinancial.com/#website"
       }
     }
   ]
