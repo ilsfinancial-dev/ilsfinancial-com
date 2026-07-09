@@ -29,4 +29,67 @@
 /tsp-rollover-decisions-for-military-pilots.htm   /TSP-Rollover-Decisions-For-Military-Pilots.htm  301
 /tsp-rollover-decisions-for-military-pilots/      /TSP-Rollover-Decisions-For-Military-Pilots.htm  301
 /tsp-rollover-decisions-for-military-pilots       /TSP-Rollover-Decisions-For-Military-Pilots.htm  301
+
+# Old Broadridge special pages
+/ContactUs.htm                 /contact.htm         301
+/ContactUs.htm/                /contact.htm         301
+/videos-detail.htm             /Briefing-Room.htm   301
+
+# Mediahandler PDFs → local PDF files
+/mediahandler/media/772042/High%20Income%20Blind%20Spot.pdf                                            /High-Income-Blind-Spot.pdf                                    301
+/mediahandler/media/775310/Allocation%20vs%20Design.pdf                                                /Allocation-vs-Design.pdf                                      301
+/mediahandler/media/775859/Fee%20White%20Paper.pdf                                                     /Fee-White-Paper.pdf                                           301
+/mediahandler/media/777153/Choosing%20and%20Advisor%20White%20Paper.pdf                                /Choosing-an-Advisor-White-Paper.pdf                           301
+/mediahandler/media/781313/Officer%20Retirement%20Scenarios.pdf                                        /Officer-Retirement-Scenarios.pdf                              301
+/mediahandler/media/783219/Veteran%20Business%20Owner%20Scenarios.pdf                                  /Veteran-Business-Owner-Scenarios.pdf                          301
+/mediahandler/media/783338/100%20Disability%20White%20Paper.pdf                                        /100-Disability-White-Paper.pdf                                301
+/mediahandler/media/784000/ILS%20Decision%20Sequencing%20System%20-%20Veteran%20Pilots.pdf             /ILS-Decision-Sequencing-System-Veteran-Pilots.pdf             301
+/mediahandler/media/784193/ILS%20Decision%20Sequencing%20-%20Senior%20Military%20Officers.pdf          /ILS-Decision-Sequencing-Senior-Military-Officers.pdf          301
+/mediahandler/media/798454/ILS%20Decision%20Sequencing%20-%20Military%20to%20Airline%20Transition.pdf  /ILS-Decision-Sequencing-Military-to-Airline-Transition.pdf    301
+/mediahandler/media/798755/ILS-Decision-Sequencing-Fractional-Pilots.pdf                               /ILS-Decision-Sequencing-Fractional-Pilots.pdf                 301
+
+# Composite Broadridge URLs (old page path prepended to mediahandler PDF path)
+/military-officer-retirement-case-studies.htm/mediahandler/media/781313/Officer%20Retirement%20Scenarios.pdf          /Officer-Retirement-Scenarios.pdf      301
+/veteran-business-owner-exit-risk-case-study.htm/mediahandler/media/783219/Veteran%20Business%20Owner%20Scenarios.pdf  /Veteran-Business-Owner-Scenarios.pdf  301
+
+# Remaining mediahandler URLs catch-all
+/mediahandler/*  /  301
+
+# Broadridge calculator tools catch-all
+/learning_center/*  /  301
+
+# Broadridge generic content articles → homepage
+/What-Are-My-Retirement-Planning-Options.c96.htm                                                    /  301
+/What-Are-My-Retirement-Plan-Distribution-Options.c103.htm                                          /  301
+/What-Is-Dollar-Cost-Averaging.c87.htm                                                              /  301
+/What-Is-Property-and-Casualty-Insurance.c1067.htm                                                  /  301
+/What-Is-the-Tax-History-of-the-United-States.c253.htm                                              /  301
+/What-Is-a-Money-Purchase-Pension-Plan.c1037.htm                                                    /  301
+/What-Does-Medicare-Cover.c56.htm                                                                   /  301
+/Life-Insurance-for-Two.c10459.htm                                                                  /  301
+/Look-Out-for-Observation-Care.c10381.htm                                                           /  301
+/How-Can-I-Benefit-from-a-Wealth-Replacement-Trust.c120.htm                                         /  301
+/How-Can-I-Better-Manage-My-Short-Term-Cash.c62.htm                                                 /  301
+/Home-Appliance-Economics.c10405.htm                                                                /  301
+/HOT-TOPIC-Geopolitics-and-the-U-S--Financial-Markets.c10489.htm                                    /  301
+/HOT-TOPIC--What-Does-a-Weaker-U-S--Dollar-Mean-for-Your-Money.c10499.htm                           /  301
+/HOT-TOPIC-The-Iran-War,-the-Economy,-and-Your-Portfolio.c10511.htm                                  /  301
+/Foreign-Stocks-Outperformed-in-2025.c10502.htm                                                     /  301
+/Dont-Take-the-Bait-Top-Tax-Scams-in-2025.c10480.htm                                               /  301
+/Location,-Location,-Location-The-Premium-Parents-Pay-for-Top-Schools.c10482.htm                    /  301
+/529-Lesson-Plan-High-Scores-for-529-Plans.c238.htm                                                 /  301
+/Key-Retirement-and-Tax-Numbers-for-2026.c10492.htm                                                 /  301
+/New-Auto-Loan-Interest-Deduction-Explained.c10504.htm                                              /  301
+/Is-a-Home-Equity-Loan-or-Line-of-Credit-Right-for-Me.c69.htm                                       /  301
+/Is-Your-Dream-Kitchen-a-Good-Investment.c10506.htm                                                 /  301
+/No-More-Groundhog-Day-for-Your-Finances-Time-for-a-Financial-Wellness-Checkup.c10491.htm           /  301
+/Could-an-HSA-Strengthen-Your-Retirement-Strategy.c10495.htm                                        /  301
+/Unforgettable-Birthdays.c1043.htm                                                                  /  301
+/Keeping-Cool-in-Volatile-Markets.c10478.htm                                                        /  301
+/Peer-to-Peer-Payments-Are-Popular,-but-Be-Careful.c10391.htm                                       /  301
+/A-Roadmap-for-Your-Family.c10494.htm                                                               /  301
+/Versatile-529-Plans-Can-Help-with-More-than-Just-College.c10378.htm                                /  301
+/Medicare-or-Medicaid.c10503.htm                                                                    /  301
+/Wealthy-Colleges-Face-Expanded-Endowment-Tax.c10493.htm                                            /  301
+
 /*.htm/  /:splat.htm  301
