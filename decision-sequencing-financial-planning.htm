@@ -256,6 +256,90 @@
     .framework-list li:last-child { border-bottom: none; }
     .framework-list li strong { color: #1B2A4A; }
 
+    /* ── Sequence Steps ───────────────────────────────── */
+    .sequence-steps {
+      list-style: none;
+      padding: 0;
+      margin: 32px 0 28px;
+    }
+    .sequence-step {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+    .step-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-shrink: 0;
+      width: 40px;
+    }
+    .step-badge {
+      width: 40px;
+      height: 40px;
+      background: #1B2A4A;
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+    .step-badge.final {
+      background: #C9A84C;
+      color: #1B2A4A;
+    }
+    .step-connector {
+      width: 2px;
+      flex: 1;
+      min-height: 20px;
+      background: #D0CCC4;
+      margin: 4px 0;
+    }
+    .sequence-step:last-child .step-connector { display: none; }
+    .step-body {
+      background: #FFFFFF;
+      border: 1px solid #E0DDD6;
+      border-left: 3px solid #1B2A4A;
+      padding: 20px 24px;
+      margin-bottom: 12px;
+      flex: 1;
+    }
+    .step-body.final { border-left-color: #C9A84C; }
+    .step-body h3 {
+      font-size: 17px;
+      font-weight: 700;
+      color: #1B2A4A;
+      margin: 0 0 10px;
+    }
+    .step-body p {
+      font-size: 14px;
+      color: #4A4A4A;
+      margin-bottom: 8px;
+      line-height: 1.55;
+    }
+    .step-body p:last-child { margin-bottom: 0; }
+    .step-body ul {
+      margin: 6px 0 8px 16px;
+      padding: 0;
+    }
+    .step-body ul li {
+      font-size: 14px;
+      color: #4A4A4A;
+      margin-bottom: 4px;
+      line-height: 1.5;
+    }
+    .step-why {
+      font-size: 13px;
+      font-style: italic;
+      color: #888;
+      margin-top: 8px !important;
+      border-top: 1px solid #F0EDE8;
+      padding-top: 8px;
+    }
+
     /* ── Decision Matrix ──────────────────────────────── */
     .decision-matrix {
       background: #FFFFFF;
@@ -604,13 +688,92 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <p>As assets accumulate beyond consumption needs, new sequencing decisions emerge: when to begin wealth transfer, what structures to use, and what values to transmit alongside assets. Gifting, trust structures, and charitable vehicles each carry their own timing windows and dependencies. The family's relationship with accumulated wealth is itself a transition — from building to stewarding — and it benefits from the same structured approach as individual financial transitions.</p>
 
-    <h2>How ILS Applies This Framework</h2>
+    <h2>The ILS Decision Sequencing Framework</h2>
 
-    <p>ILS Financial builds a decision map before building a financial plan. For each significant decision facing a client at transition, we identify what category it belongs to — irreversible, time-constrained, or dependent — what must be known before it can be made well, when it closes, and what it forecloses.</p>
+    <p>The framework has six steps, and the order is not arbitrary. Each step must be substantially complete before the next can be addressed with confidence. Most financial planning starts at Step 6. We start at Step 1.</p>
 
-    <p>We sequence the work accordingly. The decisions that are irreversible and dependent on others are addressed first — not when the system presents them, but when the information needed to make them well is available. The decisions with hard windows are tracked against those windows. The decisions that foreclose alternatives are treated with appropriate weight.</p>
+    <ol class="sequence-steps">
 
-    <p>Client-specific decision sequencing frameworks are available as downloadable guides for each of the four primary client populations we serve.</p>
+      <li class="sequence-step">
+        <div class="step-left">
+          <div class="step-badge">1</div>
+          <div class="step-connector"></div>
+        </div>
+        <div class="step-body">
+          <h3>Establish the Income Floor</h3>
+          <p>We define the non-negotiable baseline your family requires — independent of market returns.</p>
+          <p class="step-why">Why first: every subsequent decision is evaluated against this number. Without a defined floor, there is no objective standard for what constitutes a sufficient outcome.</p>
+        </div>
+      </li>
+
+      <li class="sequence-step">
+        <div class="step-left">
+          <div class="step-badge">2</div>
+          <div class="step-connector"></div>
+        </div>
+        <div class="step-body">
+          <h3>Map Lifetime Benefit Streams</h3>
+          <p>Military pension. VA disability compensation. GI Bill transfer value. Healthcare eligibility. Potential second-career income.</p>
+          <p>We model how they interact — not in isolation.</p>
+          <p class="step-why">Why second: irreversible decisions about benefits cannot be pressure-tested without first knowing what other income exists. The SBP analysis, for example, depends entirely on the VA rating and second-career income picture.</p>
+        </div>
+      </li>
+
+      <li class="sequence-step">
+        <div class="step-left">
+          <div class="step-badge">3</div>
+          <div class="step-connector"></div>
+        </div>
+        <div class="step-body">
+          <h3>Pressure-Test Irreversible Decisions</h3>
+          <p>Survivor Benefit Plan elections. Pension start timing. Terminal leave sequencing. Relocation timing. Insurance structure. Beneficiary designations.</p>
+          <p>These decisions are permanent. They must be stress-tested before they are executed.</p>
+          <p class="step-why">Why third: these decisions close at or near the transition date and cannot be undone. They must be evaluated against the complete benefit picture from Step 2, and they lock in constraints that shape the tax structure in Step 4.</p>
+        </div>
+      </li>
+
+      <li class="sequence-step">
+        <div class="step-left">
+          <div class="step-badge">4</div>
+          <div class="step-connector"></div>
+        </div>
+        <div class="step-body">
+          <h3>Sequence Tax Buckets</h3>
+          <p>The first five years after service often create a compression window.</p>
+          <p>We model pension layering with civilian income, Roth conversion windows, capital gains exposure, state tax relocation strategy, and TSP withdrawal sequencing.</p>
+          <p>Tax structure is built before portfolio optimization.</p>
+          <p class="step-why">Why fourth: asset location and investment decisions depend on knowing which tax buckets exist and how income will flow through them. Optimizing a portfolio before the tax structure is defined produces a plan that looks efficient but isn't.</p>
+        </div>
+      </li>
+
+      <li class="sequence-step">
+        <div class="step-left">
+          <div class="step-badge">5</div>
+          <div class="step-connector"></div>
+        </div>
+        <div class="step-body">
+          <h3>Contain Fragility</h3>
+          <p>Career fragility. Health uncertainty. Second-career instability. Variable consulting or board income. Family dependency risk.</p>
+          <p>Structure must account for instability before optimizing for growth.</p>
+          <p class="step-why">Why fifth: a plan optimized for growth that fails under adverse conditions is not a plan — it is a bet. Fragility is mapped after the tax structure is defined because the cost of containing it depends on the available tax-advantaged capacity and income architecture already in place.</p>
+        </div>
+      </li>
+
+      <li class="sequence-step">
+        <div class="step-left">
+          <div class="step-badge final">6</div>
+          <div class="step-connector"></div>
+        </div>
+        <div class="step-body final">
+          <h3>Optimize Return</h3>
+          <p>Only after the income floor, benefit mapping, irreversible decisions, tax sequencing, and fragility containment are defined do we optimize investment allocation.</p>
+          <p class="step-why">Why last: portfolio optimization is the refinement layer, not the foundation. A well-optimized portfolio built on an undefined income floor, unmapped benefits, poor tax structure, or uncontained fragility is a high-performance engine in a vehicle with no navigation. The returns are real. The destination is uncertain.</p>
+        </div>
+      </li>
+
+    </ol>
+
+    <p>The client-specific decision sequencing guides below show where each type of decision — SBP, domicile, 401(k) election, TSP rollover — falls within this framework, and what must be resolved before it can be addressed well.</p>
 
   </article>
 
