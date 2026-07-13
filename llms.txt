@@ -8,6 +8,7 @@
 - [How We Work](https://www.ilsfinancial.com/how-we-work.htm): Six-phase client onboarding process — fit meeting through ongoing service. Each phase has a defined deliverable.
 - [Compensation and Fees](https://www.ilsfinancial.com/Fees.htm): Fee structure and compensation disclosure for ILS Financial advisory services.
 - [Why CPWA®?](https://www.ilsfinancial.com/why-certified-private-wealth-advisor.htm): What the Certified Private Wealth Advisor® designation covers and why it matters for complex financial planning.
+- [Decision Sequencing: A Framework for Financial Transitions](https://www.ilsfinancial.com/decision-sequencing-financial-planning.htm): The ILS Decision Sequencing System™ — why the costliest mistakes at military retirement, airline transition, and other major financial transitions are usually right decisions made in the wrong order, not wrong decisions.
 - [Contact](https://www.ilsfinancial.com/contact.htm): Schedule a fit meeting or send a message.
 
 ## Who We Serve
@@ -32,6 +33,19 @@
 - [Airline Pilot Career Fragility & Risk Planning](https://www.ilsfinancial.com/airline-pilot-career-fragility-risk-planning.htm): Seniority loss, medical disqualification, and mandatory retirement at 65 create structural risks unique to airline pilots.
 - [Pilot Retirement Plan Stack Integration](https://www.ilsfinancial.com/pilot-retirement-plan-stack-integration.htm): Sequencing 401(k) contributions, profit sharing, and military pension integration against IRS limits.
 - [Career Fragility Case Study — Veteran Airline Pilots](https://www.ilsfinancial.com/career-fragility-planning-veteran-airline-pilots.htm): Three case studies showing how to contain structural career fragility for veteran airline pilots.
+
+## Major Airline Pilot 401(k) & Benefits Guides
+
+- [Airline Pilot Benefits Comparison](https://www.ilsfinancial.com/airline-pilot-benefits-comparison.htm): Side-by-side comparison of 401(k), pension, profit-sharing, deferred-comp, and disability structures across nine major U.S. airlines — for pilots weighing offers or seniority moves.
+- [Delta Pilots](https://www.ilsfinancial.com/delta-pilot-401k-benefits-guide.htm): The 17%→18% non-elective 401(k), the MBCBP spillover, contractual profit sharing, and the 2026 NQDC deferral plan.
+- [American Airlines Pilots](https://www.ilsfinancial.com/american-airlines-pilot-401k-benefits-guide.htm): The frozen legacy pension, the 16%→18% non-elective 401(k), the annual MBCBP Tier 1/Tier 2 election, and recent thin profit-sharing payouts.
+- [United Airlines Pilots](https://www.ilsfinancial.com/united-airlines-pilot-401k-benefits-guide.htm): The PRAP's 16%→18% non-elective path, why profit sharing only pays above a $10M threshold, and the ALPA National LTD plan's specific numbers.
+- [UPS Pilots](https://www.ilsfinancial.com/ups-pilot-401k-benefits-guide.htm): The still-accruing A Plan pension, the 12% non-elective B Plan, why there's no employer 401(k) match, and the live IPA-UPS contract mediation.
+- [FedEx Pilots](https://www.ilsfinancial.com/fedex-pilot-401k-benefits-guide.htm): The active pension paired with a 9% non-elective PRSP, why there's no true-up, and the one-time irrevocable retirement-track election coming in 2027.
+- [Alaska Airlines Pilots](https://www.ilsfinancial.com/alaska-airlines-pilot-401k-benefits-guide.htm): The two-track legacy pension, the non-elective PISP contribution, a scorecard-based bonus plan, and the unsolved "spill" gap for high earners.
+- [Atlas Air Pilots](https://www.ilsfinancial.com/atlas-air-pilot-401k-benefits-guide.htm): A retirement structure built on a 401(k)-only plan, an arbitrated (not ratified) contract, and what two ownership changes since 2023 mean for planning.
+- [Southwest Airlines Pilots](https://www.ilsfinancial.com/southwest-airlines-pilot-401k-benefits-guide.htm): The new 2024 cash balance pension, the 15%→18% non-elective 401(k), a confirmed deferred-comp option, and why front-loading deferrals matters here.
+- [JetBlue Pilots](https://www.ilsfinancial.com/jetblue-pilot-401k-benefits-guide.htm): The 401(k) non-elective contribution climbing from 15% to 17%, a senior-pilot separation offer, and a second contract still in negotiation.
 
 ## Fractional Aviator Resources
 

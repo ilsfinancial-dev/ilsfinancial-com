@@ -72,6 +72,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://www.ilsfinancial.com/decision-sequencing-financial-planning.htm</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
   <!-- Military Planning Articles -->
   <url>
@@ -202,7 +208,7 @@
   </url>
   <url>
     <loc>https://www.ilsfinancial.com/southwest-airlines-pilot-401k-benefits-guide.htm</loc>
-    <lastmod>2026-07-12</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
