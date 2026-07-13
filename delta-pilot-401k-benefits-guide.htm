@@ -101,6 +101,12 @@
     .warning-block p { font-size: 15px; color: #1A1A1A; margin-bottom: 8px; line-height: 1.6; }
     .warning-block p:last-child { margin-bottom: 0; }
 
+    /* ── Feature Block ────────────────────────────────── */
+    .feature-block { background: #FFFFFF; border: 1px solid #E0DDD6; border-left: 3px solid #C9A84C; padding: 20px 24px; margin: 0 0 16px; }
+    .fb-label { font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #C9A84C; margin-bottom: 8px; }
+    .feature-block p { font-size: 15px; color: #1A1A1A; margin-bottom: 8px; line-height: 1.6; }
+    .feature-block p:last-child { margin-bottom: 0; }
+
     /* ── Example Block ────────────────────────────────── */
     .example-block { background: #FDFAF4; border: 1px solid #E0DDD6; border-left: 3px solid #C9A84C; padding: 20px 24px; margin: 0 0 20px; }
     .ex-label { font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #C9A84C; margin-bottom: 10px; }
@@ -281,7 +287,7 @@
           "name": "Can Delta pilots do a mega-backdoor Roth?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The plan appears to support voluntary after-tax contributions with in-plan conversion of certain company contributions to Roth status, but public and forum sources indicate this may require an affirmative request to the plan's recordkeeper rather than happening automatically. Pilots should confirm the exact mechanics, and whether any deadline or election window applies, directly with Fidelity NetBenefits or the plan administrator before assuming the strategy is available by default."
+            "text": "Yes, with a distinction worth understanding. Fidelity's NetBenefits platform offers a self-service "Automatic In-Plan Conversion" feature — set up under contribution preferences, no phone call needed — that converts new voluntary after-tax payroll contributions to Roth the same day they land. That covers the mega-backdoor strategy for a pilot's own after-tax dollars. Converting the company's 18% non-elective contribution to Roth status is a separate, still-manual process — pilots doing this report calling Fidelity every few months, with no standing election currently available for that specific bucket."
           }
         },
         {
@@ -289,7 +295,7 @@
           "name": "Is there a true-up provision if I don't contribute evenly across the year?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No true-up provision specific to the non-elective contribution was confirmed in public sources at the time of writing. Because the non-elective contribution is not tied to the pilot's own deferral rate, the true-up question that matters most for a matching-style plan is less relevant here — but pilots who frontload elective deferrals early in the year should still confirm how mid-year pay changes interact with the annual-additions limit and MBCBP spillover."
+            "text": "There's no traditional "true-up" because the contribution isn't match-based, but the Pilot Working Agreement (Section 26) confirms something functionally similar: once a pilot hits either the IRC §401(a)(17) compensation cap or the §415(c) annual-additions limit for the year, the company doesn't stop contributing — it redirects the remaining 18% economic value into the MBCBP (for participants) or pays it as taxable cash instead. The contract doesn't use "true-up" language, and this isn't a corrective mechanism the way a matching-plan true-up is, but the practical effect is that the full 18% doesn't get lost to hitting a cap early in the year."
           }
         },
         {
@@ -413,7 +419,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <p class="pull-quote">There is no match to capture here. There is a formula to understand.</p>
 
-    <p>The mechanics below are drawn from the 2023 Delta-ALPA Pilot Working Agreement and publicly available plan summaries. Delta's own Summary Plan Description and Fidelity NetBenefits account are the controlling references for any individual pilot — public sources on this topic are inconsistent on several details, and this article flags those explicitly rather than guessing.</p>
+    <p>The mechanics below are drawn directly from the 2023 Delta Pilot Working Agreement and Fidelity's own plan documentation — primary sources rather than secondary summaries. Delta's Summary Plan Description remains the controlling reference for the MBCBP's detailed internal terms, which aren't addressed in the PWA text itself.</p>
 
     <h2>Why "Non-Elective" Is the Word That Matters</h2>
 
@@ -426,15 +432,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="tier-block">
       <p class="tier-label">Tier 1</p>
       <h3>Company Non-Elective 401(k) Contribution</h3>
-      <p>Under the 2023 PWA, the non-elective contribution stepped up over the life of the contract, reaching 17% of eligible pay before a further increase to <strong>18% effective January 1, 2026</strong>. This is the dominant funding source in most Delta pilots' retirement stack, and it lands in pre-tax space regardless of the pilot's own elections.</p>
+      <p>Under the 2023 PWA (Section 26), the non-elective contribution stepped up over the life of the contract, reaching 17% of eligible pay before a further increase to <strong>18% effective January 1, 2026</strong>. It is calculated and paid per payroll cycle — the contract requires the company contribution on each semi-monthly paycheck to be funded within 15 days of that paycheck — rather than trued up once a year. It lands in pre-tax space regardless of the pilot's own elections.</p>
       <p>Confirm the current percentage and the definition of "eligible pay" directly against the plan document — public summaries can lag actual plan administration, particularly around contract step-ups.</p>
     </div>
 
     <div class="tier-block">
       <p class="tier-label">Tier 2</p>
       <h3>Market Based Cash Balance Plan (MBCBP)</h3>
-      <p>Effective October 2023, the PWA created a new supplemental vehicle for pilots hired before June 1, 2023. Once a pilot's 401(k) additions for the year hit the IRS §415(c) annual-additions limit, further company contributions spill over into the MBCBP rather than being lost.</p>
-      <p>This is not a 401(k) sub-account. It is legally structured as a defined-benefit plan under ERISA, invested on a blended basis rather than tracking individual pilot elections. That distinction matters for how it should be modeled — it does not behave like a market-directed balance the pilot controls, and it should not be projected the same way a 401(k) account is projected.</p>
+      <p>Effective October 2023, the PWA created a new supplemental vehicle for pilots hired before June 1, 2023. Per Section 26 of the PWA, once a pilot reaches either the IRC §401(a)(17) compensation cap or the §415(c) annual-additions limit for the year — whichever binds first — the company stops making further 401(k) contributions and instead pays the remaining 18% economic value directly, as taxable cash ("excess payments"). For a pilot enrolled in the MBCBP, those excess payments are redirected into the MBCBP instead of paid out as cash, as a "Base Allocation" under the MBCBP's terms.</p>
+      <p>The contract doesn't use the term "true-up," and this isn't a corrective mechanism the way a matching-plan true-up is — it's a redirect provision that keeps the pilot's full 18% economic value intact once qualified 401(k) space is exhausted, delivered as MBCBP credit (or cash, for non-MBCBP participants) rather than additional tax-deferred contributions. The MBCBP itself is legally structured as a defined-benefit plan under ERISA, invested on a blended basis rather than tracking individual pilot elections — it does not behave like a market-directed balance the pilot controls, and it should not be projected the same way a 401(k) account is projected. The MBCBP's own detailed terms (vesting, allocation specifics) live in a separate plan document not addressed in the PWA text itself, so those mechanics should be confirmed directly against the plan's Summary Plan Description.</p>
     </div>
 
     <div class="tier-block">
@@ -457,10 +463,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <p>An NQDC plan is not a 401(k). Deferred amounts are unfunded and unsecured under §409A — they remain a general corporate obligation, not assets held in trust for the pilot. In a Delta bankruptcy, NQDC balances would sit alongside other unsecured creditor claims, with no PBGC-style protection. Eligible pilots should weigh this concentration risk explicitly against the tax deferral benefit before committing to defer a meaningful share of flight pay or profit sharing, and should treat the election itself as effectively irreversible given the §409A redeferral penalty.</p>
     </div>
 
-    <div class="warning-block">
-      <p class="wb-label">Unverified — Confirm Before Acting</p>
-      <p>Public and forum sources describe an ability to make voluntary after-tax contributions and convert certain company contributions to Roth status in-plan — a mega-backdoor-style strategy. Several of those same sources indicate this conversion may require an affirmative phone request to the plan's recordkeeper rather than happening automatically or on a standing election.</p>
-      <p>No confirmed true-up provision for the non-elective contribution was found in public sources. Given that the contribution is not tied to the pilot's own deferral rate, this matters less here than it would in a matching plan — but pilots adjusting deferral timing mid-year should still confirm the mechanics directly with Fidelity NetBenefits or Delta's plan administrator before relying on either feature.</p>
+    <div class="feature-block">
+      <p class="fb-label">Mega-Backdoor Roth: Two Buckets, Two Different Mechanics</p>
+      <p>The plan supports voluntary after-tax contributions, and Fidelity's NetBenefits platform offers a self-service "Automatic In-Plan Conversion" feature — configured under contribution preferences on the Contributions page, with no phone call required — that converts new after-tax payroll contributions to Roth on the same day they land, according to Fidelity's own plan documentation. Pilot testimony confirms this applies at Delta for voluntary after-tax employee contributions specifically.</p>
+      <p>Converting the <em>company's</em> 18% non-elective contribution to Roth status is a separate matter, and remains a manual process: pilots doing this report having to call Fidelity every few months, with no standing election or self-service option currently available for that specific bucket. Set up the automatic conversion for your own after-tax contributions, but don't expect the same automation to apply to converting company money.</p>
     </div>
 
     <h2>IRS Limits Set the Ceiling — and Delta Pilots Reach It Fast</h2>
@@ -505,6 +511,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <p class="ex-label">Illustrative Math</p>
       <p>$360,000 compensation cap × 18% non-elective contribution = $64,800, before the pilot defers a single dollar.</p>
       <p>That leaves roughly $7,200 of remaining room under the $72,000 §415(c) all-sources limit — meaning a senior Delta captain can approach the annual-additions ceiling almost entirely on the company's contribution alone, before profit sharing is even added to the calculation. Once profit sharing lands, MBCBP spillover often begins well before year-end for pilots at or near the compensation cap.</p>
+      <p>Because the company's 18% arrives on every paycheck regardless of timing, a captain who reaches the compensation cap in the third or fourth quarter can find personal elective deferrals squeezed out entirely if they haven't front-loaded their own $24,500 pre-tax/Roth deferral earlier in the year. Spreading personal deferrals evenly across all twelve months, rather than backloading them, is the more reliable way to guarantee the full elective deferral gets used before the §415(c) ceiling binds.</p>
     </div>
 
     <h2>Coordinating With the Rest of the Household</h2>
@@ -552,16 +559,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <section class="sources-section">
       <h2>References</h2>
       <ul>
-        <li>Delta Air Lines Master Executive Council, Air Line Pilots Association. (2023). 2023 Delta Pilot Working Agreement summary materials. dal.alpa.org</li>
+        <li>Delta Air Lines, Inc. and Air Line Pilots Association. (2023). 2023 Delta Pilot Working Agreement, Section 26 (retirement and 401(k) provisions), full contract text.</li>
         <li>Air Line Pilots Association, International. (n.d.). ALPA insurance FAQs — loss of license and disability programs. alpa.org</li>
         <li>Harvey Watt &amp; Company. (2018). Delta pilot disability guide. harveywatt.com</li>
         <li>Delta News Hub. (2025). Delta employees celebrate profit sharing. news.delta.com</li>
         <li>Delta Air Lines Flight Attendants (AFA). (2025). The truth about profit sharing. deltaafa.org</li>
+        <li>Fidelity Investments. (n.d.). 401(k) Roth In-Plan Conversion Guide — Automatic In-Plan Conversion feature. nb.fidelity.com</li>
         <li>Internal Revenue Service. (2025). Notice 2025-67: 2026 limitations adjusted as provided in section 415(d), etc. irs.gov</li>
         <li>Air Line Pilots Association, Delta Master Executive Council. (2026). Contract 2026 negotiations hub. dal.alpa.org</li>
-        <li>Mercer Advisors. (2026). Delta pilot pension and retirement planning: seven decisions to consider. merceradvisors.com</li>
-        <li>360 Aviation Advisors. (2026). Delta Air Lines retirement benefits. 360aviationadvisors.com</li>
-        <li>Creative Planning. (2026). Delta's Non-Qualified Deferred Compensation Plan: a comprehensive guide for pilots. creativeplanning.com</li>
       </ul>
     </section>
 
@@ -602,7 +607,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </li>
       <li class="faq-item">
         <p class="faq-q">Is there a true-up provision if I don't contribute evenly across the year?</p>
-        <div class="faq-a"><p>No true-up provision specific to the non-elective contribution was confirmed in public sources at the time of writing. Because the non-elective contribution is not tied to the pilot's own deferral rate, the true-up question that matters most for a matching-style plan is less relevant here — but pilots who frontload elective deferrals early in the year should still confirm how mid-year pay changes interact with the annual-additions limit and MBCBP spillover.</p></div>
+        <div class="faq-a"><p>There's no traditional "true-up" because the contribution isn't match-based, but the Pilot Working Agreement (Section 26) confirms something functionally similar: once a pilot hits either the IRC §401(a)(17) compensation cap or the §415(c) annual-additions limit for the year, the company doesn't stop contributing — it redirects the remaining 18% economic value into the MBCBP (for participants) or pays it as taxable cash instead. The contract doesn't use "true-up" language, and this isn't a corrective mechanism the way a matching-plan true-up is, but the practical effect is that the full 18% doesn't get lost to hitting a cap early in the year.</p></div>
       </li>
       <li class="faq-item">
         <p class="faq-q">What income protection is available if I lose my medical certificate?</p>
@@ -690,7 +695,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </section>
 
   <div class="disclaimer">
-    <p>Advisory services are offered through ILS Financial, LLC, an Investment Advisor in the State of Nebraska. This content is for informational purposes only and does not constitute personalized investment or tax advice. Contribution percentages, MBCBP mechanics, profit-sharing figures, and NQDC plan terms referenced reflect publicly available Delta-ALPA labor agreement summaries and secondary sources as of mid-2026, and are subject to the governing plan documents, which control in the event of any discrepancy. The NQDC plan involves unfunded, unsecured deferred compensation subject to the company's general creditors and is not comparable in risk profile to a qualified plan; eligibility, deferral limits, and distribution rules should be confirmed directly with the plan administrator. IRS limits are subject to annual adjustment; verify current figures with your plan administrator and a qualified tax professional. The ILS Decision Sequencing System™ is a trademark of ILS Financial, LLC.</p>
+    <p>Advisory services are offered through ILS Financial, LLC, an Investment Advisor in the State of Nebraska. This content is for informational purposes only and does not constitute personalized investment or tax advice. Contribution percentages, MBCBP mechanics, profit-sharing figures, and NQDC plan terms referenced are drawn from the 2023 Delta Pilot Working Agreement and Fidelity's plan documentation as of mid-2026, and are subject to the governing plan documents and Summary Plan Description, which control in the event of any discrepancy. The NQDC plan involves unfunded, unsecured deferred compensation subject to the company's general creditors and is not comparable in risk profile to a qualified plan; eligibility, deferral limits, and distribution rules should be confirmed directly with the plan administrator. IRS limits are subject to annual adjustment; verify current figures with your plan administrator and a qualified tax professional. The ILS Decision Sequencing System™ is a trademark of ILS Financial, LLC.</p>
   </div>
 
 </main>
