@@ -52,6 +52,14 @@
 /military-officer-retirement-case-studies.htm/mediahandler/media/781313/Officer%20Retirement%20Scenarios.pdf          /Officer-Retirement-Scenarios.pdf      301
 /veteran-business-owner-exit-risk-case-study.htm/mediahandler/media/783219/Veteran%20Business%20Owner%20Scenarios.pdf  /Veteran-Business-Owner-Scenarios.pdf  301
 
+# Composite compound URLs (relative-href resolution artifacts flagged by GSC 404 report)
+/pilot-retirement-plan-stack-integration.htm/financial-planning-for-senior-military-officers.htm       /financial-planning-for-senior-military-officers.htm       301
+/Briefing-Room.htm/career-fragility-planning-veteran-airline-pilots.htm                                /career-fragility-planning-veteran-airline-pilots.htm      301
+/briefing-room.htm/career-fragility-planning-veteran-airline-pilots.htm                                 /career-fragility-planning-veteran-airline-pilots.htm      301
+/veteran-business-owner-exit-risk-case-study.htm/allocation-vs-design.htm                               /allocation-vs-design.htm                                  301
+/TSP-Rollover-Decisions-For-Military-Pilots.htm/financial-planning-military-to-airline-transition.htm  /financial-planning-military-to-airline-transition.htm     301
+/tsp-rollover-decisions-for-military-pilots.htm/financial-planning-military-to-airline-transition.htm  /financial-planning-military-to-airline-transition.htm     301
+
 # Remaining mediahandler URLs catch-all
 /mediahandler/*  /  301
 
