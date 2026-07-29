@@ -14,16 +14,18 @@
   <title>Financial Planning for Military & Pilots | ILS Financial</title>
   <meta name="description" content="ILS Financial helps retiring military officers, airline pilots, and fractional aviators navigate high-stakes financial transitions with precision.">
   <link rel="canonical" href="https://www.ilsfinancial.com/">
+  <link rel="preload" as="image" href="Website_files/ils-hero-1920.webp" media="(min-width: 641px)" fetchpriority="high">
+  <link rel="preload" as="image" href="Website_files/ils-hero-960.webp" media="(max-width: 640px)" fetchpriority="high">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Financial Planning for Military & Pilots | ILS Financial">
   <meta property="og:description" content="ILS Financial helps retiring military officers, airline pilots, and fractional aviators navigate high-stakes financial transitions with precision.">
   <meta property="og:url" content="https://www.ilsfinancial.com/">
-  <meta property="og:image" content="https://www.ilsfinancial.com/Website_files/ILS%20Website%20Banner.png">
+  <meta property="og:image" content="https://www.ilsfinancial.com/Website_files/ils-hero-1920.jpg">
   <meta property="og:site_name" content="ILS Financial">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Financial Planning for Military & Pilots | ILS Financial">
   <meta name="twitter:description" content="ILS Financial helps retiring military officers, airline pilots, and fractional aviators navigate high-stakes financial transitions with precision.">
-  <meta name="twitter:image" content="https://www.ilsfinancial.com/Website_files/ILS%20Website%20Banner.png">
+  <meta name="twitter:image" content="https://www.ilsfinancial.com/Website_files/ils-hero-1920.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -135,7 +137,7 @@
     .hero {
       position: relative;
       min-height: 92vh;
-      background: url('Website_files/ILS%20Website%20Banner.png') center 35% / cover no-repeat;
+      background: url('Website_files/ils-hero-1920.webp') center 29% / cover no-repeat;
       display: flex;
       align-items: flex-end;
       padding-bottom: 100px;
@@ -620,7 +622,7 @@
       .footer-inner { grid-template-columns: 1fr 1fr; }
     }
     @media (max-width: 640px) {
-      .hero { min-height: 85vh; padding-bottom: 72px; background-position: 20% 35%; }
+      .hero { min-height: 85vh; padding-bottom: 72px; background-image: url('Website_files/ils-hero-960.webp'); background-position: 20% 29%; }
       .hero h1 { font-size: 30px; }
       .hero-inner { justify-content: flex-start; }
       .hero-text { max-width: 100%; }
