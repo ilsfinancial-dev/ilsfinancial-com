@@ -28,34 +28,20 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="Website_files/styles.css">
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    
     html { scroll-behavior: smooth; }
-    body { font-family: 'Inter', sans-serif; font-size: 16px; line-height: 1.65; color: #1A1A1A; background: #F8F8F6; }
-    a { color: #1B2A4A; text-decoration: underline; }
+
     a:hover { color: #C9A84C; }
 
-    .site-nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: #1B2A4A; transition: backdrop-filter 0.3s, background 0.3s; }
-    .site-nav.scrolled { background: rgba(27,42,74,0.95); backdrop-filter: blur(8px); }
-    .nav-inner { max-width: 1280px; margin: 0 auto; padding: 0 32px; height: 72px; display: flex; align-items: center; justify-content: space-between; }
-    .nav-logo img { height: 52px; filter: invert(1); mix-blend-mode: screen; display: block; }
     .nav-cta { display: inline-block; padding: 10px 22px; background: #C9A84C; color: #1B2A4A; font-weight: 600; font-size: 14px; text-decoration: none; border-radius: 2px; letter-spacing: 0.02em; white-space: nowrap; transition: background 0.2s; }
-    .nav-cta:hover { background: #b8943f; color: #1B2A4A; }
-    .nav-right { display: flex; align-items: center; gap: 16px; }
+
     .nav-links { display: flex; list-style: none; padding: 0; gap: 2px; align-items: center; }
     .nav-link { font-size: 14px; font-weight: 500; color: rgba(255,255,255,0.8); text-decoration: none; padding: 8px 12px; border-radius: 2px; transition: color 0.2s; white-space: nowrap; background: none; border: none; cursor: pointer; font-family: 'Inter', sans-serif; letter-spacing: 0.01em; line-height: 1; }
-    .nav-link:hover { color: #C9A84C; }
-    .nav-dropdown { position: relative; }
+
     .dropdown-arrow { font-size: 9px; margin-left: 3px; opacity: 0.6; }
-    .dropdown-menu { position: absolute; top: calc(100% + 6px); left: 0; background: #1B2A4A; border: 1px solid rgba(255,255,255,0.12); border-top: 2px solid #C9A84C; list-style: none; padding: 8px 0; min-width: 270px; opacity: 0; visibility: hidden; transform: translateY(-6px); transition: opacity 0.18s, transform 0.18s, visibility 0.18s; z-index: 200; box-shadow: 0 8px 24px rgba(0,0,0,0.25); }
-    .nav-dropdown:hover .dropdown-menu, .nav-dropdown.open .dropdown-menu { opacity: 1; visibility: visible; transform: translateY(0); }
-    .dropdown-menu li a { display: block; padding: 10px 20px; font-size: 14px; font-weight: 500; color: rgba(255,255,255,0.75); text-decoration: none; transition: color 0.15s, background 0.15s; }
-    .dropdown-menu li a:hover { color: #C9A84C; background: rgba(255,255,255,0.04); }
-    .nav-hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 6px 4px; }
-    .nav-hamburger span { display: block; width: 22px; height: 2px; background: rgba(255,255,255,0.85); transition: transform 0.2s, opacity 0.2s; border-radius: 1px; }
-    .nav-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-    .nav-hamburger.open span:nth-child(2) { opacity: 0; }
-    .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
     @media (max-width: 900px) {
       .nav-links { display: none; flex-direction: column; position: absolute; top: 72px; left: 0; right: 0; background: #1B2A4A; padding: 8px 0 16px; border-top: 1px solid rgba(255,255,255,0.1); gap: 0; align-items: flex-start; }
       .nav-links.open { display: flex; }
@@ -66,7 +52,7 @@
     }
     .social-links { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; margin-top: 16px; }
     .social-link { display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.4); transition: color 0.2s; text-decoration: none; line-height: 1; }
-    .social-link:hover { color: #C9A84C; }
+    
     .social-link svg { display: block; }
 
     /* ── Page Header ─────────────────────────────────── */
@@ -176,7 +162,7 @@
     .footer-inner { max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; }
     .footer-brand img { height: 72px; filter: invert(1); mix-blend-mode: screen; display: block; margin-bottom: 16px; }
     .footer-brand p { font-size: 13px; color: rgba(255,255,255,0.6); line-height: 1.7; }
-    .footer-col h4 { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #FFFFFF; margin-bottom: 16px; }
+    
     .footer-col ul { list-style: none; padding: 0; }
     .footer-col li { margin-bottom: 10px; }
     .footer-col a { color: rgba(255,255,255,0.55); text-decoration: none; font-size: 13px; transition: color 0.2s; }

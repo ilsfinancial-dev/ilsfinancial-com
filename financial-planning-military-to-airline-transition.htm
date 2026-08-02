@@ -28,6 +28,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="Website_files/styles.css">
   <style>
     :root {
       --navy:          #1B2A4A;
@@ -40,8 +41,6 @@
       --content-width: 750px;
       --site-width:    1280px;
     }
-
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -63,10 +62,7 @@
       background: var(--navy);
       transition: backdrop-filter 0.3s, background 0.3s;
     }
-    .site-nav.scrolled {
-      background: rgba(27,42,74,0.95);
-      backdrop-filter: blur(8px);
-    }
+    
     .nav-inner {
       max-width: var(--site-width);
       margin: 0 auto;
@@ -76,12 +72,7 @@
       align-items: center;
       justify-content: space-between;
     }
-    .nav-logo img {
-      height: 52px;
-      filter: invert(1);
-      mix-blend-mode: screen;
-      display: block;
-    }
+    
     .nav-cta {
       display: inline-block;
       padding: 10px 22px;
@@ -96,7 +87,7 @@
       transition: background 0.2s;
     }
     .nav-cta:hover { background: #b8943f; color: var(--navy); }
-    .nav-right { display: flex; align-items: center; gap: 16px; }
+    
     .nav-links { display: flex; list-style: none; padding: 0; gap: 2px; align-items: center; }
     .nav-link {
       font-size: 14px; font-weight: 500; color: rgba(255,255,255,0.8);
@@ -105,7 +96,7 @@
       cursor: pointer; font-family: 'Inter', sans-serif; letter-spacing: 0.01em; line-height: 1;
     }
     .nav-link:hover { color: var(--gold); }
-    .nav-dropdown { position: relative; }
+    
     .dropdown-arrow { font-size: 9px; margin-left: 3px; opacity: 0.6; }
     .dropdown-menu {
       position: absolute; top: calc(100% + 6px); left: 0; background: var(--navy);
@@ -115,20 +106,9 @@
       transition: opacity 0.18s, transform 0.18s, visibility 0.18s;
       z-index: 200; box-shadow: 0 8px 24px rgba(0,0,0,0.25);
     }
-    .nav-dropdown:hover .dropdown-menu, .nav-dropdown.open .dropdown-menu {
-      opacity: 1; visibility: visible; transform: translateY(0);
-    }
-    .dropdown-menu li a {
-      display: block; padding: 10px 20px; font-size: 14px; font-weight: 500;
-      color: rgba(255,255,255,0.75); text-decoration: none;
-      transition: color 0.15s, background 0.15s;
-    }
+
     .dropdown-menu li a:hover { color: var(--gold); background: rgba(255,255,255,0.04); }
-    .nav-hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 6px 4px; }
-    .nav-hamburger span { display: block; width: 22px; height: 2px; background: rgba(255,255,255,0.85); transition: transform 0.2s, opacity 0.2s; border-radius: 1px; }
-    .nav-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-    .nav-hamburger.open span:nth-child(2) { opacity: 0; }
-    .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
     @media (max-width: 900px) {
       .nav-links { display: none; flex-direction: column; position: absolute; top: 72px; left: 0; right: 0; background: var(--navy); padding: 8px 0 16px; border-top: 1px solid rgba(255,255,255,0.1); gap: 0; align-items: flex-start; }
       .nav-links.open { display: flex; }
